@@ -1,0 +1,40 @@
+[1/10] baseline: 20:14  up 1 day,  6:24, 40 users, load averages: 29.76 33.23 23.48
+[1/10] branch: 20:14  up 1 day,  6:24, 40 users, load averages: 31.96 33.58 23.72
+[2/10] branch: 20:14  up 1 day,  6:24, 40 users, load averages: 32.68 33.71 23.82
+[2/10] baseline: 20:14  up 1 day,  6:24, 40 users, load averages: 33.99 33.96 23.97
+[3/10] baseline: 20:14  up 1 day,  6:24, 40 users, load averages: 33.03 33.76 23.96
+[3/10] branch: 20:14  up 1 day,  6:25, 40 users, load averages: 30.04 33.09 23.84
+[4/10] branch: 20:15  up 1 day,  6:25, 40 users, load averages: 28.92 32.81 23.79
+[4/10] baseline: 20:15  up 1 day,  6:25, 40 users, load averages: 28.92 32.81 23.79
+[5/10] baseline: 20:15  up 1 day,  6:25, 40 users, load averages: 27.84 32.45 23.77
+[5/10] branch: 20:15  up 1 day,  6:25, 40 users, load averages: 26.57 32.11 23.70
+[6/10] branch: 20:15  up 1 day,  6:25, 40 users, load averages: 25.88 31.88 23.67
+[6/10] baseline: 20:15  up 1 day,  6:25, 40 users, load averages: 25.57 31.71 23.66
+[7/10] baseline: 20:15  up 1 day,  6:25, 40 users, load averages: 24.83 31.35 23.62
+[7/10] branch: 20:15  up 1 day,  6:25, 40 users, load averages: 24.92 31.26 23.63
+[8/10] branch: 20:15  up 1 day,  6:25, 40 users, load averages: 28.54 31.82 23.92
+[8/10] baseline: 20:16  up 1 day,  6:26, 40 users, load averages: 31.85 32.42 24.23
+[9/10] baseline: 20:16  up 1 day,  6:26, 40 users, load averages: 30.50 32.11 24.21
+[9/10] branch: 20:16  up 1 day,  6:26, 40 users, load averages: 28.76 31.66 24.19
+[10/10] branch: 20:16  up 1 day,  6:26, 40 users, load averages: 29.58 31.78 24.28
+[10/10] baseline: 20:16  up 1 day,  6:26, 40 users, load averages: 28.58 31.49 24.26
+Rounds: 10; bootstrap: 10000 paired resamples, seed 0x5eed77157a1ce5e5.
+
+| Case | Baseline prover (ms) | Branch prover (ms) | Branch/baseline prover [95% CI] | Baseline verifier (ms) | Branch verifier (ms) | Branch/baseline verifier [95% CI] |
+| --- | ---: | ---: | --- | ---: | ---: | --- |
+| guest/erc20-mixed-block/memory/operations spice-typed | 152.24 | 126.84 | 0.833 [0.634, 1.239] | 7.24 | 7.04 | 0.973 [0.939, 1.045] |
+| guest/erc20-mixed-block/memory/operations twist (chunk=4) | 297.61 | 130.15 | 0.437 [0.361, 0.780] | 10.96 | 6.78 | 0.618 [0.572, 0.668] |
+| guest/pointer-chase/memory/operations spice-typed | 162.41 | 131.75 | 0.811 [0.509, 1.038] | 7.30 | 7.13 | 0.977 [0.966, 1.000] |
+| guest/pointer-chase/memory/operations twist (chunk=4) | 291.41 | 135.25 | 0.464 [0.365, 0.609] | 10.79 | 6.65 | 0.616 [0.327, 0.641] |
+| random/operations spice-typed | 199.54 | 143.17 | 0.717 [0.564, 1.325] | 7.43 | 7.33 | 0.987 [0.941, 1.052] |
+| random/operations twist (chunk=4) | 965.47 | 197.16 | 0.204 [0.160, 0.319] | 13.41 | 6.91 | 0.515 [0.364, 0.613] |
+
+The two binaries ran different provers under the same method name in these rows:
+- guest/erc20-mixed-block/memory/operations spice-typed: baseline spice-typed (implementation not recorded); branch spice_argument::operations (one fingerprint set).
+- guest/erc20-mixed-block/memory/operations twist (chunk=4): baseline ram_argument BinaryTwist flat (schema-4 twist); branch ram_argument::twist2 (address-first read check).
+- guest/pointer-chase/memory/operations spice-typed: baseline spice-typed (implementation not recorded); branch spice_argument::operations (one fingerprint set).
+- guest/pointer-chase/memory/operations twist (chunk=4): baseline ram_argument BinaryTwist flat (schema-4 twist); branch ram_argument::twist2 (address-first read check).
+- random/operations spice-typed: baseline spice-typed (implementation not recorded); branch spice_argument::operations (one fingerprint set).
+- random/operations twist (chunk=4): baseline ram_argument BinaryTwist flat (schema-4 twist); branch ram_argument::twist2 (address-first read check).
+
+One-minute load before invocations: 24.83 to 33.99.

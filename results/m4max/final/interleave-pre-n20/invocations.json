@@ -1,0 +1,1022 @@
+[
+  {
+    "round": 0,
+    "position": 0,
+    "label": "baseline",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round000-baseline.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:16  up 1 day,  6:26, 40 users, load averages: 27.87 31.25 24.26",
+      "load": [
+        27.87,
+        31.25,
+        24.26
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 27.30 31.01 24.25",
+      "load": [
+        27.3,
+        31.01,
+        24.25
+      ]
+    },
+    "json": "round000-baseline.json"
+  },
+  {
+    "round": 0,
+    "position": 1,
+    "label": "branch",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round000-branch.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 27.30 31.01 24.25",
+      "load": [
+        27.3,
+        31.01,
+        24.25
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 28.31 31.16 24.35",
+      "load": [
+        28.31,
+        31.16,
+        24.35
+      ]
+    },
+    "json": "round000-branch.json"
+  },
+  {
+    "round": 1,
+    "position": 0,
+    "label": "branch",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round001-branch.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 28.31 31.16 24.35",
+      "load": [
+        28.31,
+        31.16,
+        24.35
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 28.31 31.16 24.35",
+      "load": [
+        28.31,
+        31.16,
+        24.35
+      ]
+    },
+    "json": "round001-branch.json"
+  },
+  {
+    "round": 1,
+    "position": 1,
+    "label": "baseline",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round001-baseline.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 28.31 31.16 24.35",
+      "load": [
+        28.31,
+        31.16,
+        24.35
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 28.61 31.17 24.39",
+      "load": [
+        28.61,
+        31.17,
+        24.39
+      ]
+    },
+    "json": "round001-baseline.json"
+  },
+  {
+    "round": 2,
+    "position": 0,
+    "label": "baseline",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round002-baseline.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 28.61 31.17 24.39",
+      "load": [
+        28.61,
+        31.17,
+        24.39
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 29.55 31.27 24.50",
+      "load": [
+        29.55,
+        31.27,
+        24.5
+      ]
+    },
+    "json": "round002-baseline.json"
+  },
+  {
+    "round": 2,
+    "position": 1,
+    "label": "branch",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round002-branch.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 29.55 31.27 24.50",
+      "load": [
+        29.55,
+        31.27,
+        24.5
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 29.02 31.13 24.49",
+      "load": [
+        29.02,
+        31.13,
+        24.49
+      ]
+    },
+    "json": "round002-branch.json"
+  },
+  {
+    "round": 3,
+    "position": 0,
+    "label": "branch",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round003-branch.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 29.02 31.13 24.49",
+      "load": [
+        29.02,
+        31.13,
+        24.49
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 28.54 31.00 24.48",
+      "load": [
+        28.54,
+        31.0,
+        24.48
+      ]
+    },
+    "json": "round003-branch.json"
+  },
+  {
+    "round": 3,
+    "position": 1,
+    "label": "baseline",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round003-baseline.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 28.54 31.00 24.48",
+      "load": [
+        28.54,
+        31.0,
+        24.48
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 28.07 30.81 24.50",
+      "load": [
+        28.07,
+        30.81,
+        24.5
+      ]
+    },
+    "json": "round003-baseline.json"
+  },
+  {
+    "round": 4,
+    "position": 0,
+    "label": "baseline",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round004-baseline.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 28.07 30.81 24.50",
+      "load": [
+        28.07,
+        30.81,
+        24.5
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 27.43 30.64 24.47",
+      "load": [
+        27.43,
+        30.64,
+        24.47
+      ]
+    },
+    "json": "round004-baseline.json"
+  },
+  {
+    "round": 4,
+    "position": 1,
+    "label": "branch",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round004-branch.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:17  up 1 day,  6:27, 40 users, load averages: 27.43 30.64 24.47",
+      "load": [
+        27.43,
+        30.64,
+        24.47
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:17  up 1 day,  6:28, 40 users, load averages: 26.91 30.48 24.45",
+      "load": [
+        26.91,
+        30.48,
+        24.45
+      ]
+    },
+    "json": "round004-branch.json"
+  },
+  {
+    "round": 5,
+    "position": 0,
+    "label": "branch",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round005-branch.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:17  up 1 day,  6:28, 40 users, load averages: 26.91 30.48 24.45",
+      "load": [
+        26.91,
+        30.48,
+        24.45
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 25.32 30.01 24.36",
+      "load": [
+        25.32,
+        30.01,
+        24.36
+      ]
+    },
+    "json": "round005-branch.json"
+  },
+  {
+    "round": 5,
+    "position": 1,
+    "label": "baseline",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round005-baseline.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 25.32 30.01 24.36",
+      "load": [
+        25.32,
+        30.01,
+        24.36
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 26.98 30.28 24.48",
+      "load": [
+        26.98,
+        30.28,
+        24.48
+      ]
+    },
+    "json": "round005-baseline.json"
+  },
+  {
+    "round": 6,
+    "position": 0,
+    "label": "baseline",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round006-baseline.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 26.98 30.28 24.48",
+      "load": [
+        26.98,
+        30.28,
+        24.48
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 26.98 30.28 24.48",
+      "load": [
+        26.98,
+        30.28,
+        24.48
+      ]
+    },
+    "json": "round006-baseline.json"
+  },
+  {
+    "round": 6,
+    "position": 1,
+    "label": "branch",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round006-branch.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 26.98 30.28 24.48",
+      "load": [
+        26.98,
+        30.28,
+        24.48
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 26.74 30.18 24.48",
+      "load": [
+        26.74,
+        30.18,
+        24.48
+      ]
+    },
+    "json": "round006-branch.json"
+  },
+  {
+    "round": 7,
+    "position": 0,
+    "label": "branch",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round007-branch.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 26.74 30.18 24.48",
+      "load": [
+        26.74,
+        30.18,
+        24.48
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 25.33 29.76 24.40",
+      "load": [
+        25.33,
+        29.76,
+        24.4
+      ]
+    },
+    "json": "round007-branch.json"
+  },
+  {
+    "round": 7,
+    "position": 1,
+    "label": "baseline",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round007-baseline.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 25.33 29.76 24.40",
+      "load": [
+        25.33,
+        29.76,
+        24.4
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 24.99 29.61 24.38",
+      "load": [
+        24.99,
+        29.61,
+        24.38
+      ]
+    },
+    "json": "round007-baseline.json"
+  },
+  {
+    "round": 8,
+    "position": 0,
+    "label": "baseline",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round008-baseline.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 24.99 29.61 24.38",
+      "load": [
+        24.99,
+        29.61,
+        24.38
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 24.67 29.47 24.36",
+      "load": [
+        24.67,
+        29.47,
+        24.36
+      ]
+    },
+    "json": "round008-baseline.json"
+  },
+  {
+    "round": 8,
+    "position": 1,
+    "label": "branch",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round008-branch.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 24.67 29.47 24.36",
+      "load": [
+        24.67,
+        29.47,
+        24.36
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 24.13 29.28 24.32",
+      "load": [
+        24.13,
+        29.28,
+        24.32
+      ]
+    },
+    "json": "round008-branch.json"
+  },
+  {
+    "round": 9,
+    "position": 0,
+    "label": "branch",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round009-branch.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 24.13 29.28 24.32",
+      "load": [
+        24.13,
+        29.28,
+        24.32
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 23.80 29.12 24.29",
+      "load": [
+        23.8,
+        29.12,
+        24.29
+      ]
+    },
+    "json": "round009-branch.json"
+  },
+  {
+    "round": 9,
+    "position": 1,
+    "label": "baseline",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/pre-0e9aa9c",
+      "--trace-format",
+      "operations",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--chunk-bits",
+      "4",
+      "--threads",
+      "8",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,guest",
+      "--guest-program",
+      "erc20-mixed-block,pointer-chase",
+      "--guest-rows",
+      "memory",
+      "--warmup",
+      "1",
+      "--repeat",
+      "3",
+      "--output",
+      "results/m4max/final/interleave-pre-n20/round009-baseline.json"
+    ],
+    "exit_code": 0,
+    "uptime_before": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 23.80 29.12 24.29",
+      "load": [
+        23.8,
+        29.12,
+        24.29
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:18  up 1 day,  6:28, 40 users, load averages: 23.18 28.91 24.25",
+      "load": [
+        23.18,
+        28.91,
+        24.25
+      ]
+    },
+    "json": "round009-baseline.json"
+  }
+]

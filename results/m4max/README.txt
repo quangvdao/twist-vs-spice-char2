@@ -5,7 +5,7 @@ RUSTFLAGS='-C target-cpu=native'. The baseline binary is ram-compare built at
 
 final/
     The current results: Twist v2 with a virtual read value and the CPU
-    interface claims in both methods, from ram-compare built at deb2bfb
+    interface claims in both methods, from ram-compare built at e896b64
     (environment.git_commit in each JSON; later commits change only docs and
     results). final/run.sh is the script that produced them:
     - interleave-n20: baseline (632855e) against the branch, 10 rounds;
@@ -17,8 +17,10 @@ final/
     - private-n20, cycle-order-n20, chunk-sweep-n20, chunk-sweep-a20-n20,
       sweep-na and sweep-threads, as named in run.sh.
     Every sample of twist, spice-typed and spice-typed-2fp passed the
-    harness check of the interface claims against the trace. The load before
-    each run is in run.log and the .txt logs. All three binaries were built
+    harness check of the interface claims against the trace. The one-minute
+    load was 13 to 34 during the run (25 to 34 for interleave-n20 and 24 to
+    30 for interleave-pre-n20), so the interleaved intervals are wide. The
+    load before each run is in run.log and the .txt logs. All three binaries were built
     after `cargo clean --release` in one target directory.
 
 final-committed-rv/
