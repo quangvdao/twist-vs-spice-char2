@@ -1,20 +1,22 @@
-== 20:14:21 A: baseline vs branch, interleaved binaries, 10 rounds
-20:14  up 1 day,  6:24, 40 users, load averages: 29.76 33.23 23.48
-== 20:16:55 A2: PRE vs branch, interleaved binaries, 10 rounds
-20:16  up 1 day,  6:26, 40 users, load averages: 27.87 31.25 24.26
-== 20:18:49 B: branch methods in one process, 10 rounds
-20:18  up 1 day,  6:28, 40 users, load averages: 23.18 28.91 24.25
-== 20:19:34 C: private final memory, 10 rounds
-20:19  up 1 day,  6:29, 40 users, load averages: 20.11 27.28 23.88
-== 20:19:54 D: cycle-first read order, 10 rounds
-20:19  up 1 day,  6:29, 40 users, load averages: 22.34 27.35 23.99
-== 20:20:03 E: chunk sweep
-20:20  up 1 day,  6:30, 40 users, load averages: 21.13 26.92 23.88
-== 20:20:58 E2: chunk sweep at a = 20
-20:20  up 1 day,  6:31, 40 users, load averages: 17.73 24.98 23.34
-== 20:21:11 F: (n, a) sweep
-20:21  up 1 day,  6:31, 40 users, load averages: 16.18 24.29 23.12
-== 20:21:29 G: thread sweep
-20:21  up 1 day,  6:31, 40 users, load averages: 14.51 23.52 22.87
-== 20:21:56 done
-20:21  up 1 day,  6:32, 40 users, load averages: 13.46 22.52 22.53
+== 20:46:27 A: baseline vs branch, interleaved binaries, 10 rounds
+20:46  up 1 day,  6:56, 40 users, load averages: 16.00 16.31 18.07
+== 20:49:10 A2: PRE vs branch, interleaved binaries, 10 rounds
+20:49  up 1 day,  6:59, 40 users, load averages: 46.88 39.53 27.94
+== 20:50:18 A3: e896b64 vs branch, interleaved binaries, 10 rounds
+20:50  up 1 day, 7 hrs, 40 users, load averages: 25.56 34.50 26.94
+== 20:51:15 B: branch methods in one process, 10 rounds
+20:51  up 1 day,  7:01, 40 users, load averages: 16.73 30.61 25.97
+== 20:52:04 C: private final memory, 10 rounds
+20:52  up 1 day,  7:02, 40 users, load averages: 23.10 30.27 26.11
+== 20:52:18 D: cycle-first read order, 10 rounds
+20:52  up 1 day,  7:02, 40 users, load averages: 21.03 29.46 25.89
+== 20:52:28 E: chunk sweep
+20:52  up 1 day,  7:02, 40 users, load averages: 23.21 29.67 26.01
+== 20:53:32 E2: chunk sweep at a = 20
+20:53  up 1 day,  7:03, 40 users, load averages: 20.89 27.72 25.52
+== 20:53:52 F: (n, a) sweep
+20:53  up 1 day,  7:03, 40 users, load averages: 21.63 27.45 25.47
+== 20:54:27 G: thread sweep
+20:54  up 1 day,  7:04, 40 users, load averages: 22.84 27.14 25.44
+== 20:55:05 done
+20:55  up 1 day,  7:05, 40 users, load averages: 24.98 27.22 25.55

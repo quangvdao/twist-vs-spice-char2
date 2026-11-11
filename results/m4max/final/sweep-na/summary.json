@@ -9,15 +9,15 @@
       "pattern": "random/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 14.754750000000001,
-      "verifier_ms": 2.207291,
-      "prover_ns_per_operation": 225.1396179199219,
+      "prover_ms": 29.434459,
+      "verifier_ms": 2.498208,
+      "prover_ns_per_operation": 449.1342010498047,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 212212,
       "populated_bits": 7340032,
       "committed_bits": 8388608,
       "soundness_bits": 117.81835471833001,
-      "load1_before": 16.18
+      "load1_before": 21.63
     },
     {
       "address_bits": 12,
@@ -26,15 +26,15 @@
       "pattern": "random/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 12.849083,
-      "verifier_ms": 2.388458,
-      "prover_ns_per_operation": 196.0614471435547,
+      "prover_ms": 28.461667,
+      "verifier_ms": 2.6055420000000002,
+      "prover_ns_per_operation": 434.2905731201172,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 217044,
       "populated_bits": 7348224,
       "committed_bits": 8388608,
       "soundness_bits": 111.88196339206871,
-      "load1_before": 16.18
+      "load1_before": 21.63
     },
     {
       "address_bits": 12,
@@ -43,15 +43,15 @@
       "pattern": "locality/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 13.52975,
-      "verifier_ms": 2.179,
-      "prover_ns_per_operation": 206.44760131835938,
+      "prover_ms": 34.695457999999995,
+      "verifier_ms": 3.580875,
+      "prover_ns_per_operation": 529.410675048828,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 208628,
       "populated_bits": 7340032,
       "committed_bits": 8388608,
       "soundness_bits": 117.81835471833001,
-      "load1_before": 16.18
+      "load1_before": 21.63
     },
     {
       "address_bits": 12,
@@ -60,15 +60,15 @@
       "pattern": "locality/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 12.267,
-      "verifier_ms": 2.414292,
-      "prover_ns_per_operation": 187.1795654296875,
+      "prover_ms": 31.589959,
+      "verifier_ms": 2.6102090000000002,
+      "prover_ns_per_operation": 482.02452087402344,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 219764,
       "populated_bits": 7348224,
       "committed_bits": 8388608,
       "soundness_bits": 111.88196339206871,
-      "load1_before": 16.18
+      "load1_before": 21.63
     },
     {
       "address_bits": 16,
@@ -77,15 +77,15 @@
       "pattern": "random/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 17.492834,
-      "verifier_ms": 2.673458,
-      "prover_ns_per_operation": 266.9194641113281,
+      "prover_ms": 35.885334,
+      "verifier_ms": 3.107625,
+      "prover_ns_per_operation": 547.5667419433594,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 206292,
       "populated_bits": 8388608,
       "committed_bits": 8388608,
       "soundness_bits": 117.78156169402396,
-      "load1_before": 16.18
+      "load1_before": 21.63
     },
     {
       "address_bits": 16,
@@ -94,15 +94,15 @@
       "pattern": "random/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 19.801375,
-      "verifier_ms": 5.3155,
-      "prover_ns_per_operation": 302.14500427246094,
+      "prover_ms": 38.893208,
+      "verifier_ms": 6.3238330000000005,
+      "prover_ns_per_operation": 593.4632568359375,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 202548,
       "populated_bits": 8716288,
       "committed_bits": 16777216,
       "soundness_bits": 110.97896478907721,
-      "load1_before": 16.18
+      "load1_before": 21.63
     },
     {
       "address_bits": 16,
@@ -111,15 +111,15 @@
       "pattern": "locality/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 18.306584,
-      "verifier_ms": 2.702375,
-      "prover_ns_per_operation": 279.3363037109375,
+      "prover_ms": 45.768291000000005,
+      "verifier_ms": 3.615167,
+      "prover_ns_per_operation": 698.3686981201173,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 211700,
       "populated_bits": 8388608,
       "committed_bits": 8388608,
       "soundness_bits": 117.78156169402396,
-      "load1_before": 16.18
+      "load1_before": 21.63
     },
     {
       "address_bits": 16,
@@ -128,15 +128,15 @@
       "pattern": "locality/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 21.414417,
-      "verifier_ms": 5.246875,
-      "prover_ns_per_operation": 326.75807189941406,
+      "prover_ms": 50.186625,
+      "verifier_ms": 6.608083,
+      "prover_ns_per_operation": 765.7871246337891,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 203124,
       "populated_bits": 8716288,
       "committed_bits": 16777216,
       "soundness_bits": 110.97896478907721,
-      "load1_before": 16.18
+      "load1_before": 21.63
     },
     {
       "address_bits": 20,
@@ -145,15 +145,15 @@
       "pattern": "random/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 53.33625,
-      "verifier_ms": 12.064791999999999,
-      "prover_ns_per_operation": 813.8465881347656,
+      "prover_ms": 107.785625,
+      "verifier_ms": 15.015459,
+      "prover_ns_per_operation": 1644.6781158447266,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 193044,
       "populated_bits": 9437184,
       "committed_bits": 16777216,
       "soundness_bits": 117.30555919307216,
-      "load1_before": 16.18
+      "load1_before": 21.74
     },
     {
       "address_bits": 20,
@@ -162,15 +162,15 @@
       "pattern": "random/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 52.853042,
-      "verifier_ms": 13.530042000000002,
-      "prover_ns_per_operation": 806.4734191894531,
+      "prover_ms": 131.075875,
+      "verifier_ms": 18.425875,
+      "prover_ns_per_operation": 2000.0591278076172,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 238932,
       "populated_bits": 31391744,
       "committed_bits": 33554432,
       "soundness_bits": 107.90982024609139,
-      "load1_before": 16.18
+      "load1_before": 21.74
     },
     {
       "address_bits": 20,
@@ -179,15 +179,15 @@
       "pattern": "locality/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 50.200792,
-      "verifier_ms": 12.116375,
-      "prover_ns_per_operation": 766.0032958984375,
+      "prover_ms": 94.398167,
+      "verifier_ms": 14.820541,
+      "prover_ns_per_operation": 1440.4017181396484,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 194868,
       "populated_bits": 9437184,
       "committed_bits": 16777216,
       "soundness_bits": 117.30555919307216,
-      "load1_before": 16.18
+      "load1_before": 21.74
     },
     {
       "address_bits": 20,
@@ -196,15 +196,15 @@
       "pattern": "locality/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 46.037957999999996,
-      "verifier_ms": 12.949667,
-      "prover_ns_per_operation": 702.4834899902343,
+      "prover_ms": 110.376375,
+      "verifier_ms": 17.569167,
+      "prover_ns_per_operation": 1684.2098236083984,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 238996,
       "populated_bits": 31391744,
       "committed_bits": 33554432,
       "soundness_bits": 107.90982024609139,
-      "load1_before": 16.18
+      "load1_before": 21.74
     },
     {
       "address_bits": 12,
@@ -213,15 +213,15 @@
       "pattern": "random/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 34.780375,
-      "verifier_ms": 4.790458,
-      "prover_ns_per_operation": 132.6766014099121,
+      "prover_ms": 100.76599999999999,
+      "verifier_ms": 6.976083999999999,
+      "prover_ns_per_operation": 384.3917846679687,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 226548,
       "populated_bits": 29360128,
       "committed_bits": 33554432,
       "soundness_bits": 117.33724686330676,
-      "load1_before": 16.18
+      "load1_before": 21.74
     },
     {
       "address_bits": 12,
@@ -230,15 +230,15 @@
       "pattern": "random/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 29.506207999999997,
-      "verifier_ms": 4.9505,
-      "prover_ns_per_operation": 112.55725097656249,
+      "prover_ms": 84.5005,
+      "verifier_ms": 5.564875000000001,
+      "prover_ns_per_operation": 322.3438262939453,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 236468,
       "populated_bits": 30228480,
       "committed_bits": 33554432,
       "soundness_bits": 109.96672168369109,
-      "load1_before": 16.18
+      "load1_before": 21.74
     },
     {
       "address_bits": 12,
@@ -247,15 +247,15 @@
       "pattern": "locality/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 32.453708,
-      "verifier_ms": 4.636,
-      "prover_ns_per_operation": 123.80107116699219,
+      "prover_ms": 97.647583,
+      "verifier_ms": 5.4,
+      "prover_ns_per_operation": 372.49596786499023,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 228468,
       "populated_bits": 29360128,
       "committed_bits": 33554432,
       "soundness_bits": 117.33724686330676,
-      "load1_before": 16.18
+      "load1_before": 21.74
     },
     {
       "address_bits": 12,
@@ -264,15 +264,15 @@
       "pattern": "locality/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 27.956916,
-      "verifier_ms": 4.729042,
-      "prover_ns_per_operation": 106.64717102050781,
+      "prover_ms": 79.393625,
+      "verifier_ms": 5.508125,
+      "prover_ns_per_operation": 302.86264419555664,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 237492,
       "populated_bits": 30228480,
       "committed_bits": 33554432,
       "soundness_bits": 109.96672168369109,
-      "load1_before": 16.18
+      "load1_before": 21.74
     },
     {
       "address_bits": 16,
@@ -281,15 +281,15 @@
       "pattern": "random/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 39.821292,
-      "verifier_ms": 5.226417,
-      "prover_ns_per_operation": 151.9061737060547,
+      "prover_ms": 123.69129199999999,
+      "verifier_ms": 6.191667,
+      "prover_ns_per_operation": 471.8448333740234,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 226868,
       "populated_bits": 33554432,
       "committed_bits": 33554432,
       "soundness_bits": 117.30904587035442,
-      "load1_before": 16.18
+      "load1_before": 21.76
     },
     {
       "address_bits": 16,
@@ -298,15 +298,15 @@
       "pattern": "random/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 31.151333,
-      "verifier_ms": 5.410583,
-      "prover_ns_per_operation": 118.83290481567383,
+      "prover_ms": 87.734375,
+      "verifier_ms": 7.031125,
+      "prover_ns_per_operation": 334.68008041381836,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 234740,
       "populated_bits": 32505856,
       "committed_bits": 33554432,
       "soundness_bits": 109.6692095975932,
-      "load1_before": 16.18
+      "load1_before": 21.76
     },
     {
       "address_bits": 16,
@@ -315,15 +315,15 @@
       "pattern": "locality/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 37.618875,
-      "verifier_ms": 5.096041,
-      "prover_ns_per_operation": 143.50461959838867,
+      "prover_ms": 122.240375,
+      "verifier_ms": 7.0621670000000005,
+      "prover_ns_per_operation": 466.3100242614746,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 225268,
       "populated_bits": 33554432,
       "committed_bits": 33554432,
       "soundness_bits": 117.30904587035442,
-      "load1_before": 16.18
+      "load1_before": 21.76
     },
     {
       "address_bits": 16,
@@ -332,15 +332,15 @@
       "pattern": "locality/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 30.001875000000002,
-      "verifier_ms": 5.5120830000000005,
-      "prover_ns_per_operation": 114.44807052612305,
+      "prover_ms": 82.435208,
+      "verifier_ms": 7.885916999999999,
+      "prover_ns_per_operation": 314.4653625488281,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 238260,
       "populated_bits": 32505856,
       "committed_bits": 33554432,
       "soundness_bits": 109.6692095975932,
-      "load1_before": 16.18
+      "load1_before": 21.76
     },
     {
       "address_bits": 20,
@@ -349,15 +349,15 @@
       "pattern": "random/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 96.63029200000001,
-      "verifier_ms": 12.661,
-      "prover_ns_per_operation": 368.61531066894537,
+      "prover_ms": 196.60587500000003,
+      "verifier_ms": 14.684292,
+      "prover_ns_per_operation": 749.9918937683107,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 274484,
       "populated_bits": 37748736,
       "committed_bits": 67108864,
       "soundness_bits": 117.27625780305726,
-      "load1_before": 16.18
+      "load1_before": 21.76
     },
     {
       "address_bits": 20,
@@ -366,15 +366,15 @@
       "pattern": "random/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 71.825917,
-      "verifier_ms": 13.78675,
-      "prover_ns_per_operation": 273.9941291809082,
+      "prover_ms": 156.53687499999998,
+      "verifier_ms": 16.377792,
+      "prover_ns_per_operation": 597.1407890319823,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 284948,
       "populated_bits": 56360960,
       "committed_bits": 67108864,
       "soundness_bits": 107.67574901623837,
-      "load1_before": 16.18
+      "load1_before": 21.76
     },
     {
       "address_bits": 20,
@@ -383,15 +383,15 @@
       "pattern": "locality/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 91.705375,
-      "verifier_ms": 12.46325,
-      "prover_ns_per_operation": 349.82824325561523,
+      "prover_ms": 239.56199999999998,
+      "verifier_ms": 17.305334,
+      "prover_ns_per_operation": 913.8565063476561,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 274964,
       "populated_bits": 37748736,
       "committed_bits": 67108864,
       "soundness_bits": 117.27625780305726,
-      "load1_before": 16.18
+      "load1_before": 21.76
     },
     {
       "address_bits": 20,
@@ -400,15 +400,15 @@
       "pattern": "locality/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 68.873417,
-      "verifier_ms": 13.509333,
-      "prover_ns_per_operation": 262.7312355041504,
+      "prover_ms": 173.05208299999998,
+      "verifier_ms": 17.312583999999998,
+      "prover_ns_per_operation": 660.1413078308104,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 282964,
       "populated_bits": 56360960,
       "committed_bits": 67108864,
       "soundness_bits": 107.67574901623837,
-      "load1_before": 16.18
+      "load1_before": 21.76
     },
     {
       "address_bits": 12,
@@ -417,15 +417,15 @@
       "pattern": "random/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 124.079125,
-      "verifier_ms": 5.244083,
-      "prover_ns_per_operation": 118.33107471466064,
+      "prover_ms": 244.70945799999998,
+      "verifier_ms": 5.675916,
+      "prover_ns_per_operation": 233.37312507629392,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 323828,
       "populated_bits": 117440512,
       "committed_bits": 134217728,
       "soundness_bits": 117.31079237404548,
-      "load1_before": 15.76
+      "load1_before": 23.46
     },
     {
       "address_bits": 12,
@@ -434,15 +434,15 @@
       "pattern": "random/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 106.134666,
-      "verifier_ms": 5.516208,
-      "prover_ns_per_operation": 101.21790504455566,
+      "prover_ms": 179.237708,
+      "verifier_ms": 5.818209,
+      "prover_ns_per_operation": 170.93439865112305,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 333972,
       "populated_bits": 124870656,
       "committed_bits": 134217728,
       "soundness_bits": 107.9914672950781,
-      "load1_before": 15.76
+      "load1_before": 23.46
     },
     {
       "address_bits": 12,
@@ -451,15 +451,15 @@
       "pattern": "locality/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 97.11975000000001,
-      "verifier_ms": 4.856334,
-      "prover_ns_per_operation": 92.62061119079591,
+      "prover_ms": 155.38679199999999,
+      "verifier_ms": 5.5254579999999995,
+      "prover_ns_per_operation": 148.18839263916016,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 324084,
       "populated_bits": 117440512,
       "committed_bits": 134217728,
       "soundness_bits": 117.31079237404548,
-      "load1_before": 15.76
+      "load1_before": 23.46
     },
     {
       "address_bits": 12,
@@ -468,15 +468,15 @@
       "pattern": "locality/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 81.941667,
-      "verifier_ms": 5.226334,
-      "prover_ns_per_operation": 78.14566326141357,
+      "prover_ms": 120.582208,
+      "verifier_ms": 5.742375,
+      "prover_ns_per_operation": 114.99615478515625,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 336052,
       "populated_bits": 124870656,
       "committed_bits": 134217728,
       "soundness_bits": 107.9914672950781,
-      "load1_before": 15.76
+      "load1_before": 23.46
     },
     {
       "address_bits": 16,
@@ -485,15 +485,15 @@
       "pattern": "random/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 121.6315,
-      "verifier_ms": 5.286125,
-      "prover_ns_per_operation": 115.9968376159668,
+      "prover_ms": 172.63695900000002,
+      "verifier_ms": 6.14225,
+      "prover_ns_per_operation": 164.63943386077884,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 323060,
       "populated_bits": 134217728,
       "committed_bits": 134217728,
       "soundness_bits": 117.28138558207968,
-      "load1_before": 14.82
+      "load1_before": 22.54
     },
     {
       "address_bits": 16,
@@ -502,15 +502,15 @@
       "pattern": "random/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 92.353375,
-      "verifier_ms": 5.59825,
-      "prover_ns_per_operation": 88.07504177093506,
+      "prover_ms": 117.42333400000001,
+      "verifier_ms": 6.4727500000000004,
+      "prover_ns_per_operation": 111.98361778259279,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 338260,
       "populated_bits": 130416640,
       "committed_bits": 134217728,
       "soundness_bits": 107.9097918115508,
-      "load1_before": 14.82
+      "load1_before": 22.54
     },
     {
       "address_bits": 16,
@@ -519,15 +519,15 @@
       "pattern": "locality/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 111.06933400000001,
-      "verifier_ms": 5.344417,
-      "prover_ns_per_operation": 105.92397117614748,
+      "prover_ms": 180.18200000000002,
+      "verifier_ms": 6.077624999999999,
+      "prover_ns_per_operation": 171.83494567871097,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 323668,
       "populated_bits": 134217728,
       "committed_bits": 134217728,
       "soundness_bits": 117.28138558207968,
-      "load1_before": 14.82
+      "load1_before": 22.54
     },
     {
       "address_bits": 16,
@@ -536,15 +536,15 @@
       "pattern": "locality/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 85.15070800000001,
-      "verifier_ms": 5.515875,
-      "prover_ns_per_operation": 81.20604324340822,
+      "prover_ms": 132.695791,
+      "verifier_ms": 6.571042,
+      "prover_ns_per_operation": 126.54856777191164,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 332468,
       "populated_bits": 130416640,
       "committed_bits": 134217728,
       "soundness_bits": 107.9097918115508,
-      "load1_before": 14.82
+      "load1_before": 22.54
     },
     {
       "address_bits": 20,
@@ -553,15 +553,15 @@
       "pattern": "random/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 220.447,
-      "verifier_ms": 12.473334000000001,
-      "prover_ns_per_operation": 210.2346420288086,
+      "prover_ms": 399.463042,
+      "verifier_ms": 14.531291999999999,
+      "prover_ns_per_operation": 380.95764350891113,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 378580,
       "populated_bits": 150994944,
       "committed_bits": 268435456,
       "soundness_bits": 117.24753970236935,
-      "load1_before": 14.82
+      "load1_before": 22.54
     },
     {
       "address_bits": 20,
@@ -570,15 +570,15 @@
       "pattern": "random/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 146.985375,
-      "verifier_ms": 13.558959,
-      "prover_ns_per_operation": 140.1761770248413,
+      "prover_ms": 259.435292,
+      "verifier_ms": 16.438625,
+      "prover_ns_per_operation": 247.41677474975586,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 390708,
       "populated_bits": 156237824,
       "committed_bits": 268435456,
       "soundness_bits": 106.99853538598096,
-      "load1_before": 14.82
+      "load1_before": 22.54
     },
     {
       "address_bits": 20,
@@ -587,15 +587,15 @@
       "pattern": "locality/operations",
       "method": "twist",
       "chunk_bits": 4,
-      "prover_ms": 200.96391699999998,
-      "verifier_ms": 12.572375000000001,
-      "prover_ns_per_operation": 191.65412616729733,
+      "prover_ms": 414.720709,
+      "verifier_ms": 14.792207999999999,
+      "prover_ns_per_operation": 395.50848865509033,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 380084,
       "populated_bits": 150994944,
       "committed_bits": 268435456,
       "soundness_bits": 117.24753970236935,
-      "load1_before": 14.82
+      "load1_before": 22.54
     },
     {
       "address_bits": 20,
@@ -604,15 +604,15 @@
       "pattern": "locality/operations",
       "method": "spice-typed",
       "chunk_bits": null,
-      "prover_ms": 140.32262500000002,
-      "verifier_ms": 13.239333,
-      "prover_ns_per_operation": 133.8220834732056,
+      "prover_ms": 254.784959,
+      "verifier_ms": 16.092708000000002,
+      "prover_ns_per_operation": 242.98187160491943,
       "prover_ns_per_source_memory_instruction": null,
       "proof_bytes": 386516,
       "populated_bits": 156237824,
       "committed_bits": 268435456,
       "soundness_bits": 106.99853538598096,
-      "load1_before": 14.82
+      "load1_before": 22.54
     }
   ]
 }

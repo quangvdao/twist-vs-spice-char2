@@ -1,0 +1,32 @@
+[1/10] baseline: 20:50  up 1 day, 7 hrs, 40 users, load averages: 25.56 34.50 26.94
+[1/10] branch: 20:50  up 1 day, 7 hrs, 40 users, load averages: 25.56 34.50 26.94
+[2/10] branch: 20:50  up 1 day, 7 hrs, 40 users, load averages: 24.72 34.17 26.87
+[2/10] baseline: 20:50  up 1 day, 7 hrs, 40 users, load averages: 24.72 34.17 26.87
+[3/10] baseline: 20:50  up 1 day, 7 hrs, 40 users, load averages: 23.94 33.85 26.80
+[3/10] branch: 20:50  up 1 day, 7 hrs, 40 users, load averages: 23.94 33.85 26.80
+[4/10] branch: 20:50  up 1 day, 7 hrs, 40 users, load averages: 23.38 33.57 26.74
+[4/10] baseline: 20:50  up 1 day, 7 hrs, 40 users, load averages: 22.55 33.23 26.66
+[5/10] baseline: 20:50  up 1 day, 7 hrs, 40 users, load averages: 22.55 33.23 26.66
+[5/10] branch: 20:50  up 1 day, 7 hrs, 40 users, load averages: 22.11 32.96 26.60
+[6/10] branch: 20:50  up 1 day, 7 hrs, 40 users, load averages: 22.11 32.96 26.60
+[6/10] baseline: 20:50  up 1 day, 7 hrs, 40 users, load averages: 20.90 32.53 26.49
+[7/10] baseline: 20:50  up 1 day, 7 hrs, 40 users, load averages: 20.90 32.53 26.49
+[7/10] branch: 20:50  up 1 day, 7 hrs, 40 users, load averages: 20.10 32.17 26.40
+[8/10] branch: 20:50  up 1 day,  7:01, 40 users, load averages: 20.10 32.17 26.40
+[8/10] baseline: 20:51  up 1 day,  7:01, 40 users, load averages: 18.97 31.74 26.28
+[9/10] baseline: 20:51  up 1 day,  7:01, 40 users, load averages: 17.94 31.31 26.16
+[9/10] branch: 20:51  up 1 day,  7:01, 40 users, load averages: 17.94 31.31 26.16
+[10/10] branch: 20:51  up 1 day,  7:01, 40 users, load averages: 17.06 30.91 26.05
+[10/10] baseline: 20:51  up 1 day,  7:01, 40 users, load averages: 17.06 30.91 26.05
+Rounds: 10; bootstrap: 10000 paired resamples, seed 0x5eed77157a1ce5e5.
+
+| Case | Baseline prover (ms) | Branch prover (ms) | Branch/baseline prover [95% CI] | Baseline verifier (ms) | Branch verifier (ms) | Branch/baseline verifier [95% CI] |
+| --- | ---: | ---: | --- | ---: | ---: | --- |
+| guest/erc20-mixed-block/memory/operations spice-typed | 87.68 | 81.07 | 0.925 [0.872, 1.006] | 5.80 | 5.71 | 0.984 [0.969, 1.018] |
+| guest/erc20-mixed-block/memory/operations twist (chunk=4) | 92.27 | 90.81 | 0.984 [0.931, 1.053] | 5.50 | 5.44 | 0.989 [0.971, 1.011] |
+| guest/pointer-chase/memory/operations spice-typed | 87.73 | 77.76 | 0.886 [0.831, 0.962] | 5.84 | 5.79 | 0.992 [0.975, 1.005] |
+| guest/pointer-chase/memory/operations twist (chunk=4) | 87.92 | 83.30 | 0.947 [0.880, 1.016] | 5.52 | 5.51 | 0.998 [0.982, 1.006] |
+| random/operations spice-typed | 105.00 | 88.10 | 0.839 [0.802, 0.881] | 6.04 | 6.05 | 1.000 [0.972, 1.012] |
+| random/operations twist (chunk=4) | 139.46 | 133.32 | 0.956 [0.904, 1.029] | 5.66 | 5.69 | 1.005 [0.966, 1.036] |
+
+One-minute load before invocations: 17.06 to 25.56.

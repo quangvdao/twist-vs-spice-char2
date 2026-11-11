@@ -1,161 +1,161 @@
 random/operations/twist/chunk=Some(4): T=2^20 N=2^16 threads=8
-random/operations twist chunk=Some(4): prove=1531.541ms verify=22.471ms commit=91.206ms open=215.673ms IOP+prep=1194.332ms bits=201326592/268435456 populated/padded
-  preparation=19.575ms argument=1162.597ms ordering(total)=-0.000ms mask(total)=-0.000ms mosaic(total)=66.653ms unattributed=0.745ms (independent medians)
-  commitment-padding-adjusted ESTIMATE (populated/padded=0.7500): prove=1508.740ms commit=68.404ms; modeled commitment padding=22.801ms; all other costs unchanged
-    mosaic.batch                               51.878ms
-    mosaic.bind_g                               6.363ms
-    mosaic.dense                                2.486ms
-    pcs.commit                                 91.206ms
-    pcs.ligerito_open                         151.701ms
+random/operations twist chunk=Some(4): prove=669.654ms verify=8.845ms commit=30.760ms open=43.010ms IOP+prep=596.299ms bits=201326592/268435456 populated/padded
+  preparation=10.295ms argument=585.368ms ordering(total)=-0.000ms mask(total)=-0.000ms mosaic(total)=19.821ms unattributed=0.657ms (independent medians)
+  commitment-padding-adjusted ESTIMATE (populated/padded=0.7500): prove=661.964ms commit=23.070ms; modeled commitment padding=7.690ms; all other costs unchanged
+    mosaic.batch                               16.388ms
+    mosaic.bind_g                               3.210ms
+    mosaic.dense                                0.480ms
+    pcs.commit                                 30.760ms
+    pcs.ligerito_open                          33.725ms
     pcs.open                                    0.001ms
-    pcs.ringswitch                             48.534ms
-    ram.claims                                  7.284ms
-    ram.pack                                    4.909ms
-    ram.statement                               0.520ms
+    pcs.ringswitch                              9.267ms
+    ram.claims                                  2.883ms
+    ram.pack                                    1.882ms
+    ram.statement                               0.428ms
     ram.twist                                   0.000ms
-    ram.witness                                 5.928ms
-    twist.final                                18.919ms
-    twist.onehot                               63.296ms
-    twist.other                                 0.027ms
-    twist.rw.address                            4.814ms
-    twist.rw.cycles                           820.240ms
-    twist.rw.setup                             13.661ms
-    twist.val                                  51.599ms
-    twist.virtualization                        1.041ms
-    virt.claim_reduction                       15.761ms
-    virt.flat.claims                            0.001ms
-    virt.flat.product                          79.992ms
+    ram.witness                                 5.135ms
+    twist.final                                 4.782ms
+    twist.onehot                               12.453ms
+    twist.other                                 0.022ms
+    twist.rw.address                            1.268ms
+    twist.rw.cycles                           501.853ms
+    twist.rw.setup                              9.428ms
+    twist.val                                   8.400ms
+    twist.virtualization                        0.898ms
+    virt.claim_reduction                        2.979ms
+    virt.flat.claims                            0.000ms
+    virt.flat.product                          23.370ms
 random/operations/spice-typed/chunk=None: T=2^20 N=2^16 threads=8
-random/operations spice-typed chunk=None: prove=445.638ms verify=9.058ms commit=95.611ms open=132.610ms IOP+prep=210.145ms bits=130416640/134217728 populated/padded
-  preparation=46.231ms argument=163.404ms ordering(total)=27.821ms mask(total)=17.810ms mosaic(total)=100.019ms unattributed=0.569ms (independent medians)
-  commitment-padding-adjusted ESTIMATE (populated/padded=0.9717): prove=442.931ms commit=92.904ms; modeled commitment padding=2.708ms; all other costs unchanged
-    mosaic.batch                               77.742ms
-    mosaic.bind_g                               6.415ms
-    mosaic.dense                                1.319ms
-    pcs.commit                                 95.611ms
-    pcs.ligerito_open                         101.044ms
+random/operations spice-typed chunk=None: prove=98.997ms verify=5.760ms commit=15.598ms open=26.374ms IOP+prep=56.757ms bits=130416640/134217728 populated/padded
+  preparation=12.696ms argument=43.623ms ordering(total)=7.438ms mask(total)=6.513ms mosaic(total)=23.615ms unattributed=0.417ms (independent medians)
+  commitment-padding-adjusted ESTIMATE (populated/padded=0.9717): prove=98.555ms commit=15.156ms; modeled commitment padding=0.442ms; all other costs unchanged
+    mosaic.batch                               21.972ms
+    mosaic.bind_g                               1.279ms
+    mosaic.dense                                0.328ms
+    pcs.commit                                 15.598ms
+    pcs.ligerito_open                          18.325ms
     pcs.open                                    0.001ms
-    pcs.ringswitch                             38.837ms
-    spice.claims                               17.884ms
-    spice.mask                                  0.004ms
-    spice.masked.claims                         1.471ms
-    spice.masked.sumcheck                      16.336ms
-    spice.order                                 0.004ms
-    spice.order.claims                         16.307ms
-    spice.order.pack                            0.729ms
-    spice.order.zerocheck                       9.982ms
-    spice.pack                                 18.262ms
-    spice.permutation.gkr                      24.418ms
-    spice.permutation.leaves                    5.039ms
-    spice.statement                             0.517ms
-    spice.witness                               6.436ms
+    pcs.ringswitch                              8.049ms
+    spice.claims                                4.917ms
+    spice.mask                                  0.003ms
+    spice.masked.claims                         0.529ms
+    spice.masked.sumcheck                       5.985ms
+    spice.order                                 0.002ms
+    spice.order.claims                          3.811ms
+    spice.order.pack                            0.382ms
+    spice.order.zerocheck                       3.223ms
+    spice.pack                                  2.036ms
+    spice.permutation.gkr                       4.507ms
+    spice.permutation.leaves                    1.705ms
+    spice.statement                             0.431ms
+    spice.witness                               5.315ms
   fingerprint_bound_bits≈107.913 (GP term only; excludes other checks)
 guest/erc20-mixed-block/memory/operations/twist/chunk=Some(4): T=2^20 N=2^16 threads=8
-guest/erc20-mixed-block/memory/operations twist chunk=Some(4): prove=371.211ms verify=13.079ms commit=69.581ms open=94.212ms IOP+prep=210.921ms bits=201326592/268435456 populated/padded
-  preparation=13.978ms argument=198.265ms ordering(total)=-0.000ms mask(total)=-0.000ms mosaic(total)=17.260ms unattributed=0.776ms (independent medians)
-  commitment-padding-adjusted ESTIMATE (populated/padded=0.7500): prove=355.650ms commit=52.186ms; modeled commitment padding=17.395ms; all other costs unchanged
-    mosaic.batch                                9.432ms
-    mosaic.bind_g                               6.520ms
-    mosaic.dense                                1.089ms
-    pcs.commit                                 69.581ms
-    pcs.ligerito_open                          84.459ms
+guest/erc20-mixed-block/memory/operations twist chunk=Some(4): prove=176.112ms verify=7.428ms commit=30.534ms open=39.031ms IOP+prep=106.265ms bits=201326592/268435456 populated/padded
+  preparation=9.206ms argument=96.423ms ordering(total)=-0.000ms mask(total)=-0.000ms mosaic(total)=10.525ms unattributed=0.646ms (independent medians)
+  commitment-padding-adjusted ESTIMATE (populated/padded=0.7500): prove=168.479ms commit=22.901ms; modeled commitment padding=7.633ms; all other costs unchanged
+    mosaic.batch                                4.878ms
+    mosaic.bind_g                               5.202ms
+    mosaic.dense                                0.442ms
+    pcs.commit                                 30.534ms
+    pcs.ligerito_open                          33.798ms
     pcs.open                                    0.001ms
-    pcs.ringswitch                              9.752ms
-    ram.claims                                  3.149ms
-    ram.pack                                    3.722ms
-    ram.statement                               0.496ms
-    ram.twist                                   0.001ms
-    ram.witness                                 4.697ms
-    twist.final                                 9.859ms
-    twist.onehot                               28.531ms
-    twist.other                                 0.024ms
-    twist.rw.address                            3.570ms
-    twist.rw.cycles                            71.211ms
-    twist.rw.setup                              4.943ms
-    twist.val                                  19.016ms
-    twist.virtualization                        1.043ms
-    virt.claim_reduction                        6.889ms
-    virt.flat.claims                            0.001ms
-    virt.flat.product                          25.684ms
+    pcs.ringswitch                              5.290ms
+    ram.claims                                  1.916ms
+    ram.pack                                    1.908ms
+    ram.statement                               0.433ms
+    ram.twist                                   0.000ms
+    ram.witness                                 4.957ms
+    twist.final                                 4.659ms
+    twist.onehot                               12.462ms
+    twist.other                                 0.022ms
+    twist.rw.address                            1.057ms
+    twist.rw.cycles                            37.608ms
+    twist.rw.setup                              3.710ms
+    twist.val                                   7.393ms
+    twist.virtualization                        0.854ms
+    virt.claim_reduction                        2.735ms
+    virt.flat.claims                            0.000ms
+    virt.flat.product                          15.600ms
 guest/erc20-mixed-block/memory/operations/spice-typed/chunk=None: T=2^20 N=2^16 threads=8
-guest/erc20-mixed-block/memory/operations spice-typed chunk=None: prove=242.316ms verify=7.534ms commit=45.492ms open=67.339ms IOP+prep=137.438ms bits=130416640/134217728 populated/padded
-  preparation=20.820ms argument=117.066ms ordering(total)=19.014ms mask(total)=18.960ms mosaic(total)=53.450ms unattributed=0.597ms (independent medians)
-  commitment-padding-adjusted ESTIMATE (populated/padded=0.9717): prove=241.253ms commit=44.204ms; modeled commitment padding=1.288ms; all other costs unchanged
-    mosaic.batch                               46.390ms
-    mosaic.bind_g                               5.885ms
-    mosaic.dense                                1.176ms
-    pcs.commit                                 45.492ms
-    pcs.ligerito_open                          60.372ms
+guest/erc20-mixed-block/memory/operations spice-typed chunk=None: prove=85.171ms verify=5.760ms commit=15.481ms open=22.442ms IOP+prep=46.705ms bits=130416640/134217728 populated/padded
+  preparation=8.965ms argument=37.497ms ordering(total)=7.373ms mask(total)=5.843ms mosaic(total)=17.969ms unattributed=0.426ms (independent medians)
+  commitment-padding-adjusted ESTIMATE (populated/padded=0.9717): prove=84.726ms commit=15.042ms; modeled commitment padding=0.438ms; all other costs unchanged
+    mosaic.batch                               14.478ms
+    mosaic.bind_g                               3.191ms
+    mosaic.dense                                0.324ms
+    pcs.commit                                 15.481ms
+    pcs.ligerito_open                          18.005ms
     pcs.open                                    0.001ms
-    pcs.ringswitch                              9.082ms
-    spice.claims                               13.568ms
-    spice.mask                                  0.004ms
-    spice.masked.claims                         2.324ms
-    spice.masked.sumcheck                      16.006ms
-    spice.order                                 0.005ms
-    spice.order.claims                          8.628ms
-    spice.order.pack                            3.634ms
-    spice.order.zerocheck                       6.382ms
-    spice.pack                                  4.498ms
-    spice.permutation.gkr                      19.196ms
-    spice.permutation.leaves                    4.766ms
-    spice.statement                             0.518ms
-    spice.witness                               2.576ms
+    pcs.ringswitch                              4.325ms
+    spice.claims                                4.546ms
+    spice.mask                                  0.003ms
+    spice.masked.claims                         0.525ms
+    spice.masked.sumcheck                       5.279ms
+    spice.order                                 0.002ms
+    spice.order.claims                          3.847ms
+    spice.order.pack                            0.390ms
+    spice.order.zerocheck                       3.148ms
+    spice.pack                                  1.996ms
+    spice.permutation.gkr                       4.390ms
+    spice.permutation.leaves                    1.737ms
+    spice.statement                             0.427ms
+    spice.witness                               1.998ms
   fingerprint_bound_bits≈107.913 (GP term only; excludes other checks)
 guest/pointer-chase/memory/operations/twist/chunk=Some(4): T=2^20 N=2^16 threads=8
-guest/pointer-chase/memory/operations twist chunk=Some(4): prove=372.489ms verify=12.422ms commit=67.747ms open=110.938ms IOP+prep=190.374ms bits=201326592/268435456 populated/padded
-  preparation=15.739ms argument=176.938ms ordering(total)=-0.000ms mask(total)=-0.000ms mosaic(total)=17.236ms unattributed=0.775ms (independent medians)
-  commitment-padding-adjusted ESTIMATE (populated/padded=0.7500): prove=354.139ms commit=50.810ms; modeled commitment padding=16.937ms; all other costs unchanged
-    mosaic.batch                                6.849ms
-    mosaic.bind_g                               8.339ms
-    mosaic.dense                                1.042ms
-    pcs.commit                                 67.747ms
-    pcs.ligerito_open                         100.189ms
+guest/pointer-chase/memory/operations twist chunk=Some(4): prove=157.150ms verify=7.398ms commit=30.571ms open=38.669ms IOP+prep=88.217ms bits=201326592/268435456 populated/padded
+  preparation=8.165ms argument=79.399ms ordering(total)=-0.000ms mask(total)=-0.000ms mosaic(total)=10.112ms unattributed=0.652ms (independent medians)
+  commitment-padding-adjusted ESTIMATE (populated/padded=0.7500): prove=149.523ms commit=22.928ms; modeled commitment padding=7.643ms; all other costs unchanged
+    mosaic.batch                                4.173ms
+    mosaic.bind_g                               5.510ms
+    mosaic.dense                                0.441ms
+    pcs.commit                                 30.571ms
+    pcs.ligerito_open                          33.800ms
     pcs.open                                    0.001ms
-    pcs.ringswitch                              9.229ms
-    ram.claims                                  5.308ms
-    ram.pack                                    3.799ms
-    ram.statement                               0.521ms
-    ram.twist                                   0.001ms
-    ram.witness                                 5.821ms
-    twist.final                                10.033ms
-    twist.onehot                               25.851ms
-    twist.other                                 0.025ms
-    twist.rw.address                            4.673ms
-    twist.rw.cycles                            67.371ms
-    twist.rw.setup                              6.420ms
-    twist.val                                  24.343ms
-    twist.virtualization                        1.037ms
-    virt.claim_reduction                        6.396ms
-    virt.flat.claims                            0.001ms
-    virt.flat.product                          22.073ms
+    pcs.ringswitch                              4.868ms
+    ram.claims                                  1.779ms
+    ram.pack                                    2.022ms
+    ram.statement                               0.433ms
+    ram.twist                                   0.000ms
+    ram.witness                                 3.940ms
+    twist.final                                 4.351ms
+    twist.onehot                               12.431ms
+    twist.other                                 0.022ms
+    twist.rw.address                            1.056ms
+    twist.rw.cycles                            22.438ms
+    twist.rw.setup                              3.483ms
+    twist.val                                   7.075ms
+    twist.virtualization                        0.869ms
+    virt.claim_reduction                        2.718ms
+    virt.flat.claims                            0.000ms
+    virt.flat.product                          14.598ms
 guest/pointer-chase/memory/operations/spice-typed/chunk=None: T=2^20 N=2^16 threads=8
-guest/pointer-chase/memory/operations spice-typed chunk=None: prove=224.770ms verify=7.314ms commit=50.978ms open=51.457ms IOP+prep=122.335ms bits=130416640/134217728 populated/padded
-  preparation=20.107ms argument=99.905ms ordering(total)=16.334ms mask(total)=18.219ms mosaic(total)=38.821ms unattributed=0.630ms (independent medians)
-  commitment-padding-adjusted ESTIMATE (populated/padded=0.9717): prove=223.326ms commit=49.534ms; modeled commitment padding=1.444ms; all other costs unchanged
-    mosaic.batch                               31.284ms
-    mosaic.bind_g                               5.917ms
-    mosaic.dense                                1.427ms
-    pcs.commit                                 50.978ms
-    pcs.ligerito_open                          42.925ms
+guest/pointer-chase/memory/operations spice-typed chunk=None: prove=82.214ms verify=5.637ms commit=15.628ms open=22.192ms IOP+prep=44.377ms bits=130416640/134217728 populated/padded
+  preparation=8.153ms argument=35.797ms ordering(total)=7.384ms mask(total)=5.708ms mosaic(total)=16.608ms unattributed=0.410ms (independent medians)
+  commitment-padding-adjusted ESTIMATE (populated/padded=0.9717): prove=81.771ms commit=15.186ms; modeled commitment padding=0.443ms; all other costs unchanged
+    mosaic.batch                               12.921ms
+    mosaic.bind_g                               3.291ms
+    mosaic.dense                                0.340ms
+    pcs.commit                                 15.628ms
+    pcs.ligerito_open                          18.239ms
     pcs.open                                    0.001ms
-    pcs.ringswitch                              8.532ms
-    spice.claims                               13.933ms
-    spice.mask                                  0.005ms
-    spice.masked.claims                         1.465ms
-    spice.masked.sumcheck                      16.930ms
-    spice.order                                 0.004ms
-    spice.order.claims                          8.076ms
-    spice.order.pack                            1.163ms
-    spice.order.zerocheck                       7.037ms
-    spice.pack                                  4.236ms
-    spice.permutation.gkr                      17.230ms
-    spice.permutation.leaves                    4.631ms
-    spice.statement                             0.516ms
-    spice.witness                               2.373ms
+    pcs.ringswitch                              4.070ms
+    spice.claims                                3.724ms
+    spice.mask                                  0.003ms
+    spice.masked.claims                         0.491ms
+    spice.masked.sumcheck                       5.215ms
+    spice.order                                 0.002ms
+    spice.order.claims                          3.814ms
+    spice.order.pack                            0.377ms
+    spice.order.zerocheck                       3.181ms
+    spice.pack                                  2.010ms
+    spice.permutation.gkr                       4.391ms
+    spice.permutation.leaves                    1.683ms
+    spice.statement                             0.430ms
+    spice.witness                               1.965ms
   fingerprint_bound_bits≈107.913 (GP term only; excludes other checks)
-JSON: results/m4max/final/interleave-n20/round009-baseline.json
-random/operations Twist(Some(4))/spice-typed ratios: prover=3.437× commitment-padding-adjusted ESTIMATE=3.406× verifier=2.481× populated=1.544× committed=2.000×
-guest/erc20-mixed-block/memory/operations Twist(Some(4))/spice-typed ratios: prover=1.532× commitment-padding-adjusted ESTIMATE=1.474× verifier=1.736× populated=1.544× committed=2.000×
-guest/pointer-chase/memory/operations Twist(Some(4))/spice-typed ratios: prover=1.657× commitment-padding-adjusted ESTIMATE=1.586× verifier=1.699× populated=1.544× committed=2.000×
+JSON: /private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round009-baseline.json
+random/operations Twist(Some(4))/spice-typed ratios: prover=6.764× commitment-padding-adjusted ESTIMATE=6.717× verifier=1.536× populated=1.544× committed=2.000×
+guest/erc20-mixed-block/memory/operations Twist(Some(4))/spice-typed ratios: prover=2.068× commitment-padding-adjusted ESTIMATE=1.989× verifier=1.290× populated=1.544× committed=2.000×
+guest/pointer-chase/memory/operations Twist(Some(4))/spice-typed ratios: prover=1.911× commitment-padding-adjusted ESTIMATE=1.829× verifier=1.313× populated=1.544× committed=2.000×
 Verified 24 proofs across 6 cases, including warmups.

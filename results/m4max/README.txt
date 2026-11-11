@@ -4,24 +4,34 @@ RUSTFLAGS='-C target-cpu=native'. The baseline binary is ram-compare built at
 632855e (upstream master).
 
 final/
-    The current results: Twist v2 with a virtual read value and the CPU
-    interface claims in both methods, from ram-compare built at e896b64
-    (environment.git_commit in each JSON; later commits change only docs and
-    results). final/run.sh is the script that produced them:
+    The current results, from ram-compare built at 4e2ae07
+    (environment.git_commit in each JSON). This binary adds dense bit scans
+    to Mosaic's region sums and the ring switch (shared vendor code that
+    both methods use, with unchanged proofs) on top of e896b64. final/run.sh
+    is the script that produced them:
     - interleave-n20: baseline (632855e) against the branch, 10 rounds;
     - interleave-pre-n20: PRE (0e9aa9c, the round-2 head with a committed
-      read value and no interface claims) against the branch, 10 rounds.
-      For twist it measures the virtual read value; for spice-typed it
-      measures the cost of the interface claims alone;
+      read value and no interface claims) against the branch, 10 rounds;
+    - interleave-prev-n20: PREV (e896b64, before the dense bit scans)
+      against the branch, 10 rounds. It measures the dense bit scans alone;
     - branch-n20: all four methods in one process, 10 rounds;
     - private-n20, cycle-order-n20, chunk-sweep-n20, chunk-sweep-a20-n20,
       sweep-na and sweep-threads, as named in run.sh.
     Every sample of twist, spice-typed and spice-typed-2fp passed the
     harness check of the interface claims against the trace. The one-minute
-    load was 13 to 34 during the run (25 to 34 for interleave-n20 and 24 to
-    30 for interleave-pre-n20), so the interleaved intervals are wide. The
-    load before each run is in run.log and the .txt logs. All three binaries were built
-    after `cargo clean --release` in one target directory.
+    load before an invocation was 15.6 to 113.8 during interleave-n20, 26.7
+    to 46.9 during interleave-pre-n20, 17.1 to 25.6 during
+    interleave-prev-n20 and about 17 to 25 for the rest, so the intervals in
+    interleave-n20 and interleave-pre-n20 are wide. The load before each run
+    is in run.log and the .txt logs. All four binaries were built after
+    `cargo clean --release` in one target directory.
+
+final-e896b64/
+    The previous third-round results (virtual read value and the CPU
+    interface claims, before the dense bit scans), from ram-compare built at
+    e896b64. final-e896b64/run.sh produced them (it wrote to final/ at the
+    time). The one-minute load was 13 to 34 during that run (25 to 34 for
+    interleave-n20 and 24 to 30 for interleave-pre-n20).
 
 final-committed-rv/
     The first-round results, when Twist v2 committed its read value, from

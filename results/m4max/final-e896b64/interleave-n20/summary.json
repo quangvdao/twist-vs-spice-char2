@@ -1,0 +1,492 @@
+{
+  "rounds": 10,
+  "resamples": 10000,
+  "seed": 6840254343172384229,
+  "load1_range": [
+    24.83,
+    33.99
+  ],
+  "cases": [
+    {
+      "pattern": "guest/erc20-mixed-block/memory/operations",
+      "method": "spice-typed",
+      "chunk_bits": null,
+      "rounds": 10,
+      "baseline_implementation": "spice-typed (implementation not recorded)",
+      "branch_implementation": "spice_argument::operations (one fingerprint set)",
+      "prover_ms": {
+        "baseline_median": 152.239646,
+        "branch_median": 126.838833,
+        "baseline_by_round": [
+          227.033459,
+          157.985959,
+          139.449959,
+          142.085167,
+          128.534292,
+          146.493333,
+          123.737334,
+          207.39554199999998,
+          187.444333,
+          242.316167
+        ],
+        "branch_by_round": [
+          143.36670900000001,
+          132.313,
+          116.357708,
+          121.364666,
+          108.975125,
+          112.059959,
+          341.582375,
+          231.795584,
+          110.266416,
+          208.725458
+        ],
+        "branch_over_baseline": {
+          "ratio": 0.8331524430896272,
+          "ci95_low": 0.6341145933710357,
+          "ci95_high": 1.2390180285321408,
+          "rounds": 10,
+          "resamples": 10000,
+          "seed": 6840254343172384229
+        }
+      },
+      "verifier_ms": {
+        "baseline_median": 7.241395499999999,
+        "branch_median": 7.043333499999999,
+        "baseline_by_round": [
+          8.099,
+          7.3427500000000006,
+          7.151542,
+          7.046625,
+          7.054167,
+          7.303166,
+          6.949292,
+          7.194375,
+          7.288416,
+          7.533958
+        ],
+        "branch_by_round": [
+          7.205375,
+          6.884958,
+          6.859375,
+          7.084542,
+          6.663375,
+          7.0021249999999995,
+          8.066958000000001,
+          7.5200830000000005,
+          6.589666,
+          7.712541
+        ],
+        "branch_over_baseline": {
+          "ratio": 0.9726486421022025,
+          "ci95_low": 0.9393874008400971,
+          "ci95_high": 1.0452725914342804,
+          "rounds": 10,
+          "resamples": 10000,
+          "seed": 6840254343172384229
+        }
+      }
+    },
+    {
+      "pattern": "guest/erc20-mixed-block/memory/operations",
+      "method": "twist",
+      "chunk_bits": 4,
+      "rounds": 10,
+      "baseline_implementation": "ram_argument BinaryTwist flat (schema-4 twist)",
+      "branch_implementation": "ram_argument::twist2 (address-first read check)",
+      "prover_ms": {
+        "baseline_median": 297.61087499999996,
+        "branch_median": 130.153917,
+        "baseline_by_round": [
+          336.09387499999997,
+          280.912708,
+          272.57258299999995,
+          266.57045800000003,
+          252.690625,
+          345.730125,
+          242.30595799999998,
+          375.080208,
+          314.309042,
+          371.211292
+        ],
+        "branch_by_round": [
+          151.182167,
+          136.036167,
+          122.031041,
+          124.27166700000001,
+          116.45683299999999,
+          114.177667,
+          415.40250000000003,
+          319.632583,
+          113.532333,
+          232.046875
+        ],
+        "branch_over_baseline": {
+          "ratio": 0.4373291701790132,
+          "ci95_low": 0.3611682955497885,
+          "ci95_high": 0.7796989105320833,
+          "rounds": 10,
+          "resamples": 10000,
+          "seed": 6840254343172384229
+        }
+      },
+      "verifier_ms": {
+        "baseline_median": 10.9637915,
+        "branch_median": 6.777416499999999,
+        "baseline_by_round": [
+          12.210958,
+          11.007375,
+          10.192,
+          10.328999999999999,
+          9.682417000000001,
+          10.920208,
+          10.068000000000001,
+          11.481125,
+          11.324667,
+          13.079417
+        ],
+        "branch_by_round": [
+          6.779707999999999,
+          6.61075,
+          6.860792,
+          6.775125,
+          6.388375,
+          6.3318330000000005,
+          6.803208,
+          7.17575,
+          6.301292,
+          6.841125
+        ],
+        "branch_over_baseline": {
+          "ratio": 0.6181635705129926,
+          "ci95_low": 0.572318440721316,
+          "ci95_high": 0.6675047095761381,
+          "rounds": 10,
+          "resamples": 10000,
+          "seed": 6840254343172384229
+        }
+      }
+    },
+    {
+      "pattern": "guest/pointer-chase/memory/operations",
+      "method": "spice-typed",
+      "chunk_bits": null,
+      "rounds": 10,
+      "baseline_implementation": "spice-typed (implementation not recorded)",
+      "branch_implementation": "spice_argument::operations (one fingerprint set)",
+      "prover_ms": {
+        "baseline_median": 162.407125,
+        "branch_median": 131.750541,
+        "baseline_by_round": [
+          251.01991600000002,
+          144.404833,
+          133.430125,
+          143.911125,
+          129.500958,
+          123.00520800000001,
+          300.03675000000004,
+          180.409417,
+          546.451834,
+          224.76975
+        ],
+        "branch_by_round": [
+          159.64795800000002,
+          142.474416,
+          115.877459,
+          113.17841700000001,
+          106.318458,
+          105.778041,
+          394.794125,
+          223.642,
+          121.026666,
+          194.5705
+        ],
+        "branch_over_baseline": {
+          "ratio": 0.811236212696949,
+          "ci95_low": 0.5093389506334363,
+          "ci95_high": 1.0376543393647293,
+          "rounds": 10,
+          "resamples": 10000,
+          "seed": 6840254343172384229
+        }
+      },
+      "verifier_ms": {
+        "baseline_median": 7.298417,
+        "branch_median": 7.1306665,
+        "baseline_by_round": [
+          7.837333,
+          7.192167,
+          7.18725,
+          7.326,
+          6.8792089999999995,
+          6.957375,
+          7.569041,
+          7.58,
+          7.283208999999999,
+          7.313625
+        ],
+        "branch_by_round": [
+          7.413583,
+          7.18425,
+          7.020791999999999,
+          7.077083,
+          6.7145,
+          6.688167,
+          11.599207999999999,
+          7.74025,
+          7.037834,
+          7.282084
+        ],
+        "branch_over_baseline": {
+          "ratio": 0.9770154952779487,
+          "ci95_low": 0.9660227955227956,
+          "ci95_high": 0.9996112837509741,
+          "rounds": 10,
+          "resamples": 10000,
+          "seed": 6840254343172384229
+        }
+      }
+    },
+    {
+      "pattern": "guest/pointer-chase/memory/operations",
+      "method": "twist",
+      "chunk_bits": 4,
+      "rounds": 10,
+      "baseline_implementation": "ram_argument BinaryTwist flat (schema-4 twist)",
+      "branch_implementation": "ram_argument::twist2 (address-first read check)",
+      "prover_ms": {
+        "baseline_median": 291.41274999999996,
+        "branch_median": 135.25072899999998,
+        "baseline_by_round": [
+          427.58916600000003,
+          268.503125,
+          242.628375,
+          243.004167,
+          225.788333,
+          219.486834,
+          527.93225,
+          314.32237499999997,
+          364.22745899999995,
+          372.489208
+        ],
+        "branch_by_round": [
+          144.47370800000002,
+          137.608041,
+          113.946917,
+          118.712625,
+          109.237042,
+          104.907375,
+          311.847334,
+          244.921667,
+          132.893417,
+          203.493208
+        ],
+        "branch_over_baseline": {
+          "ratio": 0.46412083548163213,
+          "ci95_low": 0.36486380616349967,
+          "ci95_high": 0.6086666626207876,
+          "rounds": 10,
+          "resamples": 10000,
+          "seed": 6840254343172384229
+        }
+      },
+      "verifier_ms": {
+        "baseline_median": 10.7946455,
+        "branch_median": 6.6481455,
+        "baseline_by_round": [
+          20.756667,
+          10.38475,
+          10.446916,
+          10.402125,
+          9.4255,
+          9.884542,
+          25.779625,
+          11.142375,
+          20.535125,
+          12.422208000000001
+        ],
+        "branch_by_round": [
+          6.837000000000001,
+          6.517167,
+          6.700832999999999,
+          6.473167,
+          6.251084,
+          6.227917000000001,
+          6.9925,
+          6.711792,
+          6.595458,
+          6.728208
+        ],
+        "branch_over_baseline": {
+          "ratio": 0.6158743703070194,
+          "ci95_low": 0.32684446771081255,
+          "ci95_high": 0.6414173331153423,
+          "rounds": 10,
+          "resamples": 10000,
+          "seed": 6840254343172384229
+        }
+      }
+    },
+    {
+      "pattern": "random/operations",
+      "method": "spice-typed",
+      "chunk_bits": null,
+      "rounds": 10,
+      "baseline_implementation": "spice-typed (implementation not recorded)",
+      "branch_implementation": "spice_argument::operations (one fingerprint set)",
+      "prover_ms": {
+        "baseline_median": 199.539167,
+        "branch_median": 143.16510399999999,
+        "baseline_by_round": [
+          194.83683399999998,
+          204.2415,
+          154.90462499999998,
+          150.24437500000002,
+          139.295292,
+          252.502208,
+          145.27641699999998,
+          298.37229199999996,
+          372.790208,
+          445.638333
+        ],
+        "branch_by_round": [
+          143.020125,
+          141.690292,
+          143.310083,
+          136.639416,
+          142.767416,
+          128.019209,
+          284.929,
+          559.384,
+          192.694625,
+          264.382
+        ],
+        "branch_over_baseline": {
+          "ratio": 0.717478709330284,
+          "ci95_low": 0.5643522432088989,
+          "ci95_high": 1.324962933217016,
+          "rounds": 10,
+          "resamples": 10000,
+          "seed": 6840254343172384229
+        }
+      },
+      "verifier_ms": {
+        "baseline_median": 7.4324165,
+        "branch_median": 7.334728999999999,
+        "baseline_by_round": [
+          7.5308329999999994,
+          7.044458,
+          7.208708000000001,
+          7.3870000000000005,
+          7.009792,
+          8.048291,
+          6.921041,
+          7.510875,
+          7.4778329999999995,
+          9.058250000000001
+        ],
+        "branch_by_round": [
+          7.362667,
+          7.306791,
+          7.245291,
+          7.0145,
+          6.844,
+          7.005875,
+          7.755332999999999,
+          7.693709,
+          7.5105830000000005,
+          7.934
+        ],
+        "branch_over_baseline": {
+          "ratio": 0.9868565627343407,
+          "ci95_low": 0.9410989822373995,
+          "ci95_high": 1.0524328419384155,
+          "rounds": 10,
+          "resamples": 10000,
+          "seed": 6840254343172384229
+        }
+      }
+    },
+    {
+      "pattern": "random/operations",
+      "method": "twist",
+      "chunk_bits": 4,
+      "rounds": 10,
+      "baseline_implementation": "ram_argument BinaryTwist flat (schema-4 twist)",
+      "branch_implementation": "ram_argument::twist2 (address-first read check)",
+      "prover_ms": {
+        "baseline_median": 965.4711455,
+        "branch_median": 197.16285399999998,
+        "baseline_by_round": [
+          1215.3023329999999,
+          881.50175,
+          898.442333,
+          873.163834,
+          844.526833,
+          1032.499958,
+          835.589333,
+          1195.008542,
+          1712.862209,
+          1531.541208
+        ],
+        "branch_by_round": [
+          190.763208,
+          198.311041,
+          188.986334,
+          184.946708,
+          196.014667,
+          174.597917,
+          381.507459,
+          532.425375,
+          237.08220799999998,
+          326.25045800000004
+        ],
+        "branch_over_baseline": {
+          "ratio": 0.20421413412401146,
+          "ci95_low": 0.1600730280997494,
+          "ci95_high": 0.3192508217234149,
+          "rounds": 10,
+          "resamples": 10000,
+          "seed": 6840254343172384229
+        }
+      },
+      "verifier_ms": {
+        "baseline_median": 13.405042,
+        "branch_median": 6.9072085,
+        "baseline_by_round": [
+          14.748542,
+          11.311375,
+          12.061542,
+          11.483083,
+          10.778042,
+          15.08475,
+          11.050917,
+          15.943042,
+          22.682083,
+          22.4715
+        ],
+        "branch_by_round": [
+          7.172834,
+          6.913458,
+          6.900959,
+          6.566208,
+          6.422084,
+          6.536083,
+          9.619833,
+          7.05025,
+          6.6485,
+          6.972584
+        ],
+        "branch_over_baseline": {
+          "ratio": 0.515269441155052,
+          "ci95_low": 0.3643724528843896,
+          "ci95_high": 0.6125922362356675,
+          "rounds": 10,
+          "resamples": 10000,
+          "seed": 6840254343172384229
+        }
+      }
+    }
+  ],
+  "unpaired_trace_mismatch": []
+}

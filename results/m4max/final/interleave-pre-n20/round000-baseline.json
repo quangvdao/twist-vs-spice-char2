@@ -36,7 +36,7 @@
     "guest_queries": 16,
     "read_order": "address",
     "final_memory": "public",
-    "output": "results/m4max/final/interleave-pre-n20/round000-baseline.json",
+    "output": "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-pre-n20/round000-baseline.json",
     "csv": null
   },
   "environment": {
@@ -729,14 +729,14 @@
       },
       "load": {
         "start": {
-          "one": 27.873046875,
-          "five": 31.2470703125,
-          "fifteen": 24.25732421875
+          "one": 46.8828125,
+          "five": 39.529296875,
+          "fifteen": 27.9365234375
         },
         "end": {
-          "one": 27.322265625,
-          "five": 31.07666015625,
-          "fifteen": 24.23779296875
+          "one": 46.8828125,
+          "five": 39.529296875,
+          "fifteen": 27.9365234375
         }
       },
       "area": {
@@ -956,7 +956,7 @@
       "grand_product_extra_bound": null,
       "throughput": {
         "operations": 1048576,
-        "prover_ns_per_operation": 330.9902744293213,
+        "prover_ns_per_operation": 155.2172107696533,
         "source_memory_instructions": null,
         "prover_ns_per_source_memory_instruction": null
       },
@@ -964,47 +964,47 @@
         {
           "iteration": 0,
           "position": 0,
-          "prover_ms": 259.20324999999997,
-          "verifier_ms": 6.966082999999999,
-          "commit_ms": 48.825667,
-          "opening_ms": 77.06579099999999,
-          "iop_and_prep_ms": 133.31179199999997,
-          "preparation_ms": 11.612751,
-          "argument_ms": 121.25995799999998,
+          "prover_ms": 164.641709,
+          "verifier_ms": 5.781666,
+          "commit_ms": 31.197125,
+          "opening_ms": 42.903791999999996,
+          "iop_and_prep_ms": 90.540792,
+          "preparation_ms": 7.964042,
+          "argument_ms": 82.20412499999999,
           "ordering_ms": -0.0,
           "mask_ms": -0.0,
-          "mosaic_ms": 18.349792,
-          "unattributed_ms": 0.43908299999998235,
+          "mosaic_ms": 13.971041999999999,
+          "unattributed_ms": 0.3726249999999993,
           "stages_ms": {
-            "mosaic.batch": 13.428875999999999,
-            "mosaic.bind_g": 4.194708,
-            "mosaic.dense": 0.726208,
-            "pcs.commit": 48.825667,
-            "pcs.ligerito_open": 62.591207999999995,
-            "pcs.open": 0.000792,
-            "pcs.ringswitch": 14.473791,
-            "ram.claims": 3.4580840000000004,
-            "ram.pack": 3.172125,
-            "ram.statement": 0.49408399999999997,
-            "ram.witness": 4.488458,
-            "twist.cycle": 0.003334,
-            "twist.cycle.rounds": 37.047833000000004,
-            "twist.cycle.tables": 0.004333,
-            "twist.memory": 0.5753750000000001,
-            "twist.read": 65.279291
+            "mosaic.batch": 10.518916999999998,
+            "mosaic.bind_g": 3.010958,
+            "mosaic.dense": 0.44116700000000003,
+            "pcs.commit": 31.197125,
+            "pcs.ligerito_open": 33.764416999999995,
+            "pcs.open": 0.000417,
+            "pcs.ringswitch": 9.138958,
+            "ram.claims": 1.7260000000000002,
+            "ram.pack": 2.321542,
+            "ram.statement": 0.42675,
+            "ram.witness": 3.48975,
+            "twist.cycle": 0.0022500000000000003,
+            "twist.cycle.rounds": 27.578583000000002,
+            "twist.cycle.tables": 0.003,
+            "twist.memory": 0.3905,
+            "twist.read": 40.258750000000006
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 246.99683324999995,
-            "commit_ms": 36.61925025,
-            "removed_padding_ms": 12.206416750000002
+            "prover_ms": 156.84242774999998,
+            "commit_ms": 23.39784375,
+            "removed_padding_ms": 7.79928125
           },
           "verifier_stages_ms": {
-            "verify.cycle": 0.014459,
-            "verify.memory": 0.295209,
-            "verify.mosaic": 0.012667,
-            "verify.pcs": 6.107542,
-            "verify.read": 0.026834,
-            "verify.statement": 0.496167
+            "verify.cycle": 0.012208,
+            "verify.memory": 0.224417,
+            "verify.mosaic": 0.011667,
+            "verify.pcs": 5.053916,
+            "verify.read": 0.023542,
+            "verify.statement": 0.44425
           },
           "proof_size": {
             "pcs_bytes": 370916,
@@ -1015,61 +1015,61 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             }
           }
         },
         {
           "iteration": 1,
           "position": 1,
-          "prover_ms": 347.068458,
-          "verifier_ms": 17.146749999999997,
-          "commit_ms": 39.882875,
-          "opening_ms": 177.236542,
-          "iop_and_prep_ms": 129.94904100000002,
-          "preparation_ms": 9.493833,
-          "argument_ms": 120.02791700000006,
+          "prover_ms": 162.451292,
+          "verifier_ms": 5.592208,
+          "commit_ms": 30.498542,
+          "opening_ms": 43.2265,
+          "iop_and_prep_ms": 88.72624999999998,
+          "preparation_ms": 7.886792,
+          "argument_ms": 80.468165,
           "ordering_ms": -0.0,
           "mask_ms": -0.0,
-          "mosaic_ms": 32.001625000000004,
-          "unattributed_ms": 0.42729099999996834,
+          "mosaic_ms": 13.826832999999999,
+          "unattributed_ms": 0.37129300000000853,
           "stages_ms": {
-            "mosaic.batch": 12.436083,
-            "mosaic.bind_g": 16.470334,
-            "mosaic.dense": 3.095208,
-            "pcs.commit": 39.882875,
-            "pcs.ligerito_open": 148.565125,
-            "pcs.open": 0.000792,
-            "pcs.ringswitch": 28.670625,
-            "ram.claims": 2.0270420000000002,
-            "ram.pack": 2.774917,
-            "ram.statement": 0.4938330000000001,
-            "ram.witness": 4.198041,
-            "twist.cycle": 0.002542,
-            "twist.cycle.rounds": 33.893167000000005,
-            "twist.cycle.tables": 0.003458,
-            "twist.memory": 0.502875,
-            "twist.read": 53.624249999999996
+            "mosaic.batch": 10.416834,
+            "mosaic.bind_g": 2.995958,
+            "mosaic.dense": 0.414041,
+            "pcs.commit": 30.498542,
+            "pcs.ligerito_open": 33.995375,
+            "pcs.open": 0.000542,
+            "pcs.ringswitch": 9.230583000000001,
+            "ram.claims": 1.681958,
+            "ram.pack": 2.2405,
+            "ram.statement": 0.442084,
+            "ram.witness": 3.52225,
+            "twist.cycle": 0.002333,
+            "twist.cycle.rounds": 27.899375,
+            "twist.cycle.tables": 0.003583,
+            "twist.memory": 0.402166,
+            "twist.read": 38.333875000000006
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 337.09773925,
-            "commit_ms": 29.91215625,
-            "removed_padding_ms": 9.97071875
+            "prover_ms": 154.82665649999998,
+            "commit_ms": 22.8739065,
+            "removed_padding_ms": 7.6246355
           },
           "verifier_stages_ms": {
-            "verify.cycle": 0.017417,
-            "verify.memory": 10.210792,
-            "verify.mosaic": 0.013333,
-            "verify.pcs": 6.345833000000001,
-            "verify.read": 0.027959,
-            "verify.statement": 0.5165000000000001
+            "verify.cycle": 0.011333,
+            "verify.memory": 0.157625,
+            "verify.mosaic": 0.010625,
+            "verify.pcs": 4.952583,
+            "verify.read": 0.023208,
+            "verify.statement": 0.426375
           },
           "proof_size": {
             "pcs_bytes": 370916,
@@ -1080,61 +1080,61 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             }
           }
         },
         {
           "iteration": 2,
           "position": 0,
-          "prover_ms": 549.198375,
-          "verifier_ms": 9.563749999999999,
-          "commit_ms": 162.11166599999999,
-          "opening_ms": 142.838334,
-          "iop_and_prep_ms": 244.24837500000004,
-          "preparation_ms": 15.218792,
-          "argument_ms": 228.57445799999996,
+          "prover_ms": 162.75704199999998,
+          "verifier_ms": 5.636666,
+          "commit_ms": 30.639959,
+          "opening_ms": 43.227958,
+          "iop_and_prep_ms": 88.88912499999998,
+          "preparation_ms": 7.782624,
+          "argument_ms": 80.72621000000001,
           "ordering_ms": -0.0,
           "mask_ms": -0.0,
-          "mosaic_ms": 36.854167,
-          "unattributed_ms": 0.4551250000000664,
+          "mosaic_ms": 13.746709000000001,
+          "unattributed_ms": 0.3802909999999713,
           "stages_ms": {
-            "mosaic.batch": 29.816001,
-            "mosaic.bind_g": 5.858458000000001,
-            "mosaic.dense": 1.179708,
-            "pcs.commit": 162.11166599999999,
-            "pcs.ligerito_open": 90.906875,
-            "pcs.open": 0.000875,
-            "pcs.ringswitch": 51.930584,
-            "ram.claims": 7.491958,
-            "ram.pack": 2.8852919999999997,
-            "ram.statement": 0.518542,
-            "ram.witness": 4.3229999999999995,
-            "twist.cycle": 0.003583,
-            "twist.cycle.rounds": 58.807875,
-            "twist.cycle.tables": 0.004417,
-            "twist.memory": 0.610166,
-            "twist.read": 132.29425
+            "mosaic.batch": 10.429917,
+            "mosaic.bind_g": 2.8933750000000003,
+            "mosaic.dense": 0.423417,
+            "pcs.commit": 30.639959,
+            "pcs.ligerito_open": 33.843292,
+            "pcs.open": 0.0007080000000000001,
+            "pcs.ringswitch": 9.383958,
+            "ram.claims": 1.630458,
+            "ram.pack": 2.2045,
+            "ram.statement": 0.426875,
+            "ram.witness": 3.520791,
+            "twist.cycle": 0.00275,
+            "twist.cycle.rounds": 27.460709,
+            "twist.cycle.tables": 0.003375,
+            "twist.memory": 0.40275,
+            "twist.read": 39.109917
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 508.67045850000005,
-            "commit_ms": 121.58374949999998,
-            "removed_padding_ms": 40.5279165
+            "prover_ms": 155.09705225,
+            "commit_ms": 22.97996925,
+            "removed_padding_ms": 7.659989750000001
           },
           "verifier_stages_ms": {
-            "verify.cycle": 0.018958,
-            "verify.memory": 2.157625,
-            "verify.mosaic": 0.015875,
-            "verify.pcs": 6.775667,
-            "verify.read": 0.029708000000000002,
-            "verify.statement": 0.54975
+            "verify.cycle": 0.014124999999999999,
+            "verify.memory": 0.179541,
+            "verify.mosaic": 0.011542,
+            "verify.pcs": 4.9572080000000005,
+            "verify.read": 0.023208,
+            "verify.statement": 0.43833300000000003
           },
           "proof_size": {
             "pcs_bytes": 370916,
@@ -1145,61 +1145,61 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             }
           }
         }
       ],
       "median": {
-        "argument_ms": 121.25995799999998,
-        "commit_ms": 48.825667,
-        "exclusive_total_ms": 346.64116700000005,
-        "iop_and_prep_ms": 133.31179199999997,
+        "argument_ms": 80.72621000000001,
+        "commit_ms": 30.639959,
+        "exclusive_total_ms": 162.376751,
+        "iop_and_prep_ms": 88.88912499999998,
         "mask_ms": -0.0,
-        "mosaic_ms": 32.001625000000004,
-        "opening_ms": 142.838334,
+        "mosaic_ms": 13.826832999999999,
+        "opening_ms": 43.2265,
         "ordering_ms": -0.0,
-        "preparation_ms": 11.612751,
-        "prover_ms": 347.068458,
-        "unattributed_ms": 0.43908299999998235,
-        "verifier_ms": 9.563749999999999,
+        "preparation_ms": 7.886792,
+        "prover_ms": 162.75704199999998,
+        "unattributed_ms": 0.3726249999999993,
+        "verifier_ms": 5.636666,
         "stages_ms": {
-          "mosaic.batch": 13.428875999999999,
-          "mosaic.bind_g": 5.858458000000001,
-          "mosaic.dense": 1.179708,
-          "pcs.commit": 48.825667,
-          "pcs.ligerito_open": 90.906875,
-          "pcs.open": 0.000792,
-          "pcs.ringswitch": 28.670625,
-          "ram.claims": 3.4580840000000004,
-          "ram.pack": 2.8852919999999997,
-          "ram.statement": 0.49408399999999997,
-          "ram.witness": 4.3229999999999995,
-          "twist.cycle": 0.003334,
-          "twist.cycle.rounds": 37.047833000000004,
-          "twist.cycle.tables": 0.004333,
-          "twist.memory": 0.5753750000000001,
-          "twist.read": 65.279291
+          "mosaic.batch": 10.429917,
+          "mosaic.bind_g": 2.995958,
+          "mosaic.dense": 0.423417,
+          "pcs.commit": 30.639959,
+          "pcs.ligerito_open": 33.843292,
+          "pcs.open": 0.000542,
+          "pcs.ringswitch": 9.230583000000001,
+          "ram.claims": 1.681958,
+          "ram.pack": 2.2405,
+          "ram.statement": 0.426875,
+          "ram.witness": 3.520791,
+          "twist.cycle": 0.002333,
+          "twist.cycle.rounds": 27.578583000000002,
+          "twist.cycle.tables": 0.003375,
+          "twist.memory": 0.402166,
+          "twist.read": 39.109917
         },
         "verifier_stages_ms": {
-          "verify.cycle": 0.017417,
-          "verify.memory": 2.157625,
-          "verify.mosaic": 0.013333,
-          "verify.pcs": 6.345833000000001,
-          "verify.read": 0.027959,
-          "verify.statement": 0.5165000000000001
+          "verify.cycle": 0.012208,
+          "verify.memory": 0.179541,
+          "verify.mosaic": 0.011542,
+          "verify.pcs": 4.9572080000000005,
+          "verify.read": 0.023208,
+          "verify.statement": 0.43833300000000003
         },
         "padding_adjusted_estimate": {
-          "prover_ms": 337.09773925,
-          "commit_ms": 36.61925025,
-          "removed_padding_ms": 12.206416750000002
+          "prover_ms": 155.09705225,
+          "commit_ms": 22.97996925,
+          "removed_padding_ms": 7.659989750000001
         }
       }
     },
@@ -1267,14 +1267,14 @@
       },
       "load": {
         "start": {
-          "one": 27.873046875,
-          "five": 31.2470703125,
-          "fifteen": 24.25732421875
+          "one": 46.8828125,
+          "five": 39.529296875,
+          "fifteen": 27.9365234375
         },
         "end": {
-          "one": 27.322265625,
-          "five": 31.07666015625,
-          "fifteen": 24.23779296875
+          "one": 46.8828125,
+          "five": 39.529296875,
+          "fifteen": 27.9365234375
         }
       },
       "area": {
@@ -1559,7 +1559,7 @@
       },
       "throughput": {
         "operations": 1048576,
-        "prover_ns_per_operation": 107.56258201599121,
+        "prover_ns_per_operation": 80.95625972747804,
         "source_memory_instructions": null,
         "prover_ns_per_source_memory_instruction": null
       },
@@ -1567,52 +1567,52 @@
         {
           "iteration": 0,
           "position": 1,
-          "prover_ms": 112.787542,
-          "verifier_ms": 6.736708,
-          "commit_ms": 21.436584,
-          "opening_ms": 34.118207999999996,
-          "iop_and_prep_ms": 57.23275000000001,
-          "preparation_ms": 13.643958000000001,
-          "argument_ms": 43.00329199999997,
-          "ordering_ms": 4.508875,
-          "mask_ms": 8.275208000000001,
-          "mosaic_ms": 20.0185,
-          "unattributed_ms": 0.5855000000000388,
+          "prover_ms": 85.164334,
+          "verifier_ms": 5.65275,
+          "commit_ms": 15.835999999999999,
+          "opening_ms": 26.318875000000002,
+          "iop_and_prep_ms": 43.00945899999999,
+          "preparation_ms": 9.411626,
+          "argument_ms": 33.12183299999998,
+          "ordering_ms": 3.636167,
+          "mask_ms": 7.128625,
+          "mosaic_ms": 15.61175,
+          "unattributed_ms": 0.4760000000000133,
           "stages_ms": {
-            "mosaic.batch": 17.580833000000002,
-            "mosaic.bind_g": 1.787459,
-            "mosaic.dense": 0.650208,
-            "pcs.commit": 21.436584,
-            "pcs.ligerito_open": 24.291916999999998,
-            "pcs.open": 0.001166,
-            "pcs.ringswitch": 9.825125,
-            "spice.claims": 2.877208,
-            "spice.mask": 0.002542,
-            "spice.masked.claims": 1.025333,
-            "spice.masked.sumcheck": 7.247333,
-            "spice.order": 0.003042,
-            "spice.order.pack": 0.5435,
-            "spice.order.zerocheck": 3.962333,
-            "spice.pack": 3.755541,
-            "spice.permutation.gkr": 7.924917,
-            "spice.permutation.leaves": 2.275792,
-            "spice.statement": 0.49058399999999996,
-            "spice.witness": 6.520625000000001
+            "mosaic.batch": 14.023084,
+            "mosaic.bind_g": 1.275375,
+            "mosaic.dense": 0.313291,
+            "pcs.commit": 15.835999999999999,
+            "pcs.ligerito_open": 18.042041,
+            "pcs.open": 0.000792,
+            "pcs.ringswitch": 8.276042,
+            "spice.claims": 1.8295839999999999,
+            "spice.mask": 0.0025009999999999998,
+            "spice.masked.claims": 0.899208,
+            "spice.masked.sumcheck": 6.226916,
+            "spice.order": 0.002042,
+            "spice.order.pack": 0.37875000000000003,
+            "spice.order.zerocheck": 3.255375,
+            "spice.pack": 1.694833,
+            "spice.permutation.gkr": 4.687958,
+            "spice.permutation.leaves": 2.0573330000000003,
+            "spice.statement": 0.44337499999999996,
+            "spice.witness": 5.443834
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 112.1804512421875,
-            "commit_ms": 20.8294932421875,
-            "removed_padding_ms": 0.6070907578125002
+            "prover_ms": 84.71585353124999,
+            "commit_ms": 15.387519531249998,
+            "removed_padding_ms": 0.4484804687500006
           },
           "verifier_stages_ms": {
-            "verify.claims": 0.205,
-            "verify.gkr": 0.041916999999999996,
-            "verify.mask": 0.12045800000000001,
-            "verify.mosaic": 0.015625,
-            "verify.order": 0.15937500000000002,
-            "verify.pcs": 5.687916,
-            "verify.setup": 0.009999000000000001,
-            "verify.statement": 0.493584
+            "verify.claims": 0.137916,
+            "verify.gkr": 0.035833000000000004,
+            "verify.mask": 0.080958,
+            "verify.mosaic": 0.012875,
+            "verify.order": 0.13691699999999998,
+            "verify.pcs": 4.82075,
+            "verify.setup": 0.007458,
+            "verify.statement": 0.417792
           },
           "proof_size": {
             "pcs_bytes": 318116,
@@ -1623,66 +1623,66 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             }
           }
         },
         {
           "iteration": 1,
           "position": 0,
-          "prover_ms": 107.009125,
-          "verifier_ms": 6.5639579999999995,
-          "commit_ms": 20.863583000000002,
-          "opening_ms": 32.481791,
-          "iop_and_prep_ms": 53.66375099999999,
-          "preparation_ms": 11.901126000000001,
-          "argument_ms": 41.230123999999975,
-          "ordering_ms": 4.7849580000000005,
-          "mask_ms": 8.857083000000001,
-          "mosaic_ms": 19.385541999999997,
-          "unattributed_ms": 0.5325010000000105,
+          "prover_ms": 84.88879100000001,
+          "verifier_ms": 5.720375,
+          "commit_ms": 16.236167,
+          "opening_ms": 26.315583,
+          "iop_and_prep_ms": 42.33704100000001,
+          "preparation_ms": 9.520667,
+          "argument_ms": 32.36170800000002,
+          "ordering_ms": 3.403125,
+          "mask_ms": 6.608583,
+          "mosaic_ms": 16.090125,
+          "unattributed_ms": 0.4546659999999889,
           "stages_ms": {
-            "mosaic.batch": 17.217375999999998,
-            "mosaic.bind_g": 1.5192910000000002,
-            "mosaic.dense": 0.6488750000000001,
-            "pcs.commit": 20.863583000000002,
-            "pcs.ligerito_open": 22.510792000000002,
-            "pcs.open": 0.001957,
-            "pcs.ringswitch": 9.969042,
-            "spice.claims": 2.89525,
-            "spice.mask": 0.00325,
-            "spice.masked.claims": 1.146625,
-            "spice.masked.sumcheck": 7.7072080000000005,
-            "spice.order": 0.003166,
-            "spice.order.pack": 0.493125,
-            "spice.order.zerocheck": 4.288667,
-            "spice.pack": 2.252459,
-            "spice.permutation.gkr": 6.0484160000000005,
-            "spice.permutation.leaves": 2.1541249999999996,
-            "spice.statement": 0.495167,
-            "spice.witness": 6.25825
+            "mosaic.batch": 14.487167000000001,
+            "mosaic.bind_g": 1.2855830000000001,
+            "mosaic.dense": 0.317375,
+            "pcs.commit": 16.236167,
+            "pcs.ligerito_open": 18.265625,
+            "pcs.open": 0.001458,
+            "pcs.ringswitch": 8.0485,
+            "spice.claims": 1.844666,
+            "spice.mask": 0.002417,
+            "spice.masked.claims": 0.8458330000000001,
+            "spice.masked.sumcheck": 5.760333,
+            "spice.order": 0.001708,
+            "spice.order.pack": 0.367,
+            "spice.order.zerocheck": 3.0344170000000004,
+            "spice.pack": 1.699042,
+            "spice.permutation.gkr": 4.392542,
+            "spice.permutation.leaves": 1.8673330000000001,
+            "spice.statement": 0.438292,
+            "spice.witness": 5.538666999999999
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 106.41826180957031,
-            "commit_ms": 20.272719809570315,
-            "removed_padding_ms": 0.5908631904296868
+            "prover_ms": 84.42897767675782,
+            "commit_ms": 15.776353676757811,
+            "removed_padding_ms": 0.45981332324218727
           },
           "verifier_stages_ms": {
-            "verify.claims": 0.204041,
-            "verify.gkr": 0.040874999999999995,
-            "verify.mask": 0.09945799999999999,
-            "verify.mosaic": 0.015166,
-            "verify.order": 0.15920800000000002,
-            "verify.pcs": 5.5409999999999995,
-            "verify.setup": 0.009583,
-            "verify.statement": 0.491667
+            "verify.claims": 0.14858300000000002,
+            "verify.gkr": 0.039958,
+            "verify.mask": 0.087167,
+            "verify.mosaic": 0.01375,
+            "verify.order": 0.143125,
+            "verify.pcs": 4.82975,
+            "verify.setup": 0.0125,
+            "verify.statement": 0.44275
           },
           "proof_size": {
             "pcs_bytes": 318116,
@@ -1693,66 +1693,66 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             }
           }
         },
         {
           "iteration": 2,
           "position": 1,
-          "prover_ms": 212.134625,
-          "verifier_ms": 8.101374999999999,
-          "commit_ms": 48.747167,
-          "opening_ms": 61.324292,
-          "iop_and_prep_ms": 102.06316600000001,
-          "preparation_ms": 20.027167000000002,
-          "argument_ms": 81.33850000000001,
-          "ordering_ms": 8.405166999999999,
-          "mask_ms": 22.597416,
-          "mosaic_ms": 32.325125,
-          "unattributed_ms": 0.6974989999999934,
+          "prover_ms": 84.652583,
+          "verifier_ms": 5.772125,
+          "commit_ms": 15.288,
+          "opening_ms": 26.479958,
+          "iop_and_prep_ms": 42.884625000000014,
+          "preparation_ms": 9.344708,
+          "argument_ms": 33.078665999999984,
+          "ordering_ms": 3.491708,
+          "mask_ms": 6.8461669999999994,
+          "mosaic_ms": 16.118333,
+          "unattributed_ms": 0.4612510000000327,
           "stages_ms": {
-            "mosaic.batch": 26.652542,
-            "mosaic.bind_g": 2.5642080000000003,
-            "mosaic.dense": 3.108375,
-            "pcs.commit": 48.747167,
-            "pcs.ligerito_open": 42.556749999999994,
-            "pcs.open": 0.001625,
-            "pcs.ringswitch": 18.765917,
-            "spice.claims": 4.320250000000001,
-            "spice.mask": 0.0029579999999999997,
-            "spice.masked.claims": 2.570708,
-            "spice.masked.sumcheck": 20.02375,
-            "spice.order": 0.003958,
-            "spice.order.pack": 0.752625,
-            "spice.order.zerocheck": 7.648584,
-            "spice.pack": 8.093833,
-            "spice.permutation.gkr": 13.587,
-            "spice.permutation.leaves": 4.423792000000001,
-            "spice.statement": 0.550834,
-            "spice.witness": 7.06225
+            "mosaic.batch": 14.398542,
+            "mosaic.bind_g": 1.388666,
+            "mosaic.dense": 0.331125,
+            "pcs.commit": 15.288,
+            "pcs.ligerito_open": 18.154208,
+            "pcs.open": 0.003708,
+            "pcs.ringswitch": 8.322042,
+            "spice.claims": 1.907583,
+            "spice.mask": 0.002209,
+            "spice.masked.claims": 0.8496670000000001,
+            "spice.masked.sumcheck": 5.994291,
+            "spice.order": 0.002,
+            "spice.order.pack": 0.406167,
+            "spice.order.zerocheck": 3.083541,
+            "spice.pack": 1.494709,
+            "spice.permutation.gkr": 4.683875,
+            "spice.permutation.leaves": 1.938583,
+            "spice.statement": 0.449041,
+            "spice.witness": 5.493375
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 210.7540899970703,
-            "commit_ms": 47.36663199707031,
-            "removed_padding_ms": 1.3805350029296903
+            "prover_ms": 84.21962206250001,
+            "commit_ms": 14.8550390625,
+            "removed_padding_ms": 0.43296093750000075
           },
           "verifier_stages_ms": {
-            "verify.claims": 0.260917,
-            "verify.gkr": 0.052125,
-            "verify.mask": 0.447,
-            "verify.mosaic": 0.016917,
-            "verify.order": 0.179417,
-            "verify.pcs": 6.5745830000000005,
-            "verify.setup": 0.012083,
-            "verify.statement": 0.55375
+            "verify.claims": 0.149584,
+            "verify.gkr": 0.036125,
+            "verify.mask": 0.084375,
+            "verify.mosaic": 0.013458999999999999,
+            "verify.order": 0.140459,
+            "verify.pcs": 4.883458,
+            "verify.setup": 0.008833,
+            "verify.statement": 0.453125
           },
           "proof_size": {
             "pcs_bytes": 318116,
@@ -1763,66 +1763,66 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             }
           }
         }
       ],
       "median": {
-        "argument_ms": 43.00329199999997,
-        "commit_ms": 21.436584,
-        "exclusive_total_ms": 112.20204199999996,
-        "iop_and_prep_ms": 57.23275000000001,
-        "mask_ms": 8.857083000000001,
-        "mosaic_ms": 20.0185,
-        "opening_ms": 34.118207999999996,
-        "ordering_ms": 4.7849580000000005,
-        "preparation_ms": 13.643958000000001,
-        "prover_ms": 112.787542,
-        "unattributed_ms": 0.5855000000000388,
-        "verifier_ms": 6.736708,
+        "argument_ms": 33.078665999999984,
+        "commit_ms": 15.835999999999999,
+        "exclusive_total_ms": 84.43412500000002,
+        "iop_and_prep_ms": 42.884625000000014,
+        "mask_ms": 6.8461669999999994,
+        "mosaic_ms": 16.090125,
+        "opening_ms": 26.318875000000002,
+        "ordering_ms": 3.491708,
+        "preparation_ms": 9.411626,
+        "prover_ms": 84.88879100000001,
+        "unattributed_ms": 0.4612510000000327,
+        "verifier_ms": 5.720375,
         "stages_ms": {
-          "mosaic.batch": 17.580833000000002,
-          "mosaic.bind_g": 1.787459,
-          "mosaic.dense": 0.650208,
-          "pcs.commit": 21.436584,
-          "pcs.ligerito_open": 24.291916999999998,
-          "pcs.open": 0.001625,
-          "pcs.ringswitch": 9.969042,
-          "spice.claims": 2.89525,
-          "spice.mask": 0.0029579999999999997,
-          "spice.masked.claims": 1.146625,
-          "spice.masked.sumcheck": 7.7072080000000005,
-          "spice.order": 0.003166,
-          "spice.order.pack": 0.5435,
-          "spice.order.zerocheck": 4.288667,
-          "spice.pack": 3.755541,
-          "spice.permutation.gkr": 7.924917,
-          "spice.permutation.leaves": 2.275792,
-          "spice.statement": 0.495167,
-          "spice.witness": 6.520625000000001
+          "mosaic.batch": 14.398542,
+          "mosaic.bind_g": 1.2855830000000001,
+          "mosaic.dense": 0.317375,
+          "pcs.commit": 15.835999999999999,
+          "pcs.ligerito_open": 18.154208,
+          "pcs.open": 0.001458,
+          "pcs.ringswitch": 8.276042,
+          "spice.claims": 1.844666,
+          "spice.mask": 0.002417,
+          "spice.masked.claims": 0.8496670000000001,
+          "spice.masked.sumcheck": 5.994291,
+          "spice.order": 0.002,
+          "spice.order.pack": 0.37875000000000003,
+          "spice.order.zerocheck": 3.083541,
+          "spice.pack": 1.694833,
+          "spice.permutation.gkr": 4.683875,
+          "spice.permutation.leaves": 1.938583,
+          "spice.statement": 0.44337499999999996,
+          "spice.witness": 5.493375
         },
         "verifier_stages_ms": {
-          "verify.claims": 0.205,
-          "verify.gkr": 0.041916999999999996,
-          "verify.mask": 0.12045800000000001,
-          "verify.mosaic": 0.015625,
-          "verify.order": 0.15937500000000002,
-          "verify.pcs": 5.687916,
-          "verify.setup": 0.009999000000000001,
-          "verify.statement": 0.493584
+          "verify.claims": 0.14858300000000002,
+          "verify.gkr": 0.036125,
+          "verify.mask": 0.084375,
+          "verify.mosaic": 0.013458999999999999,
+          "verify.order": 0.140459,
+          "verify.pcs": 4.82975,
+          "verify.setup": 0.008833,
+          "verify.statement": 0.44275
         },
         "padding_adjusted_estimate": {
-          "prover_ms": 112.1804512421875,
-          "commit_ms": 20.8294932421875,
-          "removed_padding_ms": 0.6070907578125002
+          "prover_ms": 84.42897767675782,
+          "commit_ms": 15.387519531249998,
+          "removed_padding_ms": 0.4484804687500006
         }
       }
     },
@@ -3847,14 +3847,14 @@
       },
       "load": {
         "start": {
-          "one": 27.322265625,
-          "five": 31.07666015625,
-          "fifteen": 24.23779296875
+          "one": 46.8828125,
+          "five": 39.529296875,
+          "fifteen": 27.9365234375
         },
         "end": {
-          "one": 27.322265625,
-          "five": 31.07666015625,
-          "fifteen": 24.23779296875
+          "one": 46.8828125,
+          "five": 39.529296875,
+          "fifteen": 27.9365234375
         }
       },
       "area": {
@@ -4074,55 +4074,55 @@
       "grand_product_extra_bound": null,
       "throughput": {
         "operations": 1048576,
-        "prover_ns_per_operation": 167.09140968322754,
+        "prover_ns_per_operation": 111.5870475769043,
         "source_memory_instructions": 984096,
-        "prover_ns_per_source_memory_instruction": 178.03958353656554
+        "prover_ns_per_source_memory_instruction": 118.89846112574384
       },
       "samples": [
         {
           "iteration": 0,
           "position": 0,
-          "prover_ms": 175.208042,
-          "verifier_ms": 7.169417,
-          "commit_ms": 46.031292,
-          "opening_ms": 55.297833000000004,
-          "iop_and_prep_ms": 73.878917,
-          "preparation_ms": 7.614834,
-          "argument_ms": 65.81050000000005,
+          "prover_ms": 118.826667,
+          "verifier_ms": 5.422083000000001,
+          "commit_ms": 31.053459,
+          "opening_ms": 38.582041000000004,
+          "iop_and_prep_ms": 49.19116699999999,
+          "preparation_ms": 5.641874,
+          "argument_ms": 43.176581999999996,
           "ordering_ms": -0.0,
           "mask_ms": -0.0,
-          "mosaic_ms": 11.71625,
-          "unattributed_ms": 0.4535829999999521,
+          "mosaic_ms": 9.207165999999999,
+          "unattributed_ms": 0.37271099999999535,
           "stages_ms": {
-            "mosaic.batch": 4.857958,
-            "mosaic.bind_g": 5.980542,
-            "mosaic.dense": 0.8777499999999999,
-            "pcs.commit": 46.031292,
-            "pcs.ligerito_open": 48.071708,
-            "pcs.open": 0.000917,
-            "pcs.ringswitch": 7.225208,
-            "ram.claims": 2.8406249999999997,
-            "ram.pack": 3.230375,
-            "ram.statement": 0.516667,
-            "ram.witness": 1.0271670000000002,
-            "twist.cycle": 0.003,
-            "twist.cycle.rounds": 33.111458000000006,
-            "twist.cycle.tables": 0.003834,
-            "twist.memory": 0.542041,
-            "twist.read": 20.433917
+            "mosaic.batch": 3.262333,
+            "mosaic.bind_g": 5.335,
+            "mosaic.dense": 0.609833,
+            "pcs.commit": 31.053459,
+            "pcs.ligerito_open": 33.578291,
+            "pcs.open": 0.000417,
+            "pcs.ringswitch": 5.0033330000000005,
+            "ram.claims": 2.1168329999999997,
+            "ram.pack": 2.315375,
+            "ram.statement": 0.426,
+            "ram.witness": 0.783666,
+            "twist.cycle": 0.002334,
+            "twist.cycle.rounds": 21.002708,
+            "twist.cycle.tables": 0.005582999999999999,
+            "twist.memory": 0.39116599999999996,
+            "twist.read": 12.567625000000001
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 163.700219,
-            "commit_ms": 34.523469,
-            "removed_padding_ms": 11.507823000000002
+            "prover_ms": 111.06330224999999,
+            "commit_ms": 23.29009425,
+            "removed_padding_ms": 7.763364750000001
           },
           "verifier_stages_ms": {
-            "verify.cycle": 0.013875,
-            "verify.memory": 0.236875,
-            "verify.mosaic": 0.013084,
-            "verify.pcs": 6.344334,
-            "verify.read": 0.028291,
-            "verify.statement": 0.519459
+            "verify.cycle": 0.011708999999999999,
+            "verify.memory": 0.154708,
+            "verify.mosaic": 0.010667,
+            "verify.pcs": 4.791875,
+            "verify.read": 0.022958,
+            "verify.statement": 0.4205
           },
           "proof_size": {
             "pcs_bytes": 372804,
@@ -4133,61 +4133,61 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             }
           }
         },
         {
           "iteration": 1,
           "position": 1,
-          "prover_ms": 160.729458,
-          "verifier_ms": 6.579292,
-          "commit_ms": 44.6425,
-          "opening_ms": 52.713625,
-          "iop_and_prep_ms": 63.373332999999995,
-          "preparation_ms": 7.075918000000001,
-          "argument_ms": 55.84191599999999,
+          "prover_ms": 117.00750000000001,
+          "verifier_ms": 5.632416,
+          "commit_ms": 30.686625,
+          "opening_ms": 38.891084,
+          "iop_and_prep_ms": 47.429791,
+          "preparation_ms": 5.203749999999999,
+          "argument_ms": 41.84600100000002,
           "ordering_ms": -0.0,
           "mask_ms": -0.0,
-          "mosaic_ms": 10.907665999999999,
-          "unattributed_ms": 0.4554990000000032,
+          "mosaic_ms": 8.93275,
+          "unattributed_ms": 0.3800399999999797,
           "stages_ms": {
-            "mosaic.batch": 4.116581999999999,
-            "mosaic.bind_g": 5.872667,
-            "mosaic.dense": 0.918417,
-            "pcs.commit": 44.6425,
-            "pcs.ligerito_open": 45.480375,
-            "pcs.open": 0.000875,
-            "pcs.ringswitch": 7.232375,
-            "ram.claims": 2.5052920000000003,
-            "ram.pack": 2.9746249999999996,
-            "ram.statement": 0.518167,
-            "ram.witness": 1.077834,
-            "twist.cycle": 0.002542,
-            "twist.cycle.rounds": 28.3765,
-            "twist.cycle.tables": 0.003791,
-            "twist.memory": 0.49941700000000006,
-            "twist.read": 16.052
+            "mosaic.batch": 3.282292,
+            "mosaic.bind_g": 5.193416,
+            "mosaic.dense": 0.457042,
+            "pcs.commit": 30.686625,
+            "pcs.ligerito_open": 33.606541,
+            "pcs.open": 0.000377,
+            "pcs.ringswitch": 5.284166,
+            "ram.claims": 1.685958,
+            "ram.pack": 2.24975,
+            "ram.statement": 0.429708,
+            "ram.witness": 0.838334,
+            "twist.cycle": 0.0025830000000000002,
+            "twist.cycle.rounds": 20.639667,
+            "twist.cycle.tables": 0.003459,
+            "twist.memory": 0.40945800000000004,
+            "twist.read": 11.858084
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 149.56883299999998,
-            "commit_ms": 33.481875,
-            "removed_padding_ms": 11.160624999999996
+            "prover_ms": 109.33584375000001,
+            "commit_ms": 23.01496875,
+            "removed_padding_ms": 7.671656249999998
           },
           "verifier_stages_ms": {
-            "verify.cycle": 0.014792,
-            "verify.memory": 0.263416,
-            "verify.mosaic": 0.0125,
-            "verify.pcs": 5.759125,
-            "verify.read": 0.026542,
-            "verify.statement": 0.491333
+            "verify.cycle": 0.011625,
+            "verify.memory": 0.16591699999999998,
+            "verify.mosaic": 0.010750000000000001,
+            "verify.pcs": 4.9785,
+            "verify.read": 0.023416,
+            "verify.statement": 0.431292
           },
           "proof_size": {
             "pcs_bytes": 372804,
@@ -4198,61 +4198,61 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             }
           }
         },
         {
           "iteration": 2,
           "position": 0,
-          "prover_ms": 404.718791,
-          "verifier_ms": 7.6527080000000005,
-          "commit_ms": 98.43725,
-          "opening_ms": 147.561042,
-          "iop_and_prep_ms": 158.72049900000002,
-          "preparation_ms": 18.283123,
-          "argument_ms": 140.00929200000002,
+          "prover_ms": 116.843584,
+          "verifier_ms": 5.409,
+          "commit_ms": 30.726291999999997,
+          "opening_ms": 38.669459,
+          "iop_and_prep_ms": 47.447833,
+          "preparation_ms": 5.221375,
+          "argument_ms": 41.84912599999999,
           "ordering_ms": -0.0,
           "mask_ms": -0.0,
-          "mosaic_ms": 38.145958,
-          "unattributed_ms": 0.42808400000001257,
+          "mosaic_ms": 9.175292,
+          "unattributed_ms": 0.37733200000000977,
           "stages_ms": {
-            "mosaic.batch": 8.373000000000001,
-            "mosaic.bind_g": 28.545250000000003,
-            "mosaic.dense": 1.227708,
-            "pcs.commit": 98.43725,
-            "pcs.ligerito_open": 120.96891699999999,
-            "pcs.open": 0.001166,
-            "pcs.ringswitch": 26.590959,
-            "ram.claims": 13.418666,
-            "ram.pack": 3.300916,
-            "ram.statement": 0.49425,
-            "ram.witness": 1.069291,
-            "twist.cycle": 0.002751,
-            "twist.cycle.rounds": 44.815625,
-            "twist.cycle.tables": 0.003666,
-            "twist.memory": 0.510375,
-            "twist.read": 56.530917
+            "mosaic.batch": 3.4415,
+            "mosaic.bind_g": 5.2175,
+            "mosaic.dense": 0.516292,
+            "pcs.commit": 30.726291999999997,
+            "pcs.ligerito_open": 33.766584,
+            "pcs.open": 0.000625,
+            "pcs.ringswitch": 4.90225,
+            "ram.claims": 1.7322920000000002,
+            "ram.pack": 2.2445,
+            "ram.statement": 0.43291599999999997,
+            "ram.witness": 0.8116669999999999,
+            "twist.cycle": 0.002168,
+            "twist.cycle.rounds": 20.775166000000002,
+            "twist.cycle.tables": 0.00325,
+            "twist.memory": 0.396625,
+            "twist.read": 11.496625
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 380.1094785,
-            "commit_ms": 73.8279375,
-            "removed_padding_ms": 24.6093125
+            "prover_ms": 109.162011,
+            "commit_ms": 23.044718999999997,
+            "removed_padding_ms": 7.681573
           },
           "verifier_stages_ms": {
-            "verify.cycle": 0.013791000000000001,
-            "verify.memory": 0.650958,
-            "verify.mosaic": 0.013458999999999999,
-            "verify.pcs": 6.415292,
-            "verify.read": 0.027791,
-            "verify.statement": 0.517333
+            "verify.cycle": 0.0115,
+            "verify.memory": 0.149042,
+            "verify.mosaic": 0.010625,
+            "verify.pcs": 4.7837499999999995,
+            "verify.read": 0.022833,
+            "verify.statement": 0.420458
           },
           "proof_size": {
             "pcs_bytes": 372804,
@@ -4263,61 +4263,61 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             }
           }
         }
       ],
       "median": {
-        "argument_ms": 65.81050000000005,
-        "commit_ms": 46.031292,
-        "exclusive_total_ms": 174.75445900000005,
-        "iop_and_prep_ms": 73.878917,
+        "argument_ms": 41.84912599999999,
+        "commit_ms": 30.726291999999997,
+        "exclusive_total_ms": 116.62746000000003,
+        "iop_and_prep_ms": 47.447833,
         "mask_ms": -0.0,
-        "mosaic_ms": 11.71625,
-        "opening_ms": 55.297833000000004,
+        "mosaic_ms": 9.175292,
+        "opening_ms": 38.669459,
         "ordering_ms": -0.0,
-        "preparation_ms": 7.614834,
-        "prover_ms": 175.208042,
-        "unattributed_ms": 0.4535829999999521,
-        "verifier_ms": 7.169417,
+        "preparation_ms": 5.221375,
+        "prover_ms": 117.00750000000001,
+        "unattributed_ms": 0.37733200000000977,
+        "verifier_ms": 5.422083000000001,
         "stages_ms": {
-          "mosaic.batch": 4.857958,
-          "mosaic.bind_g": 5.980542,
-          "mosaic.dense": 0.918417,
-          "pcs.commit": 46.031292,
-          "pcs.ligerito_open": 48.071708,
-          "pcs.open": 0.000917,
-          "pcs.ringswitch": 7.232375,
-          "ram.claims": 2.8406249999999997,
-          "ram.pack": 3.230375,
-          "ram.statement": 0.516667,
-          "ram.witness": 1.069291,
-          "twist.cycle": 0.002751,
-          "twist.cycle.rounds": 33.111458000000006,
-          "twist.cycle.tables": 0.003791,
-          "twist.memory": 0.510375,
-          "twist.read": 20.433917
+          "mosaic.batch": 3.282292,
+          "mosaic.bind_g": 5.2175,
+          "mosaic.dense": 0.516292,
+          "pcs.commit": 30.726291999999997,
+          "pcs.ligerito_open": 33.606541,
+          "pcs.open": 0.000417,
+          "pcs.ringswitch": 5.0033330000000005,
+          "ram.claims": 1.7322920000000002,
+          "ram.pack": 2.24975,
+          "ram.statement": 0.429708,
+          "ram.witness": 0.8116669999999999,
+          "twist.cycle": 0.002334,
+          "twist.cycle.rounds": 20.775166000000002,
+          "twist.cycle.tables": 0.003459,
+          "twist.memory": 0.396625,
+          "twist.read": 11.858084
         },
         "verifier_stages_ms": {
-          "verify.cycle": 0.013875,
-          "verify.memory": 0.263416,
-          "verify.mosaic": 0.013084,
-          "verify.pcs": 6.344334,
-          "verify.read": 0.027791,
-          "verify.statement": 0.517333
+          "verify.cycle": 0.011625,
+          "verify.memory": 0.154708,
+          "verify.mosaic": 0.010667,
+          "verify.pcs": 4.791875,
+          "verify.read": 0.022958,
+          "verify.statement": 0.4205
         },
         "padding_adjusted_estimate": {
-          "prover_ms": 163.700219,
-          "commit_ms": 34.523469,
-          "removed_padding_ms": 11.507823000000002
+          "prover_ms": 109.33584375000001,
+          "commit_ms": 23.044718999999997,
+          "removed_padding_ms": 7.681573
         }
       }
     },
@@ -6342,14 +6342,14 @@
       },
       "load": {
         "start": {
-          "one": 27.322265625,
-          "five": 31.07666015625,
-          "fifteen": 24.23779296875
+          "one": 46.8828125,
+          "five": 39.529296875,
+          "fifteen": 27.9365234375
         },
         "end": {
-          "one": 27.322265625,
-          "five": 31.07666015625,
-          "fifteen": 24.23779296875
+          "one": 46.8828125,
+          "five": 39.529296875,
+          "fifteen": 27.9365234375
         }
       },
       "area": {
@@ -6634,60 +6634,60 @@
       },
       "throughput": {
         "operations": 1048576,
-        "prover_ns_per_operation": 102.94508934020995,
+        "prover_ns_per_operation": 68.92307662963867,
         "source_memory_instructions": 984096,
-        "prover_ns_per_source_memory_instruction": 109.69026395798782
+        "prover_ns_per_source_memory_instruction": 73.43905879101226
       },
       "samples": [
         {
           "iteration": 0,
           "position": 1,
-          "prover_ms": 107.94574999999999,
-          "verifier_ms": 7.156375000000001,
-          "commit_ms": 25.762208,
-          "opening_ms": 33.047917,
-          "iop_and_prep_ms": 49.13562499999999,
-          "preparation_ms": 7.454084,
-          "argument_ms": 41.131750000000004,
-          "ordering_ms": 5.199083,
-          "mask_ms": 9.481333,
-          "mosaic_ms": 15.861625000000002,
-          "unattributed_ms": 0.5497909999999848,
+          "prover_ms": 72.73391699999999,
+          "verifier_ms": 5.525083,
+          "commit_ms": 15.246875,
+          "opening_ms": 23.031417,
+          "iop_and_prep_ms": 34.45562499999998,
+          "preparation_ms": 6.1322920000000005,
+          "argument_ms": 27.863874000000003,
+          "ordering_ms": 3.5511250000000003,
+          "mask_ms": 6.460041,
+          "mosaic_ms": 11.461915999999999,
+          "unattributed_ms": 0.4594589999999812,
           "stages_ms": {
-            "mosaic.batch": 11.114083,
-            "mosaic.bind_g": 4.114750000000001,
-            "mosaic.dense": 0.632792,
-            "pcs.commit": 25.762208,
-            "pcs.ligerito_open": 26.098709,
-            "pcs.open": 0.0045000000000000005,
-            "pcs.ringswitch": 6.944708,
-            "spice.claims": 2.259042,
-            "spice.mask": 0.003083,
-            "spice.masked.claims": 1.422375,
-            "spice.masked.sumcheck": 8.055875,
-            "spice.order": 0.003417,
-            "spice.order.pack": 0.737125,
-            "spice.order.zerocheck": 4.458541,
-            "spice.pack": 1.928375,
-            "spice.permutation.gkr": 8.104375000000001,
-            "spice.permutation.leaves": 2.485334,
-            "spice.statement": 0.5173340000000001,
-            "spice.witness": 2.749333
+            "mosaic.batch": 7.900582999999999,
+            "mosaic.bind_g": 3.230708,
+            "mosaic.dense": 0.330625,
+            "pcs.commit": 15.246875,
+            "pcs.ligerito_open": 18.245125,
+            "pcs.open": 0.001375,
+            "pcs.ringswitch": 4.784917,
+            "spice.claims": 1.77725,
+            "spice.mask": 0.00275,
+            "spice.masked.claims": 0.8590829999999999,
+            "spice.masked.sumcheck": 5.5982080000000005,
+            "spice.order": 0.002001,
+            "spice.order.pack": 0.38829100000000005,
+            "spice.order.zerocheck": 3.1608330000000002,
+            "spice.pack": 1.692125,
+            "spice.permutation.gkr": 4.355542,
+            "spice.permutation.leaves": 2.03525,
+            "spice.statement": 0.419959,
+            "spice.witness": 2.2429580000000002
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 107.21615621874999,
-            "commit_ms": 25.032614218750002,
-            "removed_padding_ms": 0.7295937812499993
+            "prover_ms": 72.30212073535155,
+            "commit_ms": 14.815078735351562,
+            "removed_padding_ms": 0.4317962646484368
           },
           "verifier_stages_ms": {
-            "verify.claims": 0.201958,
-            "verify.gkr": 0.043207999999999996,
-            "verify.mask": 0.129667,
-            "verify.mosaic": 0.016291,
-            "verify.order": 0.167333,
-            "verify.pcs": 6.06275,
-            "verify.setup": 0.011165999999999999,
-            "verify.statement": 0.51875
+            "verify.claims": 0.148333,
+            "verify.gkr": 0.036583,
+            "verify.mask": 0.08937500000000001,
+            "verify.mosaic": 0.013791000000000001,
+            "verify.order": 0.140208,
+            "verify.pcs": 4.657,
+            "verify.setup": 0.008667,
+            "verify.statement": 0.429
           },
           "proof_size": {
             "pcs_bytes": 317348,
@@ -6698,66 +6698,66 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             }
           }
         },
         {
           "iteration": 1,
           "position": 0,
-          "prover_ms": 99.619916,
-          "verifier_ms": 7.013833,
-          "commit_ms": 22.011667,
-          "opening_ms": 31.216791,
-          "iop_and_prep_ms": 46.391458,
-          "preparation_ms": 7.900416999999999,
-          "argument_ms": 37.81975000000002,
-          "ordering_ms": 4.7585,
-          "mask_ms": 7.551709000000001,
-          "mosaic_ms": 16.242957999999998,
-          "unattributed_ms": 0.6712909999999823,
+          "prover_ms": 72.271084,
+          "verifier_ms": 5.421417000000001,
+          "commit_ms": 15.626167,
+          "opening_ms": 22.287916,
+          "iop_and_prep_ms": 34.357001,
+          "preparation_ms": 5.942665999999999,
+          "argument_ms": 27.956041000000003,
+          "ordering_ms": 3.619417,
+          "mask_ms": 6.386749,
+          "mosaic_ms": 11.498167,
+          "unattributed_ms": 0.4582939999999951,
           "stages_ms": {
-            "mosaic.batch": 11.435583,
-            "mosaic.bind_g": 4.044708,
-            "mosaic.dense": 0.762667,
-            "pcs.commit": 22.011667,
-            "pcs.ligerito_open": 24.971917,
-            "pcs.open": 0.001791,
-            "pcs.ringswitch": 6.243083,
-            "spice.claims": 2.50125,
-            "spice.mask": 0.002542,
-            "spice.masked.claims": 1.205209,
-            "spice.masked.sumcheck": 6.343958000000001,
-            "spice.order": 0.002791,
-            "spice.order.pack": 0.5541670000000001,
-            "spice.order.zerocheck": 4.201542,
-            "spice.pack": 2.124042,
-            "spice.permutation.gkr": 6.722125,
-            "spice.permutation.leaves": 2.5444579999999997,
-            "spice.statement": 0.515625,
-            "spice.witness": 2.7594999999999996
+            "mosaic.batch": 7.93821,
+            "mosaic.bind_g": 3.2335409999999998,
+            "mosaic.dense": 0.326416,
+            "pcs.commit": 15.626167,
+            "pcs.ligerito_open": 17.86975,
+            "pcs.open": 0.001583,
+            "pcs.ringswitch": 4.416583,
+            "spice.claims": 1.7680829999999998,
+            "spice.mask": 0.002291,
+            "spice.masked.claims": 0.858583,
+            "spice.masked.sumcheck": 5.525875,
+            "spice.order": 0.002208,
+            "spice.order.pack": 0.383,
+            "spice.order.zerocheck": 3.234209,
+            "spice.pack": 1.510208,
+            "spice.permutation.gkr": 4.546708,
+            "spice.permutation.leaves": 1.905,
+            "spice.statement": 0.420375,
+            "spice.witness": 2.2439999999999998
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 98.99653871191407,
-            "commit_ms": 21.388289711914062,
-            "removed_padding_ms": 0.623377288085937
+            "prover_ms": 71.82854606738282,
+            "commit_ms": 15.183629067382814,
+            "removed_padding_ms": 0.44253793261718677
           },
           "verifier_stages_ms": {
-            "verify.claims": 0.229042,
-            "verify.gkr": 0.042874999999999996,
-            "verify.mask": 0.16145800000000002,
-            "verify.mosaic": 0.0165,
-            "verify.order": 0.168333,
-            "verify.pcs": 5.868833,
-            "verify.setup": 0.009583,
-            "verify.statement": 0.513625
+            "verify.claims": 0.145709,
+            "verify.gkr": 0.034542,
+            "verify.mask": 0.09000000000000001,
+            "verify.mosaic": 0.012834,
+            "verify.order": 0.137625,
+            "verify.pcs": 4.566917,
+            "verify.setup": 0.007084,
+            "verify.statement": 0.424791
           },
           "proof_size": {
             "pcs_bytes": 317348,
@@ -6768,66 +6768,66 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             }
           }
         },
         {
           "iteration": 2,
           "position": 1,
-          "prover_ms": 168.13787499999998,
-          "verifier_ms": 7.388416,
-          "commit_ms": 39.661750000000005,
-          "opening_ms": 56.637041999999994,
-          "iop_and_prep_ms": 71.83908299999997,
-          "preparation_ms": 9.462959,
-          "argument_ms": 61.17695699999993,
-          "ordering_ms": 8.163041,
-          "mask_ms": 10.8565,
-          "mosaic_ms": 27.125416,
-          "unattributed_ms": 1.1991670000000454,
+          "prover_ms": 72.01525000000001,
+          "verifier_ms": 5.791041,
+          "commit_ms": 15.457042000000001,
+          "opening_ms": 22.853875,
+          "iop_and_prep_ms": 33.704333000000005,
+          "preparation_ms": 6.022416,
+          "argument_ms": 27.232875000000014,
+          "ordering_ms": 3.438917,
+          "mask_ms": 6.160458,
+          "mosaic_ms": 11.444208,
+          "unattributed_ms": 0.4490419999999915,
           "stages_ms": {
-            "mosaic.batch": 15.218456999999999,
-            "mosaic.bind_g": 7.3755,
-            "mosaic.dense": 4.531459,
-            "pcs.commit": 39.661750000000005,
-            "pcs.ligerito_open": 47.175374999999995,
-            "pcs.open": 0.001583,
-            "pcs.ringswitch": 9.460084,
-            "spice.claims": 3.32475,
-            "spice.mask": 0.002875,
-            "spice.masked.claims": 1.4637499999999999,
-            "spice.masked.sumcheck": 9.389875,
-            "spice.order": 0.004125,
-            "spice.order.pack": 2.083791,
-            "spice.order.zerocheck": 6.075125,
-            "spice.pack": 2.84125,
-            "spice.permutation.gkr": 12.131625,
-            "spice.permutation.leaves": 2.9003750000000004,
-            "spice.statement": 0.515625,
-            "spice.witness": 2.7813339999999998
+            "mosaic.batch": 7.889876,
+            "mosaic.bind_g": 3.1882910000000004,
+            "mosaic.dense": 0.366041,
+            "pcs.commit": 15.457042000000001,
+            "pcs.ligerito_open": 18.249083,
+            "pcs.open": 0.001209,
+            "pcs.ringswitch": 4.6035829999999995,
+            "spice.claims": 1.8052920000000001,
+            "spice.mask": 0.002167,
+            "spice.masked.claims": 0.868208,
+            "spice.masked.sumcheck": 5.290083,
+            "spice.order": 0.0024590000000000002,
+            "spice.order.pack": 0.3815,
+            "spice.order.zerocheck": 3.054958,
+            "spice.pack": 1.54075,
+            "spice.permutation.gkr": 4.295375,
+            "spice.permutation.leaves": 1.8939169999999999,
+            "spice.statement": 0.420333,
+            "spice.witness": 2.2560409999999997
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 167.0146418457031,
-            "commit_ms": 38.53851684570313,
-            "removed_padding_ms": 1.1232331542968765
+            "prover_ms": 71.57750174023438,
+            "commit_ms": 15.019293740234376,
+            "removed_padding_ms": 0.43774825976562504
           },
           "verifier_stages_ms": {
-            "verify.claims": 0.341833,
-            "verify.gkr": 0.042375,
-            "verify.mask": 0.232291,
-            "verify.mosaic": 0.016209,
-            "verify.order": 0.167667,
-            "verify.pcs": 6.059959,
-            "verify.setup": 0.010332999999999998,
-            "verify.statement": 0.5142089999999999
+            "verify.claims": 0.153,
+            "verify.gkr": 0.035667000000000004,
+            "verify.mask": 0.089917,
+            "verify.mosaic": 0.013667,
+            "verify.order": 0.139292,
+            "verify.pcs": 4.920583,
+            "verify.setup": 0.007834,
+            "verify.statement": 0.428375
           },
           "proof_size": {
             "pcs_bytes": 317348,
@@ -6838,66 +6838,66 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             }
           }
         }
       ],
       "median": {
-        "argument_ms": 41.131750000000004,
-        "commit_ms": 25.762208,
-        "exclusive_total_ms": 107.395959,
-        "iop_and_prep_ms": 49.13562499999999,
-        "mask_ms": 9.481333,
-        "mosaic_ms": 16.242957999999998,
-        "opening_ms": 33.047917,
-        "ordering_ms": 5.199083,
-        "preparation_ms": 7.900416999999999,
-        "prover_ms": 107.94574999999999,
-        "unattributed_ms": 0.6712909999999823,
-        "verifier_ms": 7.156375000000001,
+        "argument_ms": 27.863874000000003,
+        "commit_ms": 15.457042000000001,
+        "exclusive_total_ms": 71.81279,
+        "iop_and_prep_ms": 34.357001,
+        "mask_ms": 6.386749,
+        "mosaic_ms": 11.461915999999999,
+        "opening_ms": 22.853875,
+        "ordering_ms": 3.5511250000000003,
+        "preparation_ms": 6.022416,
+        "prover_ms": 72.271084,
+        "unattributed_ms": 0.4582939999999951,
+        "verifier_ms": 5.525083,
         "stages_ms": {
-          "mosaic.batch": 11.435583,
-          "mosaic.bind_g": 4.114750000000001,
-          "mosaic.dense": 0.762667,
-          "pcs.commit": 25.762208,
-          "pcs.ligerito_open": 26.098709,
-          "pcs.open": 0.001791,
-          "pcs.ringswitch": 6.944708,
-          "spice.claims": 2.50125,
-          "spice.mask": 0.002875,
-          "spice.masked.claims": 1.422375,
-          "spice.masked.sumcheck": 8.055875,
-          "spice.order": 0.003417,
-          "spice.order.pack": 0.737125,
-          "spice.order.zerocheck": 4.458541,
-          "spice.pack": 2.124042,
-          "spice.permutation.gkr": 8.104375000000001,
-          "spice.permutation.leaves": 2.5444579999999997,
-          "spice.statement": 0.515625,
-          "spice.witness": 2.7594999999999996
+          "mosaic.batch": 7.900582999999999,
+          "mosaic.bind_g": 3.230708,
+          "mosaic.dense": 0.330625,
+          "pcs.commit": 15.457042000000001,
+          "pcs.ligerito_open": 18.245125,
+          "pcs.open": 0.001375,
+          "pcs.ringswitch": 4.6035829999999995,
+          "spice.claims": 1.77725,
+          "spice.mask": 0.002291,
+          "spice.masked.claims": 0.8590829999999999,
+          "spice.masked.sumcheck": 5.525875,
+          "spice.order": 0.002208,
+          "spice.order.pack": 0.383,
+          "spice.order.zerocheck": 3.1608330000000002,
+          "spice.pack": 1.54075,
+          "spice.permutation.gkr": 4.355542,
+          "spice.permutation.leaves": 1.905,
+          "spice.statement": 0.420333,
+          "spice.witness": 2.2439999999999998
         },
         "verifier_stages_ms": {
-          "verify.claims": 0.229042,
-          "verify.gkr": 0.042874999999999996,
-          "verify.mask": 0.16145800000000002,
-          "verify.mosaic": 0.016291,
-          "verify.order": 0.167667,
-          "verify.pcs": 6.059959,
-          "verify.setup": 0.010332999999999998,
-          "verify.statement": 0.5142089999999999
+          "verify.claims": 0.148333,
+          "verify.gkr": 0.035667000000000004,
+          "verify.mask": 0.089917,
+          "verify.mosaic": 0.013667,
+          "verify.order": 0.139292,
+          "verify.pcs": 4.657,
+          "verify.setup": 0.007834,
+          "verify.statement": 0.428375
         },
         "padding_adjusted_estimate": {
-          "prover_ms": 107.21615621874999,
-          "commit_ms": 25.032614218750002,
-          "removed_padding_ms": 0.7295937812499993
+          "prover_ms": 71.82854606738282,
+          "commit_ms": 15.019293740234376,
+          "removed_padding_ms": 0.43774825976562504
         }
       }
     },
@@ -7125,14 +7125,14 @@
       },
       "load": {
         "start": {
-          "one": 27.322265625,
-          "five": 31.07666015625,
-          "fifteen": 24.23779296875
+          "one": 46.8828125,
+          "five": 39.529296875,
+          "fifteen": 27.9365234375
         },
         "end": {
-          "one": 27.29638671875,
-          "five": 31.0087890625,
-          "fifteen": 24.25390625
+          "one": 44.08935546875,
+          "five": 39.072265625,
+          "fifteen": 27.8427734375
         }
       },
       "area": {
@@ -7352,55 +7352,55 @@
       "grand_product_extra_bound": null,
       "throughput": {
         "operations": 1048576,
-        "prover_ns_per_operation": 351.3873414993286,
+        "prover_ns_per_operation": 105.96529579162598,
         "source_memory_instructions": 1040640,
-        "prover_ns_per_source_memory_instruction": 354.06704816266915
+        "prover_ns_per_source_memory_instruction": 106.77339521832718
       },
       "samples": [
         {
           "iteration": 0,
           "position": 0,
-          "prover_ms": 273.29145900000003,
-          "verifier_ms": 9.070916,
-          "commit_ms": 67.924708,
-          "opening_ms": 114.868083,
-          "iop_and_prep_ms": 90.49866800000002,
-          "preparation_ms": 11.083583,
-          "argument_ms": 78.91566599999997,
+          "prover_ms": 111.112666,
+          "verifier_ms": 5.571292000000001,
+          "commit_ms": 30.478708,
+          "opening_ms": 38.73754099999999,
+          "iop_and_prep_ms": 41.896417000000014,
+          "preparation_ms": 4.936998,
+          "argument_ms": 36.59441699999999,
           "ordering_ms": -0.0,
           "mask_ms": -0.0,
-          "mosaic_ms": 16.684791,
-          "unattributed_ms": 0.4994190000000458,
+          "mosaic_ms": 8.451792,
+          "unattributed_ms": 0.36500200000001826,
           "stages_ms": {
-            "mosaic.batch": 5.215915,
-            "mosaic.bind_g": 10.110834,
-            "mosaic.dense": 1.358042,
-            "pcs.commit": 67.924708,
-            "pcs.ligerito_open": 102.751583,
-            "pcs.open": 0.001584,
-            "pcs.ringswitch": 12.114916,
-            "ram.claims": 5.590375,
-            "ram.pack": 3.9899999999999998,
-            "ram.statement": 0.5533330000000001,
-            "ram.witness": 0.949875,
-            "twist.cycle": 0.003,
-            "twist.cycle.rounds": 41.297,
-            "twist.cycle.tables": 0.004083,
-            "twist.memory": 0.65375,
-            "twist.read": 20.273042
+            "mosaic.batch": 2.6342090000000002,
+            "mosaic.bind_g": 5.397708000000001,
+            "mosaic.dense": 0.419875,
+            "pcs.commit": 30.478708,
+            "pcs.ligerito_open": 33.754540999999996,
+            "pcs.open": 0.000542,
+            "pcs.ringswitch": 4.982458,
+            "ram.claims": 1.661791,
+            "ram.pack": 2.221583,
+            "ram.statement": 0.419958,
+            "ram.witness": 0.633666,
+            "twist.cycle": 0.0025009999999999998,
+            "twist.cycle.rounds": 18.285458000000002,
+            "twist.cycle.tables": 0.0029579999999999997,
+            "twist.memory": 0.390917,
+            "twist.read": 9.460791
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 256.31028200000003,
-            "commit_ms": 50.94353099999999,
-            "removed_padding_ms": 16.981177000000002
+            "prover_ms": 103.49298900000001,
+            "commit_ms": 22.859031,
+            "removed_padding_ms": 7.619676999999999
           },
           "verifier_stages_ms": {
-            "verify.cycle": 0.017124999999999998,
-            "verify.memory": 0.418375,
-            "verify.mosaic": 0.013,
-            "verify.pcs": 8.060167,
-            "verify.read": 0.028083,
-            "verify.statement": 0.518834
+            "verify.cycle": 0.011791,
+            "verify.memory": 0.16508399999999998,
+            "verify.mosaic": 0.011042,
+            "verify.pcs": 4.916292,
+            "verify.read": 0.02575,
+            "verify.statement": 0.43054200000000004
           },
           "proof_size": {
             "pcs_bytes": 370724,
@@ -7411,61 +7411,61 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             }
           }
         },
         {
           "iteration": 1,
           "position": 1,
-          "prover_ms": 368.45633300000003,
-          "verifier_ms": 7.820125000000001,
-          "commit_ms": 86.631083,
-          "opening_ms": 176.14604100000003,
-          "iop_and_prep_ms": 105.67920900000001,
-          "preparation_ms": 19.852167,
-          "argument_ms": 85.2304180000001,
+          "prover_ms": 111.78112499999999,
+          "verifier_ms": 5.466917,
+          "commit_ms": 30.831999999999997,
+          "opening_ms": 38.12804199999999,
+          "iop_and_prep_ms": 42.821083,
+          "preparation_ms": 5.646083,
+          "argument_ms": 36.80620900000002,
           "ordering_ms": -0.0,
           "mask_ms": -0.0,
-          "mosaic_ms": 21.495959,
-          "unattributed_ms": 0.5966239999999061,
+          "mosaic_ms": 8.363417,
+          "unattributed_ms": 0.36879099999998743,
           "stages_ms": {
-            "mosaic.batch": 5.691501,
-            "mosaic.bind_g": 11.417833,
-            "mosaic.dense": 4.3866249999999996,
-            "pcs.commit": 86.631083,
-            "pcs.ligerito_open": 152.67545900000002,
-            "pcs.open": 0.000915,
-            "pcs.ringswitch": 23.469667,
-            "ram.claims": 5.554542,
-            "ram.pack": 12.264208,
-            "ram.statement": 0.5173340000000001,
-            "ram.witness": 1.516083,
-            "twist.cycle": 0.0028339999999999997,
-            "twist.cycle.rounds": 38.874208,
-            "twist.cycle.tables": 0.0037500000000000003,
-            "twist.memory": 0.704875,
-            "twist.read": 24.148792
+            "mosaic.batch": 2.5231670000000004,
+            "mosaic.bind_g": 5.416625000000001,
+            "mosaic.dense": 0.42362500000000003,
+            "pcs.commit": 30.831999999999997,
+            "pcs.ligerito_open": 33.348209,
+            "pcs.open": 0.00033299999999999996,
+            "pcs.ringswitch": 4.7795,
+            "ram.claims": 1.688791,
+            "ram.pack": 2.8965829999999997,
+            "ram.statement": 0.425334,
+            "ram.witness": 0.635375,
+            "twist.cycle": 0.0025,
+            "twist.cycle.rounds": 18.308334,
+            "twist.cycle.tables": 0.003375,
+            "twist.memory": 0.441958,
+            "twist.read": 9.686625000000001
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 346.79856225000003,
-            "commit_ms": 64.97331225,
-            "removed_padding_ms": 21.657770749999997
+            "prover_ms": 104.07312499999999,
+            "commit_ms": 23.124,
+            "removed_padding_ms": 7.707999999999998
           },
           "verifier_stages_ms": {
-            "verify.cycle": 0.017167,
-            "verify.memory": 0.5681250000000001,
-            "verify.mosaic": 0.013584,
-            "verify.pcs": 6.625624999999999,
-            "verify.read": 0.030042000000000003,
-            "verify.statement": 0.550375
+            "verify.cycle": 0.011791,
+            "verify.memory": 0.168083,
+            "verify.mosaic": 0.010750000000000001,
+            "verify.pcs": 4.817042,
+            "verify.read": 0.023333,
+            "verify.statement": 0.42595900000000003
           },
           "proof_size": {
             "pcs_bytes": 370724,
@@ -7476,61 +7476,61 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.29638671875,
-              "five": 31.0087890625,
-              "fifteen": 24.25390625
+              "one": 44.08935546875,
+              "five": 39.072265625,
+              "fifteen": 27.8427734375
             }
           }
         },
         {
           "iteration": 2,
           "position": 0,
-          "prover_ms": 376.494084,
-          "verifier_ms": 7.854292000000001,
-          "commit_ms": 126.758167,
-          "opening_ms": 103.875042,
-          "iop_and_prep_ms": 145.86087499999996,
-          "preparation_ms": 19.289084,
-          "argument_ms": 126.09299999999996,
+          "prover_ms": 110.149292,
+          "verifier_ms": 5.379250000000001,
+          "commit_ms": 30.27525,
+          "opening_ms": 38.092417,
+          "iop_and_prep_ms": 41.781625000000005,
+          "preparation_ms": 4.927957,
+          "argument_ms": 36.47699999999998,
           "ordering_ms": -0.0,
           "mask_ms": -0.0,
-          "mosaic_ms": 20.513417,
-          "unattributed_ms": 0.4787910000000011,
+          "mosaic_ms": 8.516292,
+          "unattributed_ms": 0.37666800000002354,
           "stages_ms": {
-            "mosaic.batch": 7.996958,
-            "mosaic.bind_g": 10.307417,
-            "mosaic.dense": 2.209042,
-            "pcs.commit": 126.758167,
-            "pcs.ligerito_open": 87.06016699999999,
-            "pcs.open": 0.001209,
-            "pcs.ringswitch": 16.813666,
-            "ram.claims": 13.054459,
-            "ram.pack": 4.759125,
-            "ram.statement": 0.552833,
-            "ram.witness": 0.9226669999999999,
-            "twist.cycle": 0.0027489999999999997,
-            "twist.cycle.rounds": 43.764542,
-            "twist.cycle.tables": 0.004042,
-            "twist.memory": 0.7527499999999999,
-            "twist.read": 61.0555
+            "mosaic.batch": 2.607167,
+            "mosaic.bind_g": 5.478249999999999,
+            "mosaic.dense": 0.430875,
+            "pcs.commit": 30.27525,
+            "pcs.ligerito_open": 33.513417,
+            "pcs.open": 0.00075,
+            "pcs.ringswitch": 4.57825,
+            "ram.claims": 1.6327909999999999,
+            "ram.pack": 2.219125,
+            "ram.statement": 0.429791,
+            "ram.witness": 0.64625,
+            "twist.cycle": 0.002376,
+            "twist.cycle.rounds": 18.352666,
+            "twist.cycle.tables": 0.003,
+            "twist.memory": 0.390708,
+            "twist.read": 9.211958
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 344.80454225,
-            "commit_ms": 95.06862525,
-            "removed_padding_ms": 31.689541750000004
+            "prover_ms": 102.5804795,
+            "commit_ms": 22.7064375,
+            "removed_padding_ms": 7.5688125
           },
           "verifier_stages_ms": {
-            "verify.cycle": 0.017,
-            "verify.memory": 0.357541,
-            "verify.mosaic": 0.013125000000000001,
-            "verify.pcs": 6.90725,
-            "verify.read": 0.028,
-            "verify.statement": 0.5165000000000001
+            "verify.cycle": 0.011375,
+            "verify.memory": 0.153625,
+            "verify.mosaic": 0.010917000000000001,
+            "verify.pcs": 4.748333000000001,
+            "verify.read": 0.022792,
+            "verify.statement": 0.42204200000000003
           },
           "proof_size": {
             "pcs_bytes": 370724,
@@ -7541,61 +7541,61 @@
           },
           "load": {
             "start": {
-              "one": 27.29638671875,
-              "five": 31.0087890625,
-              "fifteen": 24.25390625
+              "one": 44.08935546875,
+              "five": 39.072265625,
+              "fifteen": 27.8427734375
             },
             "end": {
-              "one": 27.29638671875,
-              "five": 31.0087890625,
-              "fifteen": 24.25390625
+              "one": 44.08935546875,
+              "five": 39.072265625,
+              "fifteen": 27.8427734375
             }
           }
         }
       ],
       "median": {
-        "argument_ms": 85.2304180000001,
-        "commit_ms": 86.631083,
-        "exclusive_total_ms": 367.8597090000001,
-        "iop_and_prep_ms": 105.67920900000001,
+        "argument_ms": 36.59441699999999,
+        "commit_ms": 30.478708,
+        "exclusive_total_ms": 110.74766399999999,
+        "iop_and_prep_ms": 41.896417000000014,
         "mask_ms": -0.0,
-        "mosaic_ms": 20.513417,
-        "opening_ms": 114.868083,
+        "mosaic_ms": 8.451792,
+        "opening_ms": 38.12804199999999,
         "ordering_ms": -0.0,
-        "preparation_ms": 19.289084,
-        "prover_ms": 368.45633300000003,
-        "unattributed_ms": 0.4994190000000458,
-        "verifier_ms": 7.854292000000001,
+        "preparation_ms": 4.936998,
+        "prover_ms": 111.112666,
+        "unattributed_ms": 0.36879099999998743,
+        "verifier_ms": 5.466917,
         "stages_ms": {
-          "mosaic.batch": 5.691501,
-          "mosaic.bind_g": 10.307417,
-          "mosaic.dense": 2.209042,
-          "pcs.commit": 86.631083,
-          "pcs.ligerito_open": 102.751583,
-          "pcs.open": 0.001209,
-          "pcs.ringswitch": 16.813666,
-          "ram.claims": 5.590375,
-          "ram.pack": 4.759125,
-          "ram.statement": 0.552833,
-          "ram.witness": 0.949875,
-          "twist.cycle": 0.0028339999999999997,
-          "twist.cycle.rounds": 41.297,
-          "twist.cycle.tables": 0.004042,
-          "twist.memory": 0.704875,
-          "twist.read": 24.148792
+          "mosaic.batch": 2.607167,
+          "mosaic.bind_g": 5.416625000000001,
+          "mosaic.dense": 0.42362500000000003,
+          "pcs.commit": 30.478708,
+          "pcs.ligerito_open": 33.513417,
+          "pcs.open": 0.000542,
+          "pcs.ringswitch": 4.7795,
+          "ram.claims": 1.661791,
+          "ram.pack": 2.221583,
+          "ram.statement": 0.425334,
+          "ram.witness": 0.635375,
+          "twist.cycle": 0.0025,
+          "twist.cycle.rounds": 18.308334,
+          "twist.cycle.tables": 0.003,
+          "twist.memory": 0.390917,
+          "twist.read": 9.460791
         },
         "verifier_stages_ms": {
-          "verify.cycle": 0.017124999999999998,
-          "verify.memory": 0.418375,
-          "verify.mosaic": 0.013125000000000001,
-          "verify.pcs": 6.90725,
-          "verify.read": 0.028083,
-          "verify.statement": 0.518834
+          "verify.cycle": 0.011791,
+          "verify.memory": 0.16508399999999998,
+          "verify.mosaic": 0.010917000000000001,
+          "verify.pcs": 4.817042,
+          "verify.read": 0.023333,
+          "verify.statement": 0.42595900000000003
         },
         "padding_adjusted_estimate": {
-          "prover_ms": 344.80454225,
-          "commit_ms": 64.97331225,
-          "removed_padding_ms": 21.657770749999997
+          "prover_ms": 103.49298900000001,
+          "commit_ms": 22.859031,
+          "removed_padding_ms": 7.619676999999999
         }
       }
     },
@@ -7823,14 +7823,14 @@
       },
       "load": {
         "start": {
-          "one": 27.322265625,
-          "five": 31.07666015625,
-          "fifteen": 24.23779296875
+          "one": 46.8828125,
+          "five": 39.529296875,
+          "fifteen": 27.9365234375
         },
         "end": {
-          "one": 27.29638671875,
-          "five": 31.0087890625,
-          "fifteen": 24.25390625
+          "one": 44.08935546875,
+          "five": 39.072265625,
+          "fifteen": 27.8427734375
         }
       },
       "area": {
@@ -8115,60 +8115,60 @@
       },
       "throughput": {
         "operations": 1048576,
-        "prover_ns_per_operation": 197.17053604125977,
+        "prover_ns_per_operation": 66.83413219451904,
         "source_memory_instructions": 1040640,
-        "prover_ns_per_source_memory_instruction": 198.67417358548585
+        "prover_ns_per_source_memory_instruction": 67.34381438345633
       },
       "samples": [
         {
           "iteration": 0,
           "position": 1,
-          "prover_ms": 207.543666,
-          "verifier_ms": 7.8759999999999994,
-          "commit_ms": 48.413916,
-          "opening_ms": 66.455167,
-          "iop_and_prep_ms": 92.674583,
-          "preparation_ms": 10.840209,
-          "argument_ms": 81.22016599999995,
-          "ordering_ms": 9.130291,
-          "mask_ms": 18.681167000000002,
-          "mosaic_ms": 26.792333000000003,
-          "unattributed_ms": 0.6142080000000476,
+          "prover_ms": 69.997292,
+          "verifier_ms": 5.454541,
+          "commit_ms": 15.613708,
+          "opening_ms": 21.683583,
+          "iop_and_prep_ms": 32.700001,
+          "preparation_ms": 5.850834,
+          "argument_ms": 26.386833000000003,
+          "ordering_ms": 3.5926669999999996,
+          "mask_ms": 6.166042,
+          "mosaic_ms": 10.277208,
+          "unattributed_ms": 0.46233399999999847,
           "stages_ms": {
-            "mosaic.batch": 17.188041000000002,
-            "mosaic.bind_g": 7.21725,
-            "mosaic.dense": 2.3870419999999997,
-            "pcs.commit": 48.413916,
-            "pcs.ligerito_open": 54.968125,
-            "pcs.open": 0.001959,
-            "pcs.ringswitch": 11.485083,
-            "spice.claims": 3.011167,
-            "spice.mask": 0.003625,
-            "spice.masked.claims": 4.854917,
-            "spice.masked.sumcheck": 13.822625,
-            "spice.order": 0.004416,
-            "spice.order.pack": 2.7143750000000004,
-            "spice.order.zerocheck": 6.411499999999999,
-            "spice.pack": 4.405208,
-            "spice.permutation.gkr": 22.984958,
-            "spice.permutation.leaves": 3.631417,
-            "spice.statement": 0.550375,
-            "spice.witness": 2.873459
+            "mosaic.batch": 6.718083,
+            "mosaic.bind_g": 3.26675,
+            "mosaic.dense": 0.292375,
+            "pcs.commit": 15.613708,
+            "pcs.ligerito_open": 18.006791,
+            "pcs.open": 0.001126,
+            "pcs.ringswitch": 3.675666,
+            "spice.claims": 1.6208749999999998,
+            "spice.mask": 0.002043,
+            "spice.masked.claims": 0.850208,
+            "spice.masked.sumcheck": 5.313791,
+            "spice.order": 0.002751,
+            "spice.order.pack": 0.392416,
+            "spice.order.zerocheck": 3.1975,
+            "spice.pack": 1.535834,
+            "spice.permutation.gkr": 4.393041,
+            "spice.permutation.leaves": 1.957875,
+            "spice.statement": 0.43062500000000004,
+            "spice.witness": 2.2635
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 206.17256876953127,
-            "commit_ms": 47.04281876953125,
-            "removed_padding_ms": 1.3710972304687488
+            "prover_ms": 69.55510691015625,
+            "commit_ms": 15.17152291015625,
+            "removed_padding_ms": 0.4421850898437505
           },
           "verifier_stages_ms": {
-            "verify.claims": 0.340542,
-            "verify.gkr": 0.045541000000000005,
-            "verify.mask": 0.266042,
-            "verify.mosaic": 0.018416000000000002,
-            "verify.order": 0.178208,
-            "verify.pcs": 6.454459,
-            "verify.setup": 0.011626000000000001,
-            "verify.statement": 0.557166
+            "verify.claims": 0.145208,
+            "verify.gkr": 0.034832999999999996,
+            "verify.mask": 0.08762500000000001,
+            "verify.mosaic": 0.013291,
+            "verify.order": 0.13712500000000002,
+            "verify.pcs": 4.60875,
+            "verify.setup": 0.007625,
+            "verify.statement": 0.418167
           },
           "proof_size": {
             "pcs_bytes": 320036,
@@ -8179,66 +8179,66 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             }
           }
         },
         {
           "iteration": 1,
           "position": 0,
-          "prover_ms": 206.748292,
-          "verifier_ms": 7.700832999999999,
-          "commit_ms": 46.795875,
-          "opening_ms": 71.42441699999999,
-          "iop_and_prep_ms": 88.528,
-          "preparation_ms": 11.789667,
-          "argument_ms": 75.85541600000002,
-          "ordering_ms": 10.767041999999998,
-          "mask_ms": 16.288541000000002,
-          "mosaic_ms": 24.137166,
-          "unattributed_ms": 0.882916999999992,
+          "prover_ms": 70.292375,
+          "verifier_ms": 5.559209,
+          "commit_ms": 15.434415999999999,
+          "opening_ms": 21.988750000000003,
+          "iop_and_prep_ms": 32.869209000000005,
+          "preparation_ms": 5.745542,
+          "argument_ms": 26.66229099999999,
+          "ordering_ms": 3.535125,
+          "mask_ms": 6.151791,
+          "mosaic_ms": 10.48825,
+          "unattributed_ms": 0.46137600000001555,
           "stages_ms": {
-            "mosaic.batch": 16.486124,
-            "mosaic.bind_g": 6.739458,
-            "mosaic.dense": 0.911584,
-            "pcs.commit": 46.795875,
-            "pcs.ligerito_open": 58.141290999999995,
-            "pcs.open": 0.0018759999999999998,
-            "pcs.ringswitch": 13.28125,
-            "spice.claims": 3.861125,
-            "spice.mask": 0.003416,
-            "spice.masked.claims": 2.153666,
-            "spice.masked.sumcheck": 14.131459000000001,
-            "spice.order": 0.0047929999999999995,
-            "spice.order.pack": 0.826791,
-            "spice.order.zerocheck": 9.935457999999999,
-            "spice.pack": 4.521458,
-            "spice.permutation.gkr": 21.5015,
-            "spice.permutation.leaves": 3.161167,
-            "spice.statement": 0.549667,
-            "spice.witness": 2.8574170000000003
+            "mosaic.batch": 6.620291,
+            "mosaic.bind_g": 3.250709,
+            "mosaic.dense": 0.61725,
+            "pcs.commit": 15.434415999999999,
+            "pcs.ligerito_open": 18.316708000000002,
+            "pcs.open": 0.001,
+            "pcs.ringswitch": 3.671042,
+            "spice.claims": 1.629709,
+            "spice.mask": 0.0025840000000000004,
+            "spice.masked.claims": 0.861041,
+            "spice.masked.sumcheck": 5.288166,
+            "spice.order": 0.001583,
+            "spice.order.pack": 0.38975000000000004,
+            "spice.order.zerocheck": 3.143792,
+            "spice.pack": 1.469833,
+            "spice.permutation.gkr": 4.6325,
+            "spice.permutation.leaves": 1.854625,
+            "spice.statement": 0.423917,
+            "spice.witness": 2.222083
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 205.42301819628906,
-            "commit_ms": 45.47060119628907,
-            "removed_padding_ms": 1.3252738037109353
+            "prover_ms": 69.855267515625,
+            "commit_ms": 14.997308515624999,
+            "removed_padding_ms": 0.4371074843749998
           },
           "verifier_stages_ms": {
-            "verify.claims": 0.305917,
-            "verify.gkr": 0.047125,
-            "verify.mask": 0.244625,
-            "verify.mosaic": 0.017416,
-            "verify.order": 0.178292,
-            "verify.pcs": 6.1455,
-            "verify.setup": 0.013124,
-            "verify.statement": 0.745042
+            "verify.claims": 0.144458,
+            "verify.gkr": 0.035542,
+            "verify.mask": 0.08650000000000001,
+            "verify.mosaic": 0.013458999999999999,
+            "verify.order": 0.139458,
+            "verify.pcs": 4.7027090000000005,
+            "verify.setup": 0.007749,
+            "verify.statement": 0.427417
           },
           "proof_size": {
             "pcs_bytes": 320036,
@@ -8249,66 +8249,66 @@
           },
           "load": {
             "start": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             },
             "end": {
-              "one": 27.322265625,
-              "five": 31.07666015625,
-              "fifteen": 24.23779296875
+              "one": 46.8828125,
+              "five": 39.529296875,
+              "fifteen": 27.9365234375
             }
           }
         },
         {
           "iteration": 2,
           "position": 1,
-          "prover_ms": 161.528,
-          "verifier_ms": 7.4625840000000006,
-          "commit_ms": 42.306791000000004,
-          "opening_ms": 41.427292,
-          "iop_and_prep_ms": 77.793917,
-          "preparation_ms": 7.855582,
-          "argument_ms": 69.33695900000001,
-          "ordering_ms": 7.276334,
-          "mask_ms": 15.208124000000002,
-          "mosaic_ms": 18.152125,
-          "unattributed_ms": 0.6013759999999877,
+          "prover_ms": 70.080667,
+          "verifier_ms": 5.668291,
+          "commit_ms": 15.790084,
+          "opening_ms": 21.996125,
+          "iop_and_prep_ms": 32.294458000000006,
+          "preparation_ms": 5.674624,
+          "argument_ms": 26.168415999999986,
+          "ordering_ms": 3.50975,
+          "mask_ms": 6.186416,
+          "mosaic_ms": 10.102084,
+          "unattributed_ms": 0.4514180000000181,
           "stages_ms": {
-            "mosaic.batch": 12.115833,
-            "mosaic.bind_g": 5.140417,
-            "mosaic.dense": 0.895875,
-            "pcs.commit": 42.306791000000004,
-            "pcs.ligerito_open": 34.125792000000004,
-            "pcs.open": 0.0015,
-            "pcs.ringswitch": 7.3,
-            "spice.claims": 2.714583,
-            "spice.mask": 0.003583,
-            "spice.masked.claims": 2.323416,
-            "spice.masked.sumcheck": 12.881125,
-            "spice.order": 0.003917,
-            "spice.order.pack": 1.3467500000000001,
-            "spice.order.zerocheck": 5.925667,
-            "spice.pack": 1.932416,
-            "spice.permutation.gkr": 23.877084,
-            "spice.permutation.leaves": 4.8232919999999995,
-            "spice.statement": 0.516458,
-            "spice.witness": 2.692125
+            "mosaic.batch": 6.469542,
+            "mosaic.bind_g": 3.325125,
+            "mosaic.dense": 0.307417,
+            "pcs.commit": 15.790084,
+            "pcs.ligerito_open": 18.357333,
+            "pcs.open": 0.0013340000000000001,
+            "pcs.ringswitch": 3.637458,
+            "spice.claims": 1.559583,
+            "spice.mask": 0.0022500000000000003,
+            "spice.masked.claims": 0.839125,
+            "spice.masked.sumcheck": 5.345041,
+            "spice.order": 0.001792,
+            "spice.order.pack": 0.386333,
+            "spice.order.zerocheck": 3.121625,
+            "spice.pack": 1.477875,
+            "spice.permutation.gkr": 4.499625,
+            "spice.permutation.leaves": 1.870541,
+            "spice.statement": 0.419208,
+            "spice.witness": 2.217958
           },
           "padding_adjusted_estimate": {
-            "prover_ms": 160.3298584580078,
-            "commit_ms": 41.10864945800782,
-            "removed_padding_ms": 1.198141541992186
+            "prover_ms": 69.63348688671876,
+            "commit_ms": 15.34290388671875,
+            "removed_padding_ms": 0.4471801132812505
           },
           "verifier_stages_ms": {
-            "verify.claims": 0.31,
-            "verify.gkr": 0.042834,
-            "verify.mask": 0.232584,
-            "verify.mosaic": 0.016041,
-            "verify.order": 0.16716699999999998,
-            "verify.pcs": 6.162208,
-            "verify.setup": 0.010792,
-            "verify.statement": 0.515917
+            "verify.claims": 0.144792,
+            "verify.gkr": 0.035917000000000004,
+            "verify.mask": 0.09720799999999999,
+            "verify.mosaic": 0.013791000000000001,
+            "verify.order": 0.140708,
+            "verify.pcs": 4.788291,
+            "verify.setup": 0.011958,
+            "verify.statement": 0.433417
           },
           "proof_size": {
             "pcs_bytes": 320036,
@@ -8319,66 +8319,66 @@
           },
           "load": {
             "start": {
-              "one": 27.29638671875,
-              "five": 31.0087890625,
-              "fifteen": 24.25390625
+              "one": 44.08935546875,
+              "five": 39.072265625,
+              "fifteen": 27.8427734375
             },
             "end": {
-              "one": 27.29638671875,
-              "five": 31.0087890625,
-              "fifteen": 24.25390625
+              "one": 44.08935546875,
+              "five": 39.072265625,
+              "fifteen": 27.8427734375
             }
           }
         }
       ],
       "median": {
-        "argument_ms": 75.85541600000002,
-        "commit_ms": 46.795875,
-        "exclusive_total_ms": 205.865375,
-        "iop_and_prep_ms": 88.528,
-        "mask_ms": 16.288541000000002,
-        "mosaic_ms": 24.137166,
-        "opening_ms": 66.455167,
-        "ordering_ms": 9.130291,
-        "preparation_ms": 10.840209,
-        "prover_ms": 206.748292,
-        "unattributed_ms": 0.6142080000000476,
-        "verifier_ms": 7.700832999999999,
+        "argument_ms": 26.386833000000003,
+        "commit_ms": 15.613708,
+        "exclusive_total_ms": 69.62924899999999,
+        "iop_and_prep_ms": 32.700001,
+        "mask_ms": 6.166042,
+        "mosaic_ms": 10.277208,
+        "opening_ms": 21.988750000000003,
+        "ordering_ms": 3.535125,
+        "preparation_ms": 5.745542,
+        "prover_ms": 70.080667,
+        "unattributed_ms": 0.46137600000001555,
+        "verifier_ms": 5.559209,
         "stages_ms": {
-          "mosaic.batch": 16.486124,
-          "mosaic.bind_g": 6.739458,
-          "mosaic.dense": 0.911584,
-          "pcs.commit": 46.795875,
-          "pcs.ligerito_open": 54.968125,
-          "pcs.open": 0.0018759999999999998,
-          "pcs.ringswitch": 11.485083,
-          "spice.claims": 3.011167,
-          "spice.mask": 0.003583,
-          "spice.masked.claims": 2.323416,
-          "spice.masked.sumcheck": 13.822625,
-          "spice.order": 0.004416,
-          "spice.order.pack": 1.3467500000000001,
-          "spice.order.zerocheck": 6.411499999999999,
-          "spice.pack": 4.405208,
-          "spice.permutation.gkr": 22.984958,
-          "spice.permutation.leaves": 3.631417,
-          "spice.statement": 0.549667,
-          "spice.witness": 2.8574170000000003
+          "mosaic.batch": 6.620291,
+          "mosaic.bind_g": 3.26675,
+          "mosaic.dense": 0.307417,
+          "pcs.commit": 15.613708,
+          "pcs.ligerito_open": 18.316708000000002,
+          "pcs.open": 0.001126,
+          "pcs.ringswitch": 3.671042,
+          "spice.claims": 1.6208749999999998,
+          "spice.mask": 0.0022500000000000003,
+          "spice.masked.claims": 0.850208,
+          "spice.masked.sumcheck": 5.313791,
+          "spice.order": 0.001792,
+          "spice.order.pack": 0.38975000000000004,
+          "spice.order.zerocheck": 3.143792,
+          "spice.pack": 1.477875,
+          "spice.permutation.gkr": 4.499625,
+          "spice.permutation.leaves": 1.870541,
+          "spice.statement": 0.423917,
+          "spice.witness": 2.222083
         },
         "verifier_stages_ms": {
-          "verify.claims": 0.31,
-          "verify.gkr": 0.045541000000000005,
-          "verify.mask": 0.244625,
-          "verify.mosaic": 0.017416,
-          "verify.order": 0.178208,
-          "verify.pcs": 6.162208,
-          "verify.setup": 0.011626000000000001,
-          "verify.statement": 0.557166
+          "verify.claims": 0.144792,
+          "verify.gkr": 0.035542,
+          "verify.mask": 0.08762500000000001,
+          "verify.mosaic": 0.013458999999999999,
+          "verify.order": 0.139458,
+          "verify.pcs": 4.7027090000000005,
+          "verify.setup": 0.007749,
+          "verify.statement": 0.427417
         },
         "padding_adjusted_estimate": {
-          "prover_ms": 205.42301819628906,
-          "commit_ms": 45.47060119628907,
-          "removed_padding_ms": 1.3252738037109353
+          "prover_ms": 69.63348688671876,
+          "commit_ms": 15.17152291015625,
+          "removed_padding_ms": 0.4421850898437505
         }
       }
     }
@@ -8390,25 +8390,25 @@
       "spice_method": "spice-typed",
       "trace_sha256": "979313494594ec13663b437f549468b47d421baded06fcea3de125670b7eb7c4",
       "operation_trace_sha256": "b8c6bc6b7c23bc497fa67e74c1f77aaa2eb7f95f92b06143654bc3f6650e8449",
-      "spice_prover_speedup": 3.0771878865841407,
-      "spice_prover_speedup_padding_adjusted_estimate": 3.004959736899581,
-      "spice_verifier_speedup": 1.4196474004810655,
+      "spice_prover_speedup": 1.9172972082969113,
+      "spice_prover_speedup_padding_adjusted_estimate": 1.8370120842135478,
+      "spice_verifier_speedup": 0.9853665188034002,
       "twist_to_spice_populated_ratio": 1.543718592964824,
       "twist_to_spice_committed_ratio": 2.0,
       "twist_soundness_bits": 117.25005078276429,
       "spice_soundness_bits": 107.90979568895516,
       "spice_prover_speedup_ci95": {
-        "ratio": 3.0771878865841407,
-        "ci95_low": 2.2981549682144857,
-        "ci95_high": 3.243353854168979,
+        "ratio": 1.9172972082969113,
+        "ci95_low": 1.9136954371278532,
+        "ci95_high": 1.933223701367758,
         "rounds": 3,
         "resamples": 10000,
         "seed": 6840254343172384229
       },
       "spice_verifier_speedup_ci95": {
-        "ratio": 1.4196474004810655,
-        "ci95_low": 1.034048529341037,
-        "ci95_high": 2.612257726207267,
+        "ratio": 0.9853665188034002,
+        "ci95_low": 0.9765322130064751,
+        "ci95_high": 1.022805890938039,
         "rounds": 3,
         "resamples": 10000,
         "seed": 6840254343172384229
@@ -8420,25 +8420,25 @@
       "spice_method": "spice-typed",
       "trace_sha256": "64a5a5d7dba245e06633e35791d90fb46f5095cade094258f366c48093688834",
       "operation_trace_sha256": "2b1a1a15da7303c94297b655c0ff6e4c2025c72fc4d06e676177247913da2d22",
-      "spice_prover_speedup": 1.6231119983880795,
-      "spice_prover_speedup_padding_adjusted_estimate": 1.526824172524962,
-      "spice_verifier_speedup": 1.0018224310492392,
+      "spice_prover_speedup": 1.6190085096827938,
+      "spice_prover_speedup_padding_adjusted_estimate": 1.5221781552898392,
+      "spice_verifier_speedup": 0.9813577461189271,
       "twist_to_spice_populated_ratio": 1.543718592964824,
       "twist_to_spice_committed_ratio": 2.0,
       "twist_soundness_bits": 117.25005078276429,
       "spice_soundness_bits": 107.90979568895516,
       "spice_prover_speedup_ci95": {
-        "ratio": 1.6231119983880795,
-        "ci95_low": 1.6134269577179727,
-        "ci95_high": 2.4070649816408114,
+        "ratio": 1.6190085096827938,
+        "ci95_low": 1.6190085096827938,
+        "ci95_high": 1.633717416868942,
         "rounds": 3,
         "resamples": 10000,
         "seed": 6840254343172384229
       },
       "spice_verifier_speedup_ci95": {
-        "ratio": 1.0018224310492392,
-        "ci95_low": 0.9380451459280539,
-        "ci95_high": 1.0357711314576765,
+        "ratio": 0.9813577461189271,
+        "ci95_low": 0.9340289595601206,
+        "ci95_high": 1.038919529709668,
         "rounds": 3,
         "resamples": 10000,
         "seed": 6840254343172384229
@@ -8450,25 +8450,25 @@
       "spice_method": "spice-typed",
       "trace_sha256": "6f56686a756a111dcf3f19218c5ee666fe87427ee15ca353d4a0c4e9638489d0",
       "operation_trace_sha256": "44079471ba40d468c2a0eb4bf91ffc77db5ddaad2507a40f681a4346ee4cd432",
-      "spice_prover_speedup": 1.7821493441890202,
-      "spice_prover_speedup_padding_adjusted_estimate": 1.6785097662255497,
-      "spice_verifier_speedup": 1.0199275844574218,
+      "spice_prover_speedup": 1.585496696257186,
+      "spice_prover_speedup_padding_adjusted_estimate": 1.4862531466845055,
+      "spice_verifier_speedup": 0.9833983575720934,
       "twist_to_spice_populated_ratio": 1.543718592964824,
       "twist_to_spice_committed_ratio": 2.0,
       "twist_soundness_bits": 117.25005078276429,
       "spice_soundness_bits": 107.90979568895516,
       "spice_prover_speedup_ci95": {
-        "ratio": 1.7821493441890202,
-        "ci95_low": 1.316790168869813,
-        "ci95_high": 2.3308286117577137,
+        "ratio": 1.585496696257186,
+        "ci95_low": 1.5717500519793852,
+        "ci95_high": 1.5902311594963177,
         "rounds": 3,
         "resamples": 10000,
         "seed": 6840254343172384229
       },
       "spice_verifier_speedup_ci95": {
-        "ratio": 1.0199275844574218,
-        "ci95_low": 1.0154907917104554,
-        "ci95_high": 1.1517160995429154,
+        "ratio": 0.9833983575720934,
+        "ci95_low": 0.9490073815899714,
+        "ci95_high": 1.0214043674802336,
         "rounds": 3,
         "resamples": 10000,
         "seed": 6840254343172384229
@@ -8483,17 +8483,17 @@
       "numerator": "twist(chunk=4)",
       "denominator": "spice-typed",
       "prover": {
-        "ratio": 3.0771878865841407,
-        "ci95_low": 2.2981549682144857,
-        "ci95_high": 3.243353854168979,
+        "ratio": 1.9172972082969113,
+        "ci95_low": 1.9136954371278532,
+        "ci95_high": 1.933223701367758,
         "rounds": 3,
         "resamples": 10000,
         "seed": 6840254343172384229
       },
       "verifier": {
-        "ratio": 1.4196474004810655,
-        "ci95_low": 1.034048529341037,
-        "ci95_high": 2.612257726207267,
+        "ratio": 0.9853665188034002,
+        "ci95_low": 0.9765322130064751,
+        "ci95_high": 1.022805890938039,
         "rounds": 3,
         "resamples": 10000,
         "seed": 6840254343172384229
@@ -8506,17 +8506,17 @@
       "numerator": "twist(chunk=4)",
       "denominator": "spice-typed",
       "prover": {
-        "ratio": 1.6231119983880795,
-        "ci95_low": 1.6134269577179727,
-        "ci95_high": 2.4070649816408114,
+        "ratio": 1.6190085096827938,
+        "ci95_low": 1.6190085096827938,
+        "ci95_high": 1.633717416868942,
         "rounds": 3,
         "resamples": 10000,
         "seed": 6840254343172384229
       },
       "verifier": {
-        "ratio": 1.0018224310492392,
-        "ci95_low": 0.9380451459280539,
-        "ci95_high": 1.0357711314576765,
+        "ratio": 0.9813577461189271,
+        "ci95_low": 0.9340289595601206,
+        "ci95_high": 1.038919529709668,
         "rounds": 3,
         "resamples": 10000,
         "seed": 6840254343172384229
@@ -8529,17 +8529,17 @@
       "numerator": "twist(chunk=4)",
       "denominator": "spice-typed",
       "prover": {
-        "ratio": 1.7821493441890202,
-        "ci95_low": 1.316790168869813,
-        "ci95_high": 2.3308286117577137,
+        "ratio": 1.585496696257186,
+        "ci95_low": 1.5717500519793852,
+        "ci95_high": 1.5902311594963177,
         "rounds": 3,
         "resamples": 10000,
         "seed": 6840254343172384229
       },
       "verifier": {
-        "ratio": 1.0199275844574218,
-        "ci95_low": 1.0154907917104554,
-        "ci95_high": 1.1517160995429154,
+        "ratio": 0.9833983575720934,
+        "ci95_low": 0.9490073815899714,
+        "ci95_high": 1.0214043674802336,
         "rounds": 3,
         "resamples": 10000,
         "seed": 6840254343172384229

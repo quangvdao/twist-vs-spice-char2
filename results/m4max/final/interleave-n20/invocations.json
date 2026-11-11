@@ -29,23 +29,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round000-baseline.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round000-baseline.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:14  up 1 day,  6:24, 40 users, load averages: 29.76 33.23 23.48",
+      "raw": "20:46  up 1 day,  6:56, 40 users, load averages: 16.00 16.31 18.07",
       "load": [
-        29.76,
-        33.23,
-        23.48
+        16.0,
+        16.31,
+        18.07
       ]
     },
     "uptime_after": {
-      "raw": "20:14  up 1 day,  6:24, 40 users, load averages: 31.96 33.58 23.72",
+      "raw": "20:46  up 1 day,  6:56, 40 users, load averages: 15.63 16.22 18.02",
       "load": [
-        31.96,
-        33.58,
-        23.72
+        15.63,
+        16.22,
+        18.02
       ]
     },
     "json": "round000-baseline.json"
@@ -54,9 +54,9 @@
     "round": 0,
     "position": 1,
     "label": "branch",
-    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
     "command": [
-      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
       "--trace-format",
       "operations",
       "--address-bits",
@@ -80,23 +80,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round000-branch.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round000-branch.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:14  up 1 day,  6:24, 40 users, load averages: 31.96 33.58 23.72",
+      "raw": "20:46  up 1 day,  6:56, 40 users, load averages: 15.63 16.22 18.02",
       "load": [
-        31.96,
-        33.58,
-        23.72
+        15.63,
+        16.22,
+        18.02
       ]
     },
     "uptime_after": {
-      "raw": "20:14  up 1 day,  6:24, 40 users, load averages: 32.68 33.71 23.82",
+      "raw": "20:46  up 1 day,  6:56, 40 users, load averages: 15.63 16.22 18.02",
       "load": [
-        32.68,
-        33.71,
-        23.82
+        15.63,
+        16.22,
+        18.02
       ]
     },
     "json": "round000-branch.json"
@@ -105,9 +105,9 @@
     "round": 1,
     "position": 0,
     "label": "branch",
-    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
     "command": [
-      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
       "--trace-format",
       "operations",
       "--address-bits",
@@ -131,23 +131,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round001-branch.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round001-branch.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:14  up 1 day,  6:24, 40 users, load averages: 32.68 33.71 23.82",
+      "raw": "20:46  up 1 day,  6:56, 40 users, load averages: 15.63 16.22 18.02",
       "load": [
-        32.68,
-        33.71,
-        23.82
+        15.63,
+        16.22,
+        18.02
       ]
     },
     "uptime_after": {
-      "raw": "20:14  up 1 day,  6:24, 40 users, load averages: 33.99 33.96 23.97",
+      "raw": "20:46  up 1 day,  6:56, 40 users, load averages: 15.66 16.22 18.01",
       "load": [
-        33.99,
-        33.96,
-        23.97
+        15.66,
+        16.22,
+        18.01
       ]
     },
     "json": "round001-branch.json"
@@ -182,23 +182,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round001-baseline.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round001-baseline.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:14  up 1 day,  6:24, 40 users, load averages: 33.99 33.96 23.97",
+      "raw": "20:46  up 1 day,  6:56, 40 users, load averages: 15.66 16.22 18.01",
       "load": [
-        33.99,
-        33.96,
-        23.97
+        15.66,
+        16.22,
+        18.01
       ]
     },
     "uptime_after": {
-      "raw": "20:14  up 1 day,  6:24, 40 users, load averages: 33.03 33.76 23.96",
+      "raw": "20:47  up 1 day,  6:57, 40 users, load averages: 47.48 23.76 20.68",
       "load": [
-        33.03,
-        33.76,
-        23.96
+        47.48,
+        23.76,
+        20.68
       ]
     },
     "json": "round001-baseline.json"
@@ -233,23 +233,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round002-baseline.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round002-baseline.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:14  up 1 day,  6:24, 40 users, load averages: 33.03 33.76 23.96",
+      "raw": "20:47  up 1 day,  6:57, 40 users, load averages: 47.48 23.76 20.68",
       "load": [
-        33.03,
-        33.76,
-        23.96
+        47.48,
+        23.76,
+        20.68
       ]
     },
     "uptime_after": {
-      "raw": "20:14  up 1 day,  6:25, 40 users, load averages: 30.04 33.09 23.84",
+      "raw": "20:47  up 1 day,  6:57, 40 users, load averages: 72.25 31.67 23.63",
       "load": [
-        30.04,
-        33.09,
-        23.84
+        72.25,
+        31.67,
+        23.63
       ]
     },
     "json": "round002-baseline.json"
@@ -258,9 +258,9 @@
     "round": 2,
     "position": 1,
     "label": "branch",
-    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
     "command": [
-      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
       "--trace-format",
       "operations",
       "--address-bits",
@@ -284,23 +284,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round002-branch.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round002-branch.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:14  up 1 day,  6:25, 40 users, load averages: 30.04 33.09 23.84",
+      "raw": "20:47  up 1 day,  6:57, 40 users, load averages: 72.25 31.67 23.63",
       "load": [
-        30.04,
-        33.09,
-        23.84
+        72.25,
+        31.67,
+        23.63
       ]
     },
     "uptime_after": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 28.92 32.81 23.79",
+      "raw": "20:47  up 1 day,  6:57, 40 users, load averages: 96.34 38.17 26.03",
       "load": [
-        28.92,
-        32.81,
-        23.79
+        96.34,
+        38.17,
+        26.03
       ]
     },
     "json": "round002-branch.json"
@@ -309,9 +309,9 @@
     "round": 3,
     "position": 0,
     "label": "branch",
-    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
     "command": [
-      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
       "--trace-format",
       "operations",
       "--address-bits",
@@ -335,23 +335,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round003-branch.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round003-branch.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 28.92 32.81 23.79",
+      "raw": "20:47  up 1 day,  6:57, 40 users, load averages: 96.34 38.17 26.03",
       "load": [
-        28.92,
-        32.81,
-        23.79
+        96.34,
+        38.17,
+        26.03
       ]
     },
     "uptime_after": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 28.92 32.81 23.79",
+      "raw": "20:47  up 1 day,  6:58, 40 users, load averages: 113.83 43.88 28.20",
       "load": [
-        28.92,
-        32.81,
-        23.79
+        113.83,
+        43.88,
+        28.2
       ]
     },
     "json": "round003-branch.json"
@@ -386,23 +386,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round003-baseline.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round003-baseline.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 28.92 32.81 23.79",
+      "raw": "20:47  up 1 day,  6:58, 40 users, load averages: 113.83 43.88 28.20",
       "load": [
-        28.92,
-        32.81,
-        23.79
+        113.83,
+        43.88,
+        28.2
       ]
     },
     "uptime_after": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 27.84 32.45 23.77",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 96.64 44.63 28.84",
       "load": [
-        27.84,
-        32.45,
-        23.77
+        96.64,
+        44.63,
+        28.84
       ]
     },
     "json": "round003-baseline.json"
@@ -437,23 +437,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round004-baseline.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round004-baseline.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 27.84 32.45 23.77",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 96.64 44.63 28.84",
       "load": [
-        27.84,
-        32.45,
-        23.77
+        96.64,
+        44.63,
+        28.84
       ]
     },
     "uptime_after": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 26.57 32.11 23.70",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 85.09 43.87 28.76",
       "load": [
-        26.57,
-        32.11,
-        23.7
+        85.09,
+        43.87,
+        28.76
       ]
     },
     "json": "round004-baseline.json"
@@ -462,9 +462,9 @@
     "round": 4,
     "position": 1,
     "label": "branch",
-    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
     "command": [
-      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
       "--trace-format",
       "operations",
       "--address-bits",
@@ -488,23 +488,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round004-branch.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round004-branch.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 26.57 32.11 23.70",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 85.09 43.87 28.76",
       "load": [
-        26.57,
-        32.11,
-        23.7
+        85.09,
+        43.87,
+        28.76
       ]
     },
     "uptime_after": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 25.88 31.88 23.67",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 79.63 43.42 28.69",
       "load": [
-        25.88,
-        31.88,
-        23.67
+        79.63,
+        43.42,
+        28.69
       ]
     },
     "json": "round004-branch.json"
@@ -513,9 +513,9 @@
     "round": 5,
     "position": 0,
     "label": "branch",
-    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
     "command": [
-      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
       "--trace-format",
       "operations",
       "--address-bits",
@@ -539,23 +539,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round005-branch.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round005-branch.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 25.88 31.88 23.67",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 79.63 43.42 28.69",
       "load": [
-        25.88,
-        31.88,
-        23.67
+        79.63,
+        43.42,
+        28.69
       ]
     },
     "uptime_after": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 25.57 31.71 23.66",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 79.63 43.42 28.69",
       "load": [
-        25.57,
-        31.71,
-        23.66
+        79.63,
+        43.42,
+        28.69
       ]
     },
     "json": "round005-branch.json"
@@ -590,23 +590,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round005-baseline.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round005-baseline.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 25.57 31.71 23.66",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 79.63 43.42 28.69",
       "load": [
-        25.57,
-        31.71,
-        23.66
+        79.63,
+        43.42,
+        28.69
       ]
     },
     "uptime_after": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 24.83 31.35 23.62",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 74.14 42.88 28.58",
       "load": [
-        24.83,
-        31.35,
-        23.62
+        74.14,
+        42.88,
+        28.58
       ]
     },
     "json": "round005-baseline.json"
@@ -641,23 +641,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round006-baseline.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round006-baseline.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 24.83 31.35 23.62",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 74.14 42.88 28.58",
       "load": [
-        24.83,
-        31.35,
-        23.62
+        74.14,
+        42.88,
+        28.58
       ]
     },
     "uptime_after": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 24.92 31.26 23.63",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 64.60 41.87 28.39",
       "load": [
-        24.92,
-        31.26,
-        23.63
+        64.6,
+        41.87,
+        28.39
       ]
     },
     "json": "round006-baseline.json"
@@ -666,9 +666,9 @@
     "round": 6,
     "position": 1,
     "label": "branch",
-    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
     "command": [
-      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
       "--trace-format",
       "operations",
       "--address-bits",
@@ -692,23 +692,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round006-branch.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round006-branch.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 24.92 31.26 23.63",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 64.60 41.87 28.39",
       "load": [
-        24.92,
-        31.26,
-        23.63
+        64.6,
+        41.87,
+        28.39
       ]
     },
     "uptime_after": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 28.54 31.82 23.92",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 64.60 41.87 28.39",
       "load": [
-        28.54,
-        31.82,
-        23.92
+        64.6,
+        41.87,
+        28.39
       ]
     },
     "json": "round006-branch.json"
@@ -717,9 +717,9 @@
     "round": 7,
     "position": 0,
     "label": "branch",
-    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
     "command": [
-      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
       "--trace-format",
       "operations",
       "--address-bits",
@@ -743,23 +743,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round007-branch.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round007-branch.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:15  up 1 day,  6:25, 40 users, load averages: 28.54 31.82 23.92",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 64.60 41.87 28.39",
       "load": [
-        28.54,
-        31.82,
-        23.92
+        64.6,
+        41.87,
+        28.39
       ]
     },
     "uptime_after": {
-      "raw": "20:16  up 1 day,  6:26, 40 users, load averages: 31.85 32.42 24.23",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 60.63 41.42 28.31",
       "load": [
-        31.85,
-        32.42,
-        24.23
+        60.63,
+        41.42,
+        28.31
       ]
     },
     "json": "round007-branch.json"
@@ -794,23 +794,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round007-baseline.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round007-baseline.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:16  up 1 day,  6:26, 40 users, load averages: 31.85 32.42 24.23",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 60.63 41.42 28.31",
       "load": [
-        31.85,
-        32.42,
-        24.23
+        60.63,
+        41.42,
+        28.31
       ]
     },
     "uptime_after": {
-      "raw": "20:16  up 1 day,  6:26, 40 users, load averages: 30.50 32.11 24.21",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 56.90 40.96 28.23",
       "load": [
-        30.5,
-        32.11,
-        24.21
+        56.9,
+        40.96,
+        28.23
       ]
     },
     "json": "round007-baseline.json"
@@ -845,23 +845,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round008-baseline.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round008-baseline.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:16  up 1 day,  6:26, 40 users, load averages: 30.50 32.11 24.21",
+      "raw": "20:48  up 1 day,  6:58, 40 users, load averages: 56.90 40.96 28.23",
       "load": [
-        30.5,
-        32.11,
-        24.21
+        56.9,
+        40.96,
+        28.23
       ]
     },
     "uptime_after": {
-      "raw": "20:16  up 1 day,  6:26, 40 users, load averages: 28.76 31.66 24.19",
+      "raw": "20:48  up 1 day,  6:59, 40 users, load averages: 53.22 40.47 28.13",
       "load": [
-        28.76,
-        31.66,
-        24.19
+        53.22,
+        40.47,
+        28.13
       ]
     },
     "json": "round008-baseline.json"
@@ -870,9 +870,9 @@
     "round": 8,
     "position": 1,
     "label": "branch",
-    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
     "command": [
-      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
       "--trace-format",
       "operations",
       "--address-bits",
@@ -896,23 +896,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round008-branch.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round008-branch.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:16  up 1 day,  6:26, 40 users, load averages: 28.76 31.66 24.19",
+      "raw": "20:48  up 1 day,  6:59, 40 users, load averages: 53.22 40.47 28.13",
       "load": [
-        28.76,
-        31.66,
-        24.19
+        53.22,
+        40.47,
+        28.13
       ]
     },
     "uptime_after": {
-      "raw": "20:16  up 1 day,  6:26, 40 users, load averages: 29.58 31.78 24.28",
+      "raw": "20:49  up 1 day,  6:59, 40 users, load averages: 53.22 40.47 28.13",
       "load": [
-        29.58,
-        31.78,
-        24.28
+        53.22,
+        40.47,
+        28.13
       ]
     },
     "json": "round008-branch.json"
@@ -921,9 +921,9 @@
     "round": 9,
     "position": 0,
     "label": "branch",
-    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+    "binary": "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
     "command": [
-      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
       "--trace-format",
       "operations",
       "--address-bits",
@@ -947,23 +947,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round009-branch.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round009-branch.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:16  up 1 day,  6:26, 40 users, load averages: 29.58 31.78 24.28",
+      "raw": "20:49  up 1 day,  6:59, 40 users, load averages: 53.22 40.47 28.13",
       "load": [
-        29.58,
-        31.78,
-        24.28
+        53.22,
+        40.47,
+        28.13
       ]
     },
     "uptime_after": {
-      "raw": "20:16  up 1 day,  6:26, 40 users, load averages: 28.58 31.49 24.26",
+      "raw": "20:49  up 1 day,  6:59, 40 users, load averages: 49.92 39.99 28.03",
       "load": [
-        28.58,
-        31.49,
-        24.26
+        49.92,
+        39.99,
+        28.03
       ]
     },
     "json": "round009-branch.json"
@@ -998,23 +998,23 @@
       "--repeat",
       "3",
       "--output",
-      "results/m4max/final/interleave-n20/round009-baseline.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/interleave-n20/round009-baseline.json"
     ],
     "exit_code": 0,
     "uptime_before": {
-      "raw": "20:16  up 1 day,  6:26, 40 users, load averages: 28.58 31.49 24.26",
+      "raw": "20:49  up 1 day,  6:59, 40 users, load averages: 49.92 39.99 28.03",
       "load": [
-        28.58,
-        31.49,
-        24.26
+        49.92,
+        39.99,
+        28.03
       ]
     },
     "uptime_after": {
-      "raw": "20:16  up 1 day,  6:26, 40 users, load averages: 27.87 31.25 24.26",
+      "raw": "20:49  up 1 day,  6:59, 40 users, load averages: 46.88 39.53 27.94",
       "load": [
-        27.87,
-        31.25,
-        24.26
+        46.88,
+        39.53,
+        27.94
       ]
     },
     "json": "round009-baseline.json"

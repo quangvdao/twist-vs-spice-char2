@@ -1,0 +1,20 @@
+== 20:14:21 A: baseline vs branch, interleaved binaries, 10 rounds
+20:14  up 1 day,  6:24, 40 users, load averages: 29.76 33.23 23.48
+== 20:16:55 A2: PRE vs branch, interleaved binaries, 10 rounds
+20:16  up 1 day,  6:26, 40 users, load averages: 27.87 31.25 24.26
+== 20:18:49 B: branch methods in one process, 10 rounds
+20:18  up 1 day,  6:28, 40 users, load averages: 23.18 28.91 24.25
+== 20:19:34 C: private final memory, 10 rounds
+20:19  up 1 day,  6:29, 40 users, load averages: 20.11 27.28 23.88
+== 20:19:54 D: cycle-first read order, 10 rounds
+20:19  up 1 day,  6:29, 40 users, load averages: 22.34 27.35 23.99
+== 20:20:03 E: chunk sweep
+20:20  up 1 day,  6:30, 40 users, load averages: 21.13 26.92 23.88
+== 20:20:58 E2: chunk sweep at a = 20
+20:20  up 1 day,  6:31, 40 users, load averages: 17.73 24.98 23.34
+== 20:21:11 F: (n, a) sweep
+20:21  up 1 day,  6:31, 40 users, load averages: 16.18 24.29 23.12
+== 20:21:29 G: thread sweep
+20:21  up 1 day,  6:31, 40 users, load averages: 14.51 23.52 22.87
+== 20:21:56 done
+20:21  up 1 day,  6:32, 40 users, load averages: 13.46 22.52 22.53

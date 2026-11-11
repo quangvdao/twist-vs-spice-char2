@@ -4,7 +4,7 @@
     "log_cycles": 20,
     "threads": 1,
     "command": [
-      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
       "--trace-format",
       "operations",
       "--methods",
@@ -26,24 +26,24 @@
       "--threads",
       "1",
       "--output",
-      "results/m4max/final/sweep-threads/a16-n20-t1.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/sweep-threads/a16-n20-t1.json"
     ],
     "exit_code": 0,
-    "wall_seconds": 17.879,
+    "wall_seconds": 17.851,
     "uptime_before": {
-      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 14.51 23.52 22.87",
+      "raw": "20:54  up 1 day,  7:04, 40 users, load averages: 22.84 27.14 25.44",
       "load": [
-        14.51,
-        23.52,
-        22.87
+        22.84,
+        27.14,
+        25.44
       ]
     },
     "uptime_after": {
-      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 12.89 22.57 22.54",
+      "raw": "20:54  up 1 day,  7:04, 40 users, load averages: 24.88 27.37 25.57",
       "load": [
-        12.89,
-        22.57,
-        22.54
+        24.88,
+        27.37,
+        25.57
       ]
     },
     "json": "a16-n20-t1.json",
@@ -54,7 +54,7 @@
     "log_cycles": 20,
     "threads": 8,
     "command": [
-      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
       "--trace-format",
       "operations",
       "--methods",
@@ -76,24 +76,24 @@
       "--threads",
       "8",
       "--output",
-      "results/m4max/final/sweep-threads/a16-n20-t8.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/sweep-threads/a16-n20-t8.json"
     ],
     "exit_code": 0,
-    "wall_seconds": 3.759,
+    "wall_seconds": 11.974,
     "uptime_before": {
-      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 12.89 22.57 22.54",
+      "raw": "20:54  up 1 day,  7:04, 40 users, load averages: 24.88 27.37 25.57",
       "load": [
-        12.89,
-        22.57,
-        22.54
+        24.88,
+        27.37,
+        25.57
       ]
     },
     "uptime_after": {
-      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 12.89 22.57 22.54",
+      "raw": "20:54  up 1 day,  7:05, 40 users, load averages: 24.35 27.18 25.52",
       "load": [
-        12.89,
-        22.57,
-        22.54
+        24.35,
+        27.18,
+        25.52
       ]
     },
     "json": "a16-n20-t8.json",
@@ -104,7 +104,7 @@
     "log_cycles": 20,
     "threads": 16,
     "command": [
-      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-4e2ae07",
       "--trace-format",
       "operations",
       "--methods",
@@ -126,24 +126,24 @@
       "--threads",
       "16",
       "--output",
-      "results/m4max/final/sweep-threads/a16-n20-t16.json"
+      "/private/tmp/claude-501/-Users-quangdao-Documents-SNARKs/cdb6c720-d575-4317-b1d5-629de53aad5e/scratchpad/final-4e2ae07/sweep-threads/a16-n20-t16.json"
     ],
     "exit_code": 0,
-    "wall_seconds": 4.919,
+    "wall_seconds": 8.758,
     "uptime_before": {
-      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 12.89 22.57 22.54",
+      "raw": "20:54  up 1 day,  7:05, 40 users, load averages: 24.35 27.18 25.52",
       "load": [
-        12.89,
-        22.57,
-        22.54
+        24.35,
+        27.18,
+        25.52
       ]
     },
     "uptime_after": {
-      "raw": "20:21  up 1 day,  6:32, 40 users, load averages: 13.46 22.52 22.53",
+      "raw": "20:55  up 1 day,  7:05, 40 users, load averages: 24.98 27.22 25.55",
       "load": [
-        13.46,
-        22.52,
-        22.53
+        24.98,
+        27.22,
+        25.55
       ]
     },
     "json": "a16-n20-t16.json",

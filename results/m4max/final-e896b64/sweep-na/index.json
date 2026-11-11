@@ -1,0 +1,416 @@
+[
+  {
+    "address_bits": 12,
+    "log_cycles": 16,
+    "threads": 8,
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,locality",
+      "--warmup",
+      "1",
+      "--repeat",
+      "5",
+      "--address-bits",
+      "12",
+      "--log-cycles",
+      "16",
+      "--threads",
+      "8",
+      "--output",
+      "results/m4max/final/sweep-na/a12-n16-t8.json"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.426,
+    "uptime_before": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 16.18 24.29 23.12",
+      "load": [
+        16.18,
+        24.29,
+        23.12
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 16.18 24.29 23.12",
+      "load": [
+        16.18,
+        24.29,
+        23.12
+      ]
+    },
+    "json": "a12-n16-t8.json",
+    "log": "a12-n16-t8.log"
+  },
+  {
+    "address_bits": 16,
+    "log_cycles": 16,
+    "threads": 8,
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,locality",
+      "--warmup",
+      "1",
+      "--repeat",
+      "5",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "16",
+      "--threads",
+      "8",
+      "--output",
+      "results/m4max/final/sweep-na/a16-n16-t8.json"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.612,
+    "uptime_before": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 16.18 24.29 23.12",
+      "load": [
+        16.18,
+        24.29,
+        23.12
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 16.18 24.29 23.12",
+      "load": [
+        16.18,
+        24.29,
+        23.12
+      ]
+    },
+    "json": "a16-n16-t8.json",
+    "log": "a16-n16-t8.log"
+  },
+  {
+    "address_bits": 20,
+    "log_cycles": 16,
+    "threads": 8,
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,locality",
+      "--warmup",
+      "1",
+      "--repeat",
+      "5",
+      "--address-bits",
+      "20",
+      "--log-cycles",
+      "16",
+      "--threads",
+      "8",
+      "--output",
+      "results/m4max/final/sweep-na/a20-n16-t8.json"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.635,
+    "uptime_before": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 16.18 24.29 23.12",
+      "load": [
+        16.18,
+        24.29,
+        23.12
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 16.18 24.29 23.12",
+      "load": [
+        16.18,
+        24.29,
+        23.12
+      ]
+    },
+    "json": "a20-n16-t8.json",
+    "log": "a20-n16-t8.log"
+  },
+  {
+    "address_bits": 12,
+    "log_cycles": 18,
+    "threads": 8,
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,locality",
+      "--warmup",
+      "1",
+      "--repeat",
+      "5",
+      "--address-bits",
+      "12",
+      "--log-cycles",
+      "18",
+      "--threads",
+      "8",
+      "--output",
+      "results/m4max/final/sweep-na/a12-n18-t8.json"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.968,
+    "uptime_before": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 16.18 24.29 23.12",
+      "load": [
+        16.18,
+        24.29,
+        23.12
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 16.18 24.29 23.12",
+      "load": [
+        16.18,
+        24.29,
+        23.12
+      ]
+    },
+    "json": "a12-n18-t8.json",
+    "log": "a12-n18-t8.log"
+  },
+  {
+    "address_bits": 16,
+    "log_cycles": 18,
+    "threads": 8,
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,locality",
+      "--warmup",
+      "1",
+      "--repeat",
+      "5",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "18",
+      "--threads",
+      "8",
+      "--output",
+      "results/m4max/final/sweep-na/a16-n18-t8.json"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.097,
+    "uptime_before": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 16.18 24.29 23.12",
+      "load": [
+        16.18,
+        24.29,
+        23.12
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 16.18 24.29 23.12",
+      "load": [
+        16.18,
+        24.29,
+        23.12
+      ]
+    },
+    "json": "a16-n18-t8.json",
+    "log": "a16-n18-t8.log"
+  },
+  {
+    "address_bits": 20,
+    "log_cycles": 18,
+    "threads": 8,
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,locality",
+      "--warmup",
+      "1",
+      "--repeat",
+      "5",
+      "--address-bits",
+      "20",
+      "--log-cycles",
+      "18",
+      "--threads",
+      "8",
+      "--output",
+      "results/m4max/final/sweep-na/a20-n18-t8.json"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 2.494,
+    "uptime_before": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 16.18 24.29 23.12",
+      "load": [
+        16.18,
+        24.29,
+        23.12
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 15.76 24.07 23.05",
+      "load": [
+        15.76,
+        24.07,
+        23.05
+      ]
+    },
+    "json": "a20-n18-t8.json",
+    "log": "a20-n18-t8.log"
+  },
+  {
+    "address_bits": 12,
+    "log_cycles": 20,
+    "threads": 8,
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,locality",
+      "--warmup",
+      "1",
+      "--repeat",
+      "5",
+      "--address-bits",
+      "12",
+      "--log-cycles",
+      "20",
+      "--threads",
+      "8",
+      "--output",
+      "results/m4max/final/sweep-na/a12-n20-t8.json"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 2.885,
+    "uptime_before": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 15.76 24.07 23.05",
+      "load": [
+        15.76,
+        24.07,
+        23.05
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 14.82 23.74 22.94",
+      "load": [
+        14.82,
+        23.74,
+        22.94
+      ]
+    },
+    "json": "a12-n20-t8.json",
+    "log": "a12-n20-t8.log"
+  },
+  {
+    "address_bits": 16,
+    "log_cycles": 20,
+    "threads": 8,
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,locality",
+      "--warmup",
+      "1",
+      "--repeat",
+      "5",
+      "--address-bits",
+      "16",
+      "--log-cycles",
+      "20",
+      "--threads",
+      "8",
+      "--output",
+      "results/m4max/final/sweep-na/a16-n20-t8.json"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 2.947,
+    "uptime_before": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 14.82 23.74 22.94",
+      "load": [
+        14.82,
+        23.74,
+        22.94
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 14.82 23.74 22.94",
+      "load": [
+        14.82,
+        23.74,
+        22.94
+      ]
+    },
+    "json": "a16-n20-t8.json",
+    "log": "a16-n20-t8.log"
+  },
+  {
+    "address_bits": 20,
+    "log_cycles": 20,
+    "threads": 8,
+    "command": [
+      "/Users/quangdao/Documents/SNARKs/tvs-bins/new-e896b64",
+      "--trace-format",
+      "operations",
+      "--methods",
+      "twist,spice-typed",
+      "--patterns",
+      "random,locality",
+      "--warmup",
+      "1",
+      "--repeat",
+      "5",
+      "--address-bits",
+      "20",
+      "--log-cycles",
+      "20",
+      "--threads",
+      "8",
+      "--output",
+      "results/m4max/final/sweep-na/a20-n20-t8.json"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 4.955,
+    "uptime_before": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 14.82 23.74 22.94",
+      "load": [
+        14.82,
+        23.74,
+        22.94
+      ]
+    },
+    "uptime_after": {
+      "raw": "20:21  up 1 day,  6:31, 40 users, load averages: 14.51 23.52 22.87",
+      "load": [
+        14.51,
+        23.52,
+        22.87
+      ]
+    },
+    "json": "a20-n20-t8.json",
+    "log": "a20-n20-t8.log"
+  }
+]
